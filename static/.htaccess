@@ -13,5 +13,6 @@ Redirect permanent /html/_3d.html /article/images-3d.html
 Redirect permanent /arc/cv-michel-casabianca.html /article/michel-casabianca.html
 Redirect permanent /arc/cv-michel-casabianca.doc /pdf/michel-casabianca.pdf
 Redirect permanent /pdf/cv-michel-casabianca.pdf /pdf/michel-casabianca.pdf
+Redirect permanent /rss.xml /index.xml
 RedirectMatch permanent /arc/(.*)\.pdf http://sweetohm.net/pdf/$1.pdf
 RedirectMatch permanent /html/(.*)\.html http://sweetohm.net/article/$1.html

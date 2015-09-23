@@ -1,0 +1,30 @@
+<div class="page-header">
+  <h1 class="title">{{ .Title }}</h1>
+  <p>
+    {{ if isset .Params "author" }}
+    <div class="title-info">
+      {{ if isset .Params "email" }}
+      <span class="glyphicon glyphicon-user"></span> <a href="mailto:{{ .Params.email }}">{{ .Params.author }}</a>
+      {{ else }}
+      <span class="glyphicon glyphicon-user"></span> {{ .Params.author }}
+      {{ end }}
+    </div>
+    {{ end }}
+    <div class="title-info">
+      <span class="glyphicon glyphicon-calendar"></span> {{ dateFormat "2006-01-02" .Date }}
+    </div>
+    {{ if isset .Params "updated" }}
+    <div class="title-info">
+      <span class="glyphicon glyphicon-refresh"></span> {{ .Params.updated }}
+    </div>
+    {{ end }}
+    {{ if eq .Section "article" }}
+    <div class="title-info">
+      <span class="glyphicon glyphicon-file"></span> <a href="/pdf/{{ .Params.id }}.pdf">PDF</a>
+    </div>
+    <div class="title-info">
+      <span class="glyphicon glyphicon-book"></span> <a href="/epub/{{ .Params.id }}.epub">ePub</a>
+    </div>
+    {{ end }}
+  </p>
+</div>

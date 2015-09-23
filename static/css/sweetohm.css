@@ -1,0 +1,99 @@
+.bs-docs-header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+    color: #FFFFFF;
+    /* background: #336699; */
+    background: #337AB7;
+}
+
+.jumbo {
+    font-size: 60px; 
+    line-height: 1;
+}
+
+.linkedin {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.linkedin:hover {
+    color: #FFFFFF;                                                                                                        
+}   
+
+.page-footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #336699;
+}
+
+.page-header {
+    margin: 0px 0px 10px;
+    padding-bottom: 0px;
+}
+
+.title {
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.powered-by {
+    font-size: 24px;
+    text-align: center;
+}
+
+.title-info {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #CCC;
+    padding: 8px;
+    background-color: #F5F5F5;
+}
+
+applet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.wordcloud {
+    border: 0px;
+    height: 600px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 0;
+    page-break-after: always;
+    page-break-inside: avoid;
+}

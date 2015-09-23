@@ -1,0 +1,52 @@
+<!DOCTYPE html>                                                                                                                
+<html lang="{{ .Params.lang }}">
+
+{{ partial "header.html" . }}
+
+<body>
+
+{{ partial "jumbo.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<div class="container">
+
+<div class="row">
+
+{{ partial "tags-cloud.html" . }}
+
+<div class="col-md-3 hidden-sm hidden-xs">
+{{ partial "menu-blog.html" . }}
+{{ partial "menu-articles.html" . }}
+{{ partial "poweredby.html" . }}
+</div>
+
+<div class="col-md-9 col-sm-12">
+
+<div class="page-header">
+    <h1 class="title">Derniers articles</h1>
+</div>
+
+    {{ range first 10 .Site.Pages }}
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Summary }}</p>
+    {{ if .Truncated }}
+    <div class="row">
+    <div class="col-md-12 pull-right">
+    <a href="{{ .RelPermalink }}" class="btn btn-primary pull-right" role="button">Lire la suite</a></p>
+    </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+</div>
+</div>
+</div>
+
+{{ partial "footer.html" . }}
+
+{{ partial "javascript.html" . }}
+
+</body>
+
+</html>

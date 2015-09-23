@@ -1,0 +1,41 @@
+AIDE DU SOLITAIRE :
+
+But du jeu :
+
+Par des sauts successifs, éliminer toutes les billes de
+manière à ce qu'il n'en reste qu'une. Le but et la
+position de départ peuvent être différents si l'on s'
+attaque à un problème moins classique.
+
+Déplacements des billes :
+
+On déplace une bille en sautant par dessus une autre
+bille qui est enlevée du plateau (comme une prise aux
+dames). On ne peut déplacer une bille si on n'en saute
+une autre.
+
+Boutons du programme :
+
+- AIDE : ouvre cette fenètre d'aide.
+- EDITER : permet d'éditer la position de départ du
+jeu (utile pour les problèmes pour lesquels la position
+de départ n'est pas classique).
+- REFAIRE : réinitialise le plateau à la position de
+départ. Attention : Vide la mémoire des coups précédents.
+
+Fenètre d'édition :
+
+Permet d'éditer la position de départ du jeu. Lorsqu'on
+clique sur un trou, il se remplit s'il était vide ou se
+vide s'il était rempli. D'autre part, cette fenètre
+comporte :
+- Deux boutons radio permettant de choisir le type de
+plateau de jeu (anglais ou français).
+- Le bouton remplir remplit tous les trous du plateau d'
+une bille.
+- Le bouton vider ôte toutes les billes du plateau.
+- Le bouton OK valide cette position de départ. Si on
+clique ultérieurement sur le bouton REFAIRE, c'est cette
+nouvelle position de départ qui sera choisie.
+- Le bouton ANNULER revient au plateau de jeu sans
+modifier la position de départ.

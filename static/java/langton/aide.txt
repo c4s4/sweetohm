@@ -1,0 +1,90 @@
+                          Aide Fourmi :
+
+Cet applet permet de visualiser le parcours de la
+fourmi de Langton généralisée. C'est une sorte d'
+automate cellulaire (comme le jeu de la vie) d'une
+grande simplicité: une fourmi se déplace sur un 
+plateau quadrillé initialement rempli de cases 
+blanches. La fourmi se déplace chaque tour d'une 
+case. Si elle tombe sur une case blanche, elle la 
+peint en noir et tourne à droite. Si la case est 
+noire, elle la peint en blanc et tourne à gauche.
+
+On peut donc dire que les cases du plateau peuvent
+prendre 2 états : blanc (0) ou noir (1). La règle
+de déplacement peut alors être codée dans une 
+chaine de deux caractères : DG. Cette chaine veut
+dire que si la case où arrive la fourmi est dans 
+l'état 0, la fourmi tourne à droite (D) et peint 
+la case dans l'état suivant, soit 1 (noir). Le 
+caractère suivant (G) veut dire que si la fourmi 
+arrive sur une case noire (état 1), elle tourne à 
+gauche (G) et peint la case en blanc (0), état
+suivant si on considère que la chaine des règles
+"se mord la queue".
+
+On peut généraliser la fourmi da Langton : les
+cases du plateau peuvent prendre N états. La règle
+de déplacement de la fourmi peut alors se coder sur
+une chaine de N caractères. Les changements de 
+direction de la fourmi et la repeinte des cases
+suit les mêmes règles codées dans la chaine.
+
+REGLAGES DE L'APPLET :
+
+- panneau REGLES : permet de spécifier les règles
+  de déplacement de la fourmi :
+  . Nb. d'états : règle le nombre d'états de chaque
+  case du plateau.
+  . Règles : permet d'entrer la chaine permettant
+  de coder les règles de déplacement de la fourmi.
+  Il ne faut y entrer que des G ou des D.
+  . Vider : vide la chaine des règles.
+  . Aléatoire : remplit aléatoirement la chaine de
+  G ou de D. C'est intéressant pour expérimenter.
+  
+- panneau TERRAIN : donne les caractéristiques du
+  terrain où se déplace la fourmi :
+  . Largeur et Hauteur : indiquent le nombre de cases
+  que comporte le plateau.
+  . Coté cellule : précise le coté d'une cellule en
+  pixels. ATTENTION : il faut prendre garde à ne pas
+  créer de plateau trop grand pour la résolution
+  affichable par votre moniteur, sinon la fenètre du
+  plateau est trop grande.
+  . Dir. de départ : c'est la direction prise  par la
+  fourmi au début du déplacement.
+  Remarque : la fourmi parttoujours du centre du 
+  plateau.
+  
+- panneau HORLOGE : donne les caractéristiques de l'
+  horloge rythmant les déplacements de la fourmi :
+  . Pas à pas : si cette option est cochée, il faut
+  cliquer sur [>] à chaque tour pour faire avancer la
+  fourmi. Permet d'étudier en détail ses déplacements.
+  . Intervalle : spécifie le temps (en millisecondes)
+  d'attente de la fourmi entre chaque déplacement.
+  
+Pour lancer la simulation, il faut cliquer sur le 
+bouton [Lancer]. Il apparait alors la fenètre du 
+terrain. Cette fenètre comporte les coposants 
+suivants :
+. [ > ] : permet de lancer les déplacements de la 
+fourmi.
+. [ || ] : arrète la fourmi. On peut la relancer en
+cliquant sur [ > ].
+. Le compteur : indique le nombre de déplacements 
+effectués par la fourmi. C'est en quelque sorte le
+temps dans l'univers de la fourmi de Langton.
+. [Quitter] : permet de refermer la fenètre. Cest
+indispensable si on veut changer les paramétrages.
+
+ASTUCE : il n'est pas nécessaire de rester connecté 
+pour utiliser cet applet : il est possible de l'
+utiliser quelque temps, pour que le navigateur charge
+tous les objets de l'applet, puis de se déconnecter.
+L'applet continue à tourner. Si un objet doit être
+chargé par le navigateur, celui-ci essaiera de se 
+reconnecter.
+
+Bonne expérimetation à tous et toutes.

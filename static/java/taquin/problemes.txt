@@ -1,0 +1,9 @@
+# Fichier de problèmes pour Taquin 0.3
+
+Mygale=mygale.gif,3*3,0
+Fourmi=fourmi.jpg,5*4,0
+Moulin=moulin.jpg,4*5,0
+cuivres=brasses.jpg,6*5,0
+Insane=insane.jpg,5*5,0
+Labirynthe=labirynthe.jpg,6*6,0
+X-Files=lexifs.jpg,6*6,0

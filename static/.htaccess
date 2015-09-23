@@ -1,0 +1,17 @@
+# .htaccess
+# Fichier à la racine du site Sweetohm après renommage de fichiers.
+
+Redirect permanent /html/un-an-raspi.html http://sweetohm.net/article/raspi-un-an.html
+Redirect permanent /arc/un-an-raspi.pdf http://sweetohm.net/pdf/raspi-un-an.pdf
+Redirect permanent /html/blog.html http://sweetohm.net
+Redirect permanent /blog/index.html http://sweetohm.net
+Redirect permanent /blog/rss.xml http://sweetohm.net/index.xml
+Redirect permanent /html/gointerfaces.html /article/go-interfaces.html
+Redirect permanent /html/gointerfaces.en.html /article/go-interfaces.en.html
+Redirect permanent /html/3d.html /article/images-3d.html
+Redirect permanent /html/_3d.html /article/images-3d.html
+Redirect permanent /arc/cv-michel-casabianca.html /article/michel-casabianca.html
+Redirect permanent /arc/cv-michel-casabianca.doc /pdf/michel-casabianca.pdf
+Redirect permanent /pdf/cv-michel-casabianca.pdf /pdf/michel-casabianca.pdf
+RedirectMatch permanent /arc/(.*)\.pdf http://sweetohm.net/pdf/$1.pdf
+RedirectMatch permanent /html/(.*)\.html http://sweetohm.net/article/$1.html

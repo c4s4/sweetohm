@@ -1,0 +1,62 @@
+		AIDE atomX :
+
+Le but du jeu est de trouver les atomes cachés
+sur le plateau de jeu. La nature des atomes et
+leur nombre dépend du niveau de jeu.
+- niveau bachelier : 4 atomes d'or.
+- niveau licencié  : de 4 à 5 atomes d'or ou 
+  de plomb.
+- niveau docteur   : de 4 à 6 atomes d'or, de
+  plomb ou d'uranium.
+- niveau génie     : de 4 à 7 atomes d'or, de
+  plomb, d'uranium ou de bore.
+On peut choisir le niveau de jeu avec le bouton
+[Recommencer]. Apparait alors une fenètre où l'
+on choisit le niveau de jeu. Un nouveau problème
+est généré. Lorsque l'applet est lancée, elle
+génère automatiquement un problème de niveau
+bachelier.
+
+Pour déterminer où se trouvent les atomes, ainsi
+que leur nature, il faut procéder à des essais
+en tirant des particules. Pour tirer une 
+particule, il suffit de cliquer sur sa case de
+départ (flèche blanche sur les bords du plateau).
+Le résultat du tir est indiqué par une flèche
+rouge : c'est la case par laquelle est entrée la
+particule, et une, ou plusieurs, ou aucune flèche
+verte : elles indiquent les cases par lesquelles
+sont ressorties les particules.
+
+Un compteur indique le numéro du tir affiché ainsi
+que le nombre total de tirs effectués. On peut
+ainsi consulté les tirs précédents en cliquant
+sur les flèches [<] pour revenir en arrière, et
+[>] pour avancer vers les derniers tirs.
+
+Si une particule arrive sur une case adjacente
+à un atome, elle est déviée à angle droit. Si elle
+percute l'atome de face, le résultat de la collision
+dépend de la nature de l'atome :
+- l'or renvoie la particule dans la direction
+d'où elle vient.
+- le plomb absorbe la particule.
+- l'uranium en renvoie 4 : 1 dans chaque direction.
+- le bore renvoie 1 particule dans une des 4
+directions (choisie aléatoirement).
+
+Au fur et à mesure que l'on procède à des tirs,
+on se fait une idée de la nature et de la position
+des atomes, on peut alors les placer en choisissant
+le type d'atome avec les boutons radio de droite,
+et on les place en cliquant sur le plateau. Si
+on clique sur une particule déja en place, on
+vide la case. On peut vider tout le plateau en
+cliquant sur le bouton [Effacer].
+
+Lorsqu'on est certain de sa solution affichée
+sur le plateau, on peut la vérifier en cliquant
+sur [Solution]. La solution est alors affichée
+dans une fenètre, et l'ordinateur indique si
+votre solution est exacte. On peut alors refaire
+une partie en cliquant sur [Recommencer].

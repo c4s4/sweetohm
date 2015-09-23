@@ -1,0 +1,23 @@
+title:          Sweetohm
+baseurl:        http://sweetohm.net
+languageCode:   fr-FR
+metaDataFormat: yaml
+uglyURLs:       true
+relativeURLs:   true
+
+taxonomies:
+    tag:      tags
+    category: categories
+
+params:
+    name:   Sweetohm
+    author: Michel Casabianca
+    cvlink: /article/michel-casabianca.html
+    categories:
+    - articles
+    - projets
+    - jeux
+    - archives
+    disqus:
+        shortname: sweetohm
+        url:       http://sweetohm.net/html

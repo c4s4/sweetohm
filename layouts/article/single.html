@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ .Params.lang }}">
+
+{{ partial "header.html" . }}
+
+<body>
+
+{{ partial "jumbo.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<div class="container">
+
+<div class="row">
+<div class="col-md-3 hidden-sm hidden-xs">
+{{ partial "menu-articles.html" . }}
+{{ partial "poweredby.html" . }}
+</div>
+
+<div class="col-md-9 col-sm-12">
+
+{{ partial "title.html" . }}
+
+{{ if isset .Params "announce" }}
+<div class="alert alert-info" role="alert">
+{{ .Params.announce | markdownify }}
+</div>
+{{ end }}
+
+{{ if isset .Params "deprecated" }}
+<div class="alert alert-danger" role="alert">
+<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+<span class="sr-only">Error:</span> Cet article est obsolète
+</div>
+{{ end }}
+
+{{ .Content }}
+
+<br>
+
+{{ partial "disqus.html" . }}
+
+</div>
+</div>
+
+</div>
+
+{{ partial "footer.html" . }}
+
+{{ partial "javascript.html" . }}
+
+</body>
+
+</html>

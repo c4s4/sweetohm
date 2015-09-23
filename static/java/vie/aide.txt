@@ -1,0 +1,87 @@
+                       Aide Jeu de la vie :
+
+Cet applet permet de visualiser les multiples
+configurations que peut prendre le jeu de la vie.
+C'est une automate cellulaire très simple : des
+cellules (points noirs) sont disposées sur un 
+plateau quadrillé. A chaque tour, la machine
+détermine si chaque cellule vit ou meurt en
+suivant la règle suivante :
+ si une cellule est entourée de 2 ou 3 autres
+cellules, elle vit.
+ si elle est entourée par 0 ou 1 autre cellule,
+elle meurt de solitude.
+ si elle est entourée par 4 cellules ou plus,
+elle meurt étoufée.
+ si une case est vide mais entourée d'exactement
+3 autres cellules, il apparait une nouvelle
+cellule.
+
+REGLAGES DE L'APPLET :
+
+. panneau des régles :
+
+Il est possible, dans cet applet, de paramétrer
+les seuils de survie ou de mort d'une cellule :
+- mort par isolement détermine le nombre en
+deça duquel une cellule meurt d'isolement. Dans
+le jeu de la vie original, ce seuil est de 1.
+- mort par surpopulation règle le nombre au
+dela duquel la cellule meurt étoufée. Dans le 
+jeu de la vie, ce nombre est de 4.
+- limite inf. naissance fixe le nombre minimum
+de cellules pour assister à une naissance.
+- limite sup. naissance le nombre maximum de 
+cellules pour une naissance.
+
+. panneau du terrain :
+
+- largeur : détermine le nombre de cases horizontal
+du terain.
+- hauteur : le nombre de cases vertical.
+- Plateau torique : si elle est cochée, cette option
+permet faire communiquer les extrémités du plateau :
+le bord gauche est adjacent au bord droit et celui
+du haut avec celui du bas.
+
+. panneau horloge :
+
+- Pas à Pas : permet d'observer précisément l'évolution
+des cellules par une pose après chaque nouvelle 
+génération.
+- Intervalle (ms) : permet de fixer le temps d'attente
+entre chaque génération : permet de ralentir le jeu
+sur une machine trop puissante (?). Devient inutile
+sur de grands plateaux du fait du temps de calcul
+important pour une génération. Ce temps d'attente s'
+ajoute au temps de calcul et d'affichage.
+
+Pour faire démarrer le jeu, il faut cliquer sur [Lancer],
+ce qui a pour effet de faire apparaitre la fenètre du
+terrain.
+
+. LE TERRAIN : 
+Il est possible de cliquer sur les cases pour faire
+apparaitre une cellule si la case est vide, ou la 
+faire disparaitre si elle est pleine. Il est indispensable
+de disposer des cellules au début du jeu ! On dispose
+aussi d'un certain nombre de controles :
+- [ > ] : permet de lancer le jeu. Si la simulation est
+en mode pas à pas, il faut cliquer sur ce bouton pour
+faire progresser le jeu d'unegénération.
+- [ || ] : stoppe le jeu. On peut le reprendre en cliquant
+sur [ > ].
+- Pas à pas : si cette case est cochée, le jeu passe en
+mode pas à pas.
+- [ 0 ] : permet de remettre le compteur à 0.
+- Compteur : indique le numéro de la génération affichée.
+- [Vider] : vide le terrain de toute cellule.
+- [Remplir] : remplit le terrain de cellules. Chaque case
+a une certaine probabilité d'être garnie d'une cellule.
+Cette probabilité est paramétrable par la barre qui se trouve
+à droite du bouton. A droite de cette barre figure le 
+pourcentage choisi.
+- [Quitter] : permet de refermer la fenètre du terrain. C'est
+indispensable pour changer les dimensions du terrain. 
+
+Bonne expérimetation à tous et toutes.

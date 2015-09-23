@@ -10,15 +10,16 @@ lang:       fr
 toc:        false
 ---
 
-
-    Michel Casabianca
-    110 cours Saint Louis
-    Bat B App 44
-    33300 Bordeaux
-    06.86.99.63.89
-    casa@sweetohm.net
-    http://sweetohm.net
-    https://github.com/c4s4
+```
+Michel Casabianca
+110 cours Saint Louis
+Bat B App 44
+33300 Bordeaux
+06.86.99.63.89
+casa@sweetohm.net
+http://sweetohm.net
+https://github.com/c4s4
+```
 
 Technologie Maîtrisées
 ======================

@@ -4,8 +4,10 @@
     <h3 class="panel-title">Derniers posts</h3>
   </div>
   <div class="panel-body">
-    {{ range first 10 (where .Site.Pages "Section" "blog") }}
+    {{ range first 12 (where .Site.Pages "Section" "blog") }}
+    {{ if not ( isset .Params "draft" ) }}
     <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    {{ end }}
     {{ end }}
 
     <br>

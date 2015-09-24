@@ -9,9 +9,11 @@ lang:       en
 toc:        true
 ---
 
-![](debian-jessie-zotac-nano-ci320-logo.png)
+This article details the latest [Debian](http://debian.org) Linux installation on a [Zotac Nano CI320](http://www.zotac.com/products/mini-pcs/zbox-c-series/product/zbox-c-series/detail/zbox-ci320-nano.html).
 
-My *MacBook Pro* having some trouble, I started looking for a desktop machine to replace it.
+<!--more-->
+
+![](debian-jessie-zotac-nano-ci320-logo.png)
 
 I enjoy the silence, low power consumption and processing power of my laptop ([Acer C720P] (http://sweetohm.net/article/debian-jessie-acer-c720p.en.html)) which integrates a *Celeron* CPU so I looked for a desktop machine with this type of processor.
 

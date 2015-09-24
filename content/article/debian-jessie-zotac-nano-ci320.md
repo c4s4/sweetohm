@@ -10,11 +10,11 @@ lang:        fr
 toc:         true
 ---
 
-![](debian-jessie-zotac-nano-ci320-logo.png)
-
 Cet article détaille l'installation de la dernière version de la distribution Linux [Debian](http://debian.org), la Jessie, sur une machine [Zotac Nano CI320](http://www.zotac.com/products/mini-pcs/zbox-c-series/product/zbox-c-series/detail/zbox-ci320-nano.html).
 
 <!--more-->
+
+![](debian-jessie-zotac-nano-ci320-logo.png)
 
 J'avais apprécié le silence, la basse consommation et la puissance de mon portable ([un Acer C720P](http://sweetohm.net/article/debian-jessie-acer-c720p.html)) qui embarque un processeur *Celeron* et j'ai donc cherché une machine de bureau avec ce type de processeur peu gourmand.
 

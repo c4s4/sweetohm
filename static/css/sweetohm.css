@@ -19,7 +19,18 @@
 }
 
 .linkedin:hover {
-    color: #FFFFFF;                                                                                                        
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.titlelink {
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.titlelink:hover {
+    color: #FFFFFF;
+    text-decoration: none;
 }   
 
 .page-footer {

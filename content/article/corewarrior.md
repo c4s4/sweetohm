@@ -3,7 +3,7 @@ title:      Core Warrior
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [core war, programmation]
+tags:       [jeu, simulation]
 id:         corewarrior
 email:      casa@sweetohm.net
 lang:       fr

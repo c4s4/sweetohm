@@ -2,11 +2,11 @@
 title:      Extend CodeGuide features
 author:     Michel CASABIANCA
 date:       2004-01-06
-tags:       [codeguide, java]
 id:         codeguide-tips
 email:      casa@sweetohm.net
 lang:       en
 toc:        yes
+deprecated: yes
 ---
 
 This article presents CodeGuide extensions to launch JUnit tests, open a

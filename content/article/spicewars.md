@@ -3,7 +3,7 @@ title:      Spice Wars
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [applet, java, jeu, multi-joueur]
+tags:       [java, jeu]
 id:         spicewars
 email:      casa@sweetohm.net
 lang:       fr

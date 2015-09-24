@@ -3,7 +3,7 @@ title:      Utiliser le module Ruby DBI
 author:     Paul Dubois
 date:       2006-11-28
 categories: [articles]
-tags:       [ruby, database, mysql]
+tags:       [ruby, mysql]
 id:         ruby-dbi
 email:      paul@kitebird.com
 lang:       fr

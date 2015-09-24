@@ -3,7 +3,7 @@ title:      Le tri du couvain
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [applet, java, simulation, fourmis, couvain, tri]
+tags:       [applet, simulation]
 id:         couvain
 email:      casa@sweetohm.net
 lang:       fr

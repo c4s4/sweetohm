@@ -3,7 +3,7 @@ title:      Introduction à XSLT
 author:     Michel CASABIANCA
 date:       2003-05-28
 categories: [articles]
-tags:       [xml, xslt]
+tags:       [xml]
 id:         intro-xslt
 email:      casa@sweetohm.net
 lang:       fr

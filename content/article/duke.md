@@ -3,7 +3,7 @@ title:      Ecce Duke !
 author:     Michel CASABIANCA
 date:       2001-06-07
 categories: [archives]
-tags:       [java, duke, mascotte]
+tags:       [java]
 id:         duke
 email:      casa@sweetohm.net
 lang:       fr

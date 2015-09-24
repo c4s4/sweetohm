@@ -3,7 +3,7 @@ title:      La fourmi de Langton
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [fourmis, langton]
+tags:       [applet, simulation]
 id:         langton
 email:      casa@sweetohm.net
 lang:       fr

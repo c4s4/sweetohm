@@ -3,7 +3,7 @@ title:      Solitaire
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [applet, java, jeu, solitaire]
+tags:       [applet, jeu]
 id:         solitaire
 email:      casa@sweetohm.net
 lang:       fr

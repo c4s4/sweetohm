@@ -2,7 +2,7 @@
 title:      Ecce Duke !
 author:     Michel CASABIANCA
 date:       2001-06-07
-tags:       [java, duke]
+tags:       [java]
 id:         duke.en
 email:      casa@sweetohm.net
 lang:       en

@@ -2,11 +2,11 @@
 title:      VisualSQL 0.5
 author:     Michel CASABIANCA
 date:       2001-10-15
-tags:       [java, sql]
 id:         vsql.doc.en
 email:      casa@sweetohm.net
 lang:       en
 toc:        yes
+deprecated: yes
 ---
 
 VisualSQL is a JDBC client for databases. You can send SQL queries and

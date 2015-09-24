@@ -3,11 +3,11 @@ title:      TIE pour POV
 author:     Michel CASABIANCA
 date:       2000-02-15
 categories: [archives]
-tags:       [star wars, chasseur tie, animation]
 id:         tie
 email:      casa@sweetohm.net
 lang:       fr
 toc:        
+deprecated: yes
 ---
 
 En visitant le site de Moonlight (excellent modeleur pour Linux), je me

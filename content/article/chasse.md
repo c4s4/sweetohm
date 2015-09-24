@@ -3,7 +3,7 @@ title:      La piste de chasse
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [applet, java, simulation, fourmis, chasse]
+tags:       [applet, simulation]
 id:         chasse
 email:      casa@sweetohm.net
 lang:       fr

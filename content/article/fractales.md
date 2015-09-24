@@ -3,7 +3,7 @@ title:      Fractales
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [fractales, mandelbrot]
+tags:       [applet, simulation]
 id:         fractales
 email:      casa@sweetohm.net
 lang:       fr

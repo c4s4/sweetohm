@@ -2,7 +2,7 @@
 title:      A tour of YAML parsers for Go
 author:     Michel Casabianca
 date:       2014-06-17
-tags:       [go, golang, yaml]
+tags:       [golang, yaml]
 id:         go-yaml-parsers.en
 email:      casa@sweetohm.net
 lang:       en

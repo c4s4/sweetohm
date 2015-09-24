@@ -3,7 +3,7 @@ title:      Utiliser le module Ruby MySQL
 author:     Paul Dubois
 date:       2007-05-26
 categories: [articles]
-tags:       [ruby, database, mysql]
+tags:       [ruby, mysql]
 id:         ruby-mysql
 email:      paul@kitebird.com
 lang:       fr

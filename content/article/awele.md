@@ -3,7 +3,7 @@ title:      Awélé
 author:     Michel CASABIANCA
 date:       2003-02-04
 categories: [jeux]
-tags:       [applet, java, jeu, awele]
+tags:       [applet, jeu, awele]
 id:         awele
 email:      casa@sweetohm.net
 lang:       fr

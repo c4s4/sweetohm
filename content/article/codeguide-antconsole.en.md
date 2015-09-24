@@ -4,9 +4,9 @@ author:     Michel CASABIANCA
 date:       2004-01-06
 id:         codeguide-antconsole.en
 email:      casa@sweetohm.net
-tags:       [java, ant]
 lang:       en
 toc:        yes
+deprecated: yes
 ---
 
 This article presents the integration of the Ant Console within

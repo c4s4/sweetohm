@@ -3,7 +3,7 @@ title:      Taquin
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [applet, java, jeu, taquin]
+tags:       [applet, jeu]
 id:         taquin
 email:      casa@sweetohm.net
 lang:       fr

@@ -3,7 +3,7 @@ title:      Installation de Debian Jessie sur Acer C720P
 author:     Michel Casabianca
 date:       2014-06-18
 categories: [articles]
-tags:       [debian, jessie, acer c720]
+tags:       [debian, linux, acer c720]
 id:         michel-casabianca
 email:      casa@sweetohm.net
 lang:       fr

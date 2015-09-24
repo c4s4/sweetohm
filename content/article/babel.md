@@ -3,7 +3,7 @@ title:      Babel
 author:     Michel Casabianca
 date:       2014-11-05
 categories: [projets]
-tags:       [java, python, go, golang, lua, rust]
+tags:       [java, python, golang, lua, rust]
 id:         babel
 email:      michel.casabianca@gmail.com
 lang:       fr

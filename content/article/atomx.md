@@ -5,7 +5,7 @@ email:      casa@sweetohm.net
 date:       2000-02-07
 id:         atomx.applet
 categories: [jeux]
-tags:       [applet, java, jeu, atomx]
+tags:       [applet, jeu]
 lang:       fr
 toc:                  
 ---

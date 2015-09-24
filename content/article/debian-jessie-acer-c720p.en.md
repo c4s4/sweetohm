@@ -2,7 +2,7 @@
 title:      Debian Jessie on Acer C720P
 author:     Michel Casabianca
 date:       2014-07-09
-tags:       [debian, jessie, acer c720]
+tags:       [debian, linux, acer c720]
 id:         debian-jessie-acer-c720p.en
 email:      casa@sweetohm.net
 lang:       en

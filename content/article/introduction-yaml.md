@@ -3,7 +3,7 @@ title:      Introduction à YAML
 author:     Michel Casabianca
 date:       2009-02-27
 categories: [articles]
-tags:       [yaml, introduction, python, java]
+tags:       [yaml, python, java]
 id:         introduction-yaml
 email:      casa@sweetohm.net
 lang:       fr

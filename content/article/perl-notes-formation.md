@@ -3,7 +3,7 @@ title:      Notes formation Perl
 author:     Michel Casabianca
 date:       2014-06-13
 categories: [articles]
-tags:       [perl, introduction]
+tags:       [perl]
 id:         perl-notes-formation
 email:      casa@sweetohm.net
 lang:       fr

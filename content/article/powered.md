@@ -3,11 +3,11 @@ title:      Logos Powered by ...
 author:     Michel CASABIANCA
 date:       2001-05-30
 categories: [archives]
-tags:       [powered by, logo]
 id:         powered
 email:      casa@sweetohm.net
 lang:       fr
 toc:        
+deprecated: yes
 ---
 
 Tout a commencé lorsque j'ai trouvé sur une page ce logo **LinuX

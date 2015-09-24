@@ -3,7 +3,7 @@ title:      Jeu de la vie
 author:     Michel CASABIANCA
 date:       2000-02-07
 categories: [jeux]
-tags:       [applet, java, simulation, jeu de la vie, conway]
+tags:       [applet, simulation, jeu]
 id:         vie
 email:      casa@sweetohm.net
 lang:       fr

@@ -5,7 +5,7 @@ email:       casa@sweetohm.net
 date:        2015-01-13
 id:          debian-jessie-zotac-nano-ci320
 categories:  [articles]
-tags:        [debian, jessie, zotac ci320]
+tags:        [debian, linux, zotac ci320]
 lang:        fr
 toc:         true
 ---

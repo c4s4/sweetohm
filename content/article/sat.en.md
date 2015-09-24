@@ -2,11 +2,11 @@
 title:      Sweet Ant Tools 1.0
 author:     Michel CASABIANCA
 date:       2003-07-14
-tags:       [ant, tool, plugin]
 id:         sat.doc.en
 email:      casa@sweetohm.net
 lang:       en
 toc:        yes
+deprecated: yes
 ---
 
 SAT is a set of tools for [Ant](http://jakarta.apache.org/ant) under

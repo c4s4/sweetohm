@@ -3,7 +3,7 @@ title:      Écrire des scripts Python avec DB-API
 author:     Paul Dubois
 date:       2006-09-17
 categories: [articles]
-tags:       [python, dbapi, mysql]
+tags:       [python, mysql]
 id:         python-dbapi
 email:      paul@kitebird.com
 lang:       fr

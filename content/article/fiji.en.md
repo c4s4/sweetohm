@@ -2,11 +2,11 @@
 title:      FiJI
 author:     Michel CASABIANCA
 date:       2003-01-12
-tags:       [java, installer]
 id:         fiji.doc.en
 email:      casa@sweetohm.net
 lang:       en
 toc:        yes
+deprecated: yes
 ---
 
 FiJI is a Free Java Installer released under GPL. It enables you to

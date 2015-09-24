@@ -5,7 +5,7 @@ email:       casa@sweetohm.net
 date:        2015-03-14
 id:          no-apple
 categories:  [articles]
-tags:        [apple, macosx, linux, debian]
+tags:        [apple, linux, debian, zotac nano ci320, acer c720]
 lang:        fr
 toc:         true
 ---

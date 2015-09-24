@@ -3,7 +3,7 @@ title:      Un panorama des parseurs YAML en Go
 author:     Michel Casabianca
 date:       2014-06-22
 categories: [articles]
-tags:       [go, golang, yaml, parser]
+tags:       [golang, yaml]
 id:         go-yaml-parsers
 email:      casa@sweetohm.net
 lang:       fr

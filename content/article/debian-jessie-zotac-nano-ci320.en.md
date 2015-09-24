@@ -2,7 +2,7 @@
 title:      Debian Jessie on Zotac Nano CI320
 author:     Michel Casabianca
 date:       2015-01-28
-tags:       [debian, jessie, zotac ci320]
+tags:       [debian, linux, zotac ci320]
 id:         debian-jessie-zotac-nano-ci320.en
 email:      casa@sweetohm.net
 lang:       en

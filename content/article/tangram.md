@@ -3,7 +3,7 @@ title:      Tangram
 author:     Michel CASABIANCA
 date:       2004-12-27
 categories: [jeux]
-tags:       [applet, java, jeu, tangram]
+tags:       [applet, jeu]
 id:         tangram
 email:      casa@sweetohm.net
 lang:       fr

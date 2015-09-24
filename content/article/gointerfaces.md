@@ -3,7 +3,7 @@ title:      GO Interfaces
 author:     Michel Casabianca
 date:       2014-10-29
 categories: [projets]
-tags:       [go, golang, interface]
+tags:       [golang]
 id:         gointerfaces
 email:      michel.casabianca@gmail.com
 lang:       fr

@@ -105,4 +105,5 @@ applet {
     padding: 0;
     page-break-after: always;
     page-break-inside: avoid;
+    background: #F0F0F0;
 }

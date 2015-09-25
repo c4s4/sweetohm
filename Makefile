@@ -50,6 +50,7 @@ clean:
 help:
 	@echo "$(CYAN)dirs$(CLEAR)      Create destination directories"
 	@echo "$(CYAN)generate$(CLEAR)  Generate static site"
+	@echo "$(CYAN)sync$(CLEAR)      Synchronize site with server"
 	@echo "$(CYAN)server$(CLEAR)    Run development server"
 	@echo "$(CYAN)release$(CLEAR)   Release project"
 	@echo "$(CYAN)clean$(CLEAR)     Clean generated files"

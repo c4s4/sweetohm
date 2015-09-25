@@ -46,7 +46,7 @@ Le module DBI est distribué sous forme d'une archive *tar* que vous devriez dé
 
 Après avoir décompressé l'archive de distribution, placez vous à la racine du répertoire et configurez la à l'aide du script *setup.rb* de ce répertoire. La commande la plus générale pour configurer est la suivante (avec aucun argument après `config`) :
 
-``bash
+```bash
 % ruby setup.rb config
 ```
 

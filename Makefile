@@ -28,6 +28,12 @@ sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
 	rsync -av public/ casa@sweetohm.net:/home/web/sweetohm.net/
 
+update:
+	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"
+	if [ `git rev-parse origin/master` != `git rev-parse HEAD` ]; then \
+		git pull && make generate sync; \
+	fi
+
 server: dirs $(PDF) $(EPUB)
 	@echo "$(YELLOW)Running development server$(CLEAR)"
 	hugo server --watch

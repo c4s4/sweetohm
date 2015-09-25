@@ -1,4 +1,4 @@
-<div class="col-md-12">
+<div class="col-lg-12">
 <div id="wordcloud" class="wordcloud">
 {{ range $name, $tag := .Site.Taxonomies.tags }}
 {{ $weight := len $tag.Pages }}
@@ -12,6 +12,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+    /* resize the tags cloud to match the size of the screen */
+    var size = Math.min($(window).width(), $(window).height());
+    $("#wordcloud").attr("style", "height:"+size+"px;width:"+size+"px;");
+    /* initialize tags cloud */
     $("#wordcloud").awesomeCloud({
         "size" : {
             "grid" : 10,

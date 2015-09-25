@@ -101,9 +101,7 @@ applet {
 
 .wordcloud {
     border: 0px;
-    height: 600px;
-    width: 600px;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 0;
     page-break-after: always;
     page-break-inside: avoid;

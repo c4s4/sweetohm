@@ -14,7 +14,7 @@
 <script>
 $(document).ready(function(){
     /* resize the tags cloud to match the size of the screen */
-    var size = Math.min($(window).width(), $(window).height());
+    var size = Math.min($(window).width(), $(window).height()) - 30;
     $("#wordcloud").attr("style", "height:"+size+"px;width:"+size+"px;");
     /* initialize tags cloud */
     $("#wordcloud").awesomeCloud({

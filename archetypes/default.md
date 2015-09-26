@@ -1,4 +1,6 @@
 ---
+title:      
+date:       
 author:     Michel Casabianca
 email:      casa@sweetohm.net
 id:         

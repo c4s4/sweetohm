@@ -4,7 +4,6 @@ author:     Michel Casabianca
 email:      casa@sweetohm.net
 date:       2000-04-03
 id:         ant-dtd.en
-id:         ant-dtd.en
 lang:       en
 toc:        
 ---

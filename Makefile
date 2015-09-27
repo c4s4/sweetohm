@@ -26,7 +26,7 @@ generate: dirs $(PDF) $(EPUB)
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
-	rsync -av public/ casa@sweetohm.net:/home/web/sweetohm.net/
+	rsync -av public/ casa@sweetohm.net:/home/web/sweetohm/
 
 update:
 	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"

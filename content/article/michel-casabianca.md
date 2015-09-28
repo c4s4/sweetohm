@@ -19,6 +19,7 @@ Bat B App 44
 casa@sweetohm.net
 http://sweetohm.net
 https://github.com/c4s4
+https://fr.linkedin.com/in/casabianca
 ```
 
 Technologie Maîtrisées

@@ -17,8 +17,9 @@ Bat B App 44
 France
 +336.86.99.63.89
 casa@sweetohm.net
-sweetohm.net
-github.com/c4s4
+http://sweetohm.net
+https://github.com/c4s4
+https://fr.linkedin.com/in/casabianca
 ```
 
 Mastered Technologies

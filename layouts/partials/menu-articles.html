@@ -9,7 +9,11 @@
   </div>
   <div class="panel-body">
     {{ range $taxonomy.Pages }}
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br>
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}
+    {{ if isset .Params "new" }}
+    <span class="label label-warning">New</span>
+    {{ end }}
+    </a><br>
     {{ end }}
   </div>
 </div>

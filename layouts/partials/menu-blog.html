@@ -6,7 +6,11 @@
   <div class="panel-body">
     {{ range first 12 (where .Site.Pages "Section" "blog") }}
     {{ if not ( isset .Params "draft" ) }}
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    <a href="{{ .RelPermalink }}">{{ .Title }}
+    {{ if isset .Params "new" }}
+    <span class="label label-warning">New</span>
+    {{ end }}
+    </a><br>
     {{ end }}
     {{ end }}
 

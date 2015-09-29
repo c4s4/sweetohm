@@ -26,7 +26,11 @@
 <div class="row">
 {{ range .Data.Pages }}
 <div class="col-md-12">
-<h3>{{ .Title }}</h3>
+<h3>{{ .Title }}
+{{ if isset .Params "new" }}
+<span class="label label-warning">New</span>
+{{ end }}
+</h3>
 <p>{{ .Summary }}</p>
 <div class="row">
 <div class="col-md-12 pull-right">

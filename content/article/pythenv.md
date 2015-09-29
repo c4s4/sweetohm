@@ -33,9 +33,6 @@ Pour exécuter un script Python avec ces requirements on tapera :
 
 ```
 $ pythenv requirements.txt script.py arg1 arg2
-Creating virtualenv...
-Installing dependencies...
-Running script...
 ```
 
 ### Embarquer les requirements dans le script
@@ -50,9 +47,6 @@ On lancera alors le script avec la commande suivante :
 
 ```
 $ pythenv script.py arg1 arg2
-Creating virtualenv...
-Installing dependencies...
-Running script...
 ```
 
 Installation

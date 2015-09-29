@@ -60,8 +60,8 @@ Installation
 
 Pour pouvoir utiliser *pythenv* vous devez avoir installé :
 
-- Une machine virtuelle Python.
-- virtualenv pour créer l'environnement virtuel.
+- Une machine virtuelle Python (testé avec les vesion *2.7.10* et *3.5.0* de Python).
+- virtualenv pour créer l'environnement virtuel (*pyvenv* sera appelé avec Python *3.4* et au-delà).
 - PIP pour installer les dépendances
 
 Pour installer *pythenv*, copier le script *pythenv* quelque part dans votre *PATH* (par exemple dans le répertoire */usr/local/bin/* ou */opt/bin/*).

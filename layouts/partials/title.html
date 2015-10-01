@@ -1,40 +1,41 @@
 <div class="page-header">
   <h1 class="title">{{ .Title }}</h1>
-  <p>
+  <div class="title-bar">
     {{ if isset .Params "author" }}
     <div class="title-info">
       <span data-toggle="tooltip" data-placement="bottom" title="Auteur">
-      {{ if isset .Params "email" }}
-      <span class="glyphicon glyphicon-user"></span> <a href="mailto:{{ .Params.email }}">{{ .Params.author }}</a>
-      {{ else }}
-      <span class="glyphicon glyphicon-user"></span> {{ .Params.author }}
-      {{ end }}
+        {{ if isset .Params "email" }}
+        <span class="glyphicon glyphicon-user"></span> 
+        <a href="mailto:{{ .Params.email }}">{{ .Params.author }}</a>
+        {{ else }}
+        <span class="glyphicon glyphicon-user"></span> {{ .Params.author }}
+        {{ end }}
       </span>
     </div>
     {{ end }}
     <div class="title-info">
       <span data-toggle="tooltip" data-placement="bottom" title="Date de publication">
-      <span class="glyphicon glyphicon-calendar"></span> {{ dateFormat "2006-01-02" .Date }}
+        <span class="glyphicon glyphicon-calendar"></span> {{ dateFormat "2006-01-02" .Date }}
       </span>
     </div>
     {{ if isset .Params "updated" }}
     <div class="title-info">
       <span data-toggle="tooltip" data-placement="bottom" title="Date de la dernière mise à jour">
-      <span class="glyphicon glyphicon-pencil"></span> {{ .Params.updated }}
+        <span class="glyphicon glyphicon-pencil"></span> {{ .Params.updated }}
       </span>
     </div>
     {{ end }}
     {{ if eq .Section "article" }}
     <div class="title-info">
       <span data-toggle="tooltip" data-placement="bottom" title="Document au format PDF">
-      <span class="glyphicon glyphicon-file"></span> <a href="/pdf/{{ .Params.id }}.pdf">PDF</a>
+        <span class="glyphicon glyphicon-file"></span> <a href="/pdf/{{ .Params.id }}.pdf">PDF</a>
       </span>
     </div>
     <div class="title-info">
       <span data-toggle="tooltip" data-placement="bottom" title="Document au format ePub">
-      <span class="glyphicon glyphicon-book"></span> <a href="/epub/{{ .Params.id }}.epub">ePub</a>
+        <span class="glyphicon glyphicon-book"></span> <a href="/epub/{{ .Params.id }}.epub">ePub</a>
       </span>
     </div>
     {{ end }}
-  </p>
+  </div>
 </div>

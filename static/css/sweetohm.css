@@ -64,6 +64,14 @@
     text-decoration: none;
 }
 
+.title-bar {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
 .title-info {
     margin-left: 0px;
     margin-right: 10px;

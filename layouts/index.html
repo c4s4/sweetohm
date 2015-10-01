@@ -29,11 +29,11 @@
 
     {{ range first 10 .Site.Pages }}
     <h3>{{ .Title }}</h3>
-    <p>{{ .Summary }}</p>
+    {{ .Summary }}
     {{ if .Truncated }}
     <div class="row">
     <div class="col-md-12 pull-right">
-    <a href="{{ .RelPermalink }}" class="btn btn-primary pull-right" role="button">Lire la suite</a></p>
+    <a href="{{ .RelPermalink }}" class="btn btn-primary pull-right" role="button">Lire la suite</a>
     </div>
     </div>
     {{ end }}

@@ -36,10 +36,8 @@ Applet Virtual Tangram
 ----------------------
 
 <applet code="tangram.class" codebase="../java/tangram" width="650" height="390">
-<font color="red">
-Si vous voyez ce texte, c'est que votre navigateur n'est 
-pas compatible Java ou n'a pas &eacute;t&eacute; correctement configur&eacute;.
-</font>
+<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 
 Utilisation de l'Applet

@@ -18,10 +18,8 @@ Applet Java
 -----------
 
 <applet code="Vie.class" codebase="../java/vie" width="220" height="300">
-<font color="red">
-Si vous voyez ce texte, c'est que votre navigateur n'est 
-pas compatible Java ou n'a pas &eacute;t&eacute; correctement configur&eacute;.
-</font>
+<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 
 ### Réglages de l'applet

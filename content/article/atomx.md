@@ -14,10 +14,8 @@ Applet Java
 -----------
 
 <applet code="atomx.class" codebase="../java/atomx" width="530" height="350">
-<font color="red">
-Si vous voyez ce texte, c'est que votre navigateur n'est 
-pas compatible Java ou n'a pas &eacute;t&eacute; correctement configur&eacute;.
-</font>
+<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 
 Règles du jeu

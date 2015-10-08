@@ -27,10 +27,8 @@ Applet Java
 -----------
 
 <applet code="TriFourmi.class" codebase="../java/couvain" width="200" height="250">
-<font color="red">
-Si vous voyez ce texte, c'est que votre navigateur n'est 
-pas compatible Java ou n'a pas &eacute;t&eacute; correctement configur&eacute;.
-</font>
+<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 
 ### Réglages de l'applet

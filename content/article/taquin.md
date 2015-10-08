@@ -21,11 +21,9 @@ Applet Java
 -----------
 
 <applet code="Taquin.class" codebase="../java/taquin" width="600" height="400">
-<font color="red">
-Si vous voyez ce texte, c'est que votre navigateur n'est 
-pas compatible Java ou n'a pas été correctement configuré.
-</font>
 <param name="fichier" value="problemes.txt"/>
+<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 
 Le principe du jeu

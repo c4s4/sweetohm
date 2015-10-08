@@ -28,10 +28,8 @@ Applet Java
 -----------
 
 <applet code="Solitaire.class" codebase="../java/solitaire" width="290" height="330">
-<font color="red">
-Si vous voyez ce texte, c'est que votre navigateur n'est 
-pas compatible Java ou n'a pas &eacute;t&eacute; correctement configur&eacute;.
-</font>
+<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 
 ### Utilisation de cette applet

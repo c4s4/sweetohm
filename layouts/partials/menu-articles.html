@@ -11,7 +11,7 @@
     {{ range $taxonomy.Pages }}
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}
     {{ if isset .Params "new" }}
-    <span class="label label-warning">New</span>
+    <span class="label label-primary">New</span>
     {{ end }}
     </a><br>
     {{ end }}

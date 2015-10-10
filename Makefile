@@ -32,9 +32,7 @@ update:
 	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"
 	git fetch
 	if [ `git rev-parse origin/master` != `git rev-parse HEAD` ]; then \
-	 date; \
 		git pull && make generate sync; \
-		date; \
 	fi
 
 server: dirs $(PDF) $(EPUB)

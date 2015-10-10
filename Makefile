@@ -24,6 +24,15 @@ generate: dirs $(PDF) $(EPUB)
 	@echo "$(YELLOW)Generating static site$(CLEAR)"
 	hugo
 
+cv:
+	@echo "$(YELLOW)Generating resume$(CLEAR)"
+	cp content/article/michel-casabianca.md /tmp/
+	cd /tmp && \
+		md2pdf michel-casabianca.md && \
+		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
+		upload-public michel-casabianca.pdf michel-casabianca.docx && \
+		rm michel-casabianca.md michel-casabianca.pdf michel-casabianca.docx
+
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
 	rsync -av public/ casa@sweetohm.net:/home/web/sweetohm/

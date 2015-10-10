@@ -19,7 +19,7 @@ France
 casa@sweetohm.net
 http://sweetohm.net
 https://github.com/c4s4
-https://fr.linkedin.com/in/casabianca
+http://linkedin.com/in/casabianca
 ```
 
 Mastered Technologies

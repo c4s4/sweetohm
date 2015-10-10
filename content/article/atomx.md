@@ -3,7 +3,7 @@ title:      Atom X
 author:     Michel CASABIANCA
 email:      casa@sweetohm.net
 date:       2000-02-07
-id:         atomx.applet
+id:         atomx
 categories: [jeux]
 tags:       [applet, jeu]
 lang:       fr

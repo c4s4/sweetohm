@@ -141,6 +141,7 @@ I have been speakers at following lectures:
 - *Bee* at Rencontres Mondiales du Logiciel Libre in July 2010.
 - *Putting Go in Production* at DevDays in October 2014.
 - *Putting Go in Production* at BDX.IO in October 2014.
+- *Should you migrate to Python 3?* at BDX.io in october 2915.
 
 Few activities related to computer science:
 

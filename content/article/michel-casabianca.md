@@ -150,6 +150,7 @@ D'autre part, j'interviens régulièrement dans des conférences sur des sujets 
 - Conférence sur Bee au Rencontres Mondiales du Logiciel Libre en juillet 2010.
 - Conférence Retour d'expérience sur Go aux DevDays en octobre 2014.
 - Conférence Retour d'expérience sur Go à BDX.IO en octobre 2014.
+- Conférence Faut-t-il passer à Python 3 ? à BDX.io en octobre 2015.
 
 Pour finir, quelques activités personnelles dans le domaine de l'informatique :
 

@@ -16,3 +16,4 @@ Redirect permanent /pdf/cv-michel-casabianca.pdf /pdf/michel-casabianca.pdf
 Redirect permanent /rss.xml /index.xml
 RedirectMatch permanent /arc/(.*)\.pdf http://sweetohm.net/pdf/$1.pdf
 RedirectMatch permanent /html/(.*)\.html http://sweetohm.net/article/$1.html
+RedirectMatch permanent /talks/(.*) http://sweetohm.net/slides/$1

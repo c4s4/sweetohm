@@ -1,5 +1,6 @@
 VERSION=$(shell date -I)
 MESSAGE=Release $(VERSION)
+CV_DEST=casa@sweetohm.net:/home/web/public/cv
 
 YELLOW=\033[1m\033[93m
 CYAN=\033[1m\033[96m
@@ -30,7 +31,7 @@ cv:
 	cd /tmp && \
 		md2pdf michel-casabianca.md && \
 		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
-		upload-public michel-casabianca.pdf michel-casabianca.docx && \
+		scp michel-casabianca.pdf michel-casabianca.docx $(CV_DEST) && \
 		rm michel-casabianca.md michel-casabianca.pdf michel-casabianca.docx
 
 sync:

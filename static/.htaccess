@@ -14,6 +14,8 @@ Redirect permanent /arc/cv-michel-casabianca.html /article/michel-casabianca.htm
 Redirect permanent /arc/cv-michel-casabianca.doc /pdf/michel-casabianca.pdf
 Redirect permanent /pdf/cv-michel-casabianca.pdf /pdf/michel-casabianca.pdf
 Redirect permanent /rss.xml /index.xml
+Redirect permanent /public/go-retour-experience.html /slides/go-retour-experience/
+Redirect permanent /public/retour-experience-go.html /slides/go-retour-experience/
 RedirectMatch permanent /arc/(.*)\.pdf http://sweetohm.net/pdf/$1.pdf
 RedirectMatch permanent /html/(.*)\.html http://sweetohm.net/article/$1.html
 RedirectMatch permanent /talks/(.*) http://sweetohm.net/slides/$1

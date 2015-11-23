@@ -9,7 +9,7 @@ CLEAR=\033[0m
 PDF=$(patsubst content/article/%.md,public/pdf/%.pdf,$(wildcard content/article/*.md))
 EPUB=$(patsubst content/article/%.md,public/epub/%.epub,$(wildcard content/article/*.md))
 
-all: clean generate sync
+all: generate
 
 dirs:
 	@echo "$(YELLOW)Creating directories$(CLEAR)"
@@ -24,15 +24,6 @@ public/epub/%.epub: content/article/%.md image_dir.py
 generate: dirs $(PDF) $(EPUB)
 	@echo "$(YELLOW)Generating static site$(CLEAR)"
 	hugo
-
-cv:
-	@echo "$(YELLOW)Generating resume$(CLEAR)"
-	cp content/article/michel-casabianca.md /tmp/
-	cd /tmp && \
-		md2pdf michel-casabianca.md && \
-		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
-		scp michel-casabianca.pdf michel-casabianca.docx $(CV_DEST) && \
-		rm michel-casabianca.md michel-casabianca.pdf michel-casabianca.docx
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
@@ -57,6 +48,15 @@ release:
 clean:
 	@echo "$(YELLOW)Cleaning generated files$(CLEAR)"
 	rm -rf public/
+
+cv:
+	@echo "$(YELLOW)Generating resume$(CLEAR)"
+	cp content/article/michel-casabianca.md /tmp/
+	cd /tmp && \
+		md2pdf michel-casabianca.md && \
+		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
+		scp michel-casabianca.pdf michel-casabianca.docx $(CV_DEST) && \
+		rm michel-casabianca.md michel-casabianca.pdf michel-casabianca.docx
 
 help:
 	@echo "$(CYAN)dirs$(CLEAR)      Create destination directories"

@@ -36,7 +36,7 @@ Applet Virtual Tangram
 ----------------------
 
 <applet code="tangram.class" codebase="../java/tangram" width="650" height="390">
-<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+<p class="applet-error">Si vous voyez ce texte, c'est que votre navigateur n'est 
 pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 

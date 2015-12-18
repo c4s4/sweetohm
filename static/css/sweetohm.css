@@ -121,3 +121,7 @@ applet {
     page-break-inside: avoid;
     background: #FAFAFA;
 }
+
+.applet-error {
+    color: #FF0000;
+}

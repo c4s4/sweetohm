@@ -18,7 +18,7 @@ Applet Java
 -----------
 
 <applet code="Vie.class" codebase="../java/vie" width="220" height="300">
-<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+<p class="applet-error">Si vous voyez ce texte, c'est que votre navigateur n'est 
 pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 

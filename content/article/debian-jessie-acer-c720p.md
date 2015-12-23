@@ -10,13 +10,11 @@ lang:       fr
 toc:        true
 ---
 
-![](debian-jessie-acer-c720p-logo.png)
-
 Le Acer C720 est un chromebook sur lequel il est possible d'installer Linux. On peut ainsi réaliser une machine nomade (écran 11,6 pouces pour 1kg environ, autonomie de plus de 7h) pour un prix raisonnable (on le trouve à moins de 270 €). Cet article détaille l'installation de la distribution Linux Debian sur cette machine.
 
 <!--more-->
 
-![Acer C720P](debian-jessie-acer-c720p-machine.png)
+![](debian-jessie-acer-c720p-logo.png)
 
 Flashage du firmware
 ====================
@@ -38,6 +36,8 @@ J'ai eu droit au message d'erreur NORMAL lors du flashage (sueurs froides garant
 
 Installation de Debian
 ======================
+
+![Acer C720P](debian-jessie-acer-c720p-machine.png)
 
 Installation de la Testing (Jessie) XFCE, images CD (ne prendre que le CD 1): [http://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-xfce-CD-1.iso](http://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-xfce-CD-1.iso).
 

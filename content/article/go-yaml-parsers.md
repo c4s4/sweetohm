@@ -10,11 +10,11 @@ lang:       fr
 toc:        true
 ---
 
-![](go-yaml-parsers-prof.png)
-
 Je me propose de réaliser dans cet article un panorama des parseurs YAML en Go. Pour chacun d'entre eux, je fournis une brève description, une évaluation et un exemple de code.
 
 <!--more-->
+
+![](go-yaml-parsers-prof.png)
 
 Vous pouvez télécharger [ici une archive avec les sources des exemples](http://sweetohm.net/arc/go-yaml-parsers.zip).
 

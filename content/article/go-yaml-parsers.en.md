@@ -9,9 +9,11 @@ lang:       en
 toc:        true
 ---
 
-![Gopher](go-yaml-parsers-prof.png)
-
 Here is a list of YAML parsers for Go programming language. For each one, I will provide a short description, an evaluation and an example source code.
+
+<!--more-->
+
+![Gopher](go-yaml-parsers-prof.png)
 
 You can download [an archive with example source code here](http://sweetohm.net/arc/go-yaml-parsers.zip).
 

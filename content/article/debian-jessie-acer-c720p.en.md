@@ -9,11 +9,11 @@ lang:       en
 toc:        true
 ---
 
-![Debian Logo](debian-jessie-acer-c720p-logo.png)
-
 The Acer C720 is a chromebook on which you can install a Linux distribution. This is a cheap solution to get a very mobile device (11.6" display in 1 kg, running more than 7 hours for around 250$). This article gathers my sources to install and run Debian Jessie on this machine.
 
-![Acer C720P](debian-jessie-acer-c720p-machine.png)
+<!--more->
+
+![Debian Logo](debian-jessie-acer-c720p-logo.png)
 
 Flashing firmware
 -----------------
@@ -34,6 +34,8 @@ Note that you may see a NORMAL error message while copying the firmware.
 
 Installing Debian
 -----------------
+
+![Acer C720P](debian-jessie-acer-c720p-machine.png)
 
 To install Testing (which is currently Jessie) for XFCE, take CD 1 at: [http://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-xfce-CD-1.iso](http://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-xfce-CD-1.iso).
 

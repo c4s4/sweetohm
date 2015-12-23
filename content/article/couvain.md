@@ -27,7 +27,7 @@ Applet Java
 -----------
 
 <applet code="TriFourmi.class" codebase="../java/couvain" width="200" height="250">
-<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+<p class="applet-error">Si vous voyez ce texte, c'est que votre navigateur n'est 
 pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 

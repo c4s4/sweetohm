@@ -35,7 +35,7 @@ Il est fortement conseillé de prendre connaissance des règles du jeu et
 de lire la notice ci-dessous avant d'utiliser cette applet...
 
 <applet code="Awele.class" codebase="../java/awele" width="400" height="300">
-<p>Si vous voyez ce texte, c'est que votre navigateur n'est 
+<p class="applet-error">Si vous voyez ce texte, c'est que votre navigateur n'est 
 pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 

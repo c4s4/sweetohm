@@ -10,8 +10,6 @@ toc:
 deprecated: yes
 ---
 
-![](kfm-jar.screen.png)
-
 Lancer une application contenue dans un fichier Jar est extrêmement
 simple sous Windows ou Solaris : il suffit de cliquer ! Quid de Linux ?
 Ce n'est pas possible de manière générale car cela dépend du
@@ -19,6 +17,8 @@ gestionnaire de fichier (il doit reconnaître l'extension .jar et lancer
 `java -jar`).
 
 <!--more-->
+
+![](kfm-jar.screen.png)
 
 Cependant, le système de types MIME de KFM (gestionnaire de fichiers de
 KDE) permet une telle association : il suffit de lui indiquer comment

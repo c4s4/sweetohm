@@ -18,8 +18,6 @@ announce:   |
     Le 4e tournoi de **toguzkumalak** (mancala de l'Asie Centrale), aura lieu le dimanche 15 novembre 2015.
 ---
 
-![](awele.awele.png)
-
 L'awélé est le jeu du continent africain. Ses règles sont presque aussi
 nombreuses que les villages en Afrique. En effet, il n'y a pas eu de
 soucis de standardisation comme pour nos échecs européens. Les règles
@@ -27,6 +25,8 @@ proposées ci-dessous ont été longuement testées et ont le mérite d'être
 simples et logiques.
 
 <!--more-->
+
+![](awele.awele.png)
 
 Applet Java
 -----------

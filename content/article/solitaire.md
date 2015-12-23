@@ -10,8 +10,6 @@ lang:       fr
 toc:        
 ---
 
-![](solitaire.solitaire.png)
-
 Le solitaire est un jeu à la fois familier et méconnu. Familier parceque
 tout le monde en a un au fond d'un placard, mais aussi méconnu car rares
 sont ceux qui ont eu la patience d'en venir à bout. Quelques parties
@@ -23,6 +21,8 @@ Bastille pendant la seconde moitié du XVIIe siècle. La première trace
 très près à ce jeu.
 
 <!--more-->
+
+![](solitaire.solitaire.png)
 
 Applet Java
 -----------

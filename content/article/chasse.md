@@ -10,11 +10,11 @@ lang:       fr
 toc:        
 ---
 
-![](chasse.titre.png)
-
 Cette Applet Java permet de modéliser le comportement des fourmis lorsqu'elles partent en chasse.
 
 <!--more-->
+
+![](chasse.titre.png)
 
 Applet Java
 -----------

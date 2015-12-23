@@ -10,8 +10,6 @@ lang:       fr
 toc:                  
 ---
 
-![](corewarrior.apropos.png)
-
 Core Warrior est un environnement de développement pour Core War écrit
 en Java (100 %, n'en déplaise à Bill), il peut donc fonctionner sur
 toute plateforme munie d'une machine virtuelle Java 1.1 (donc Linux,
@@ -21,6 +19,8 @@ machine virtuelle peuvent être utilisés en mode graphique ou en ligne de
 commande.
 
 <!--more-->
+
+![](corewarrior.apropos.png)
 
 Histoire de Core War
 --------------------

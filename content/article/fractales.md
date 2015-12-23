@@ -10,8 +10,6 @@ lang:       fr
 toc:        
 ---
 
-![](fractales.titre.png)
-
 J'ai le plaisir de vous convier à un voyage extraordinaire dans
 l'ensemble de Mandelbrot. Cet ensemble mathématique est d'une incroyable
 beauté, et sa complexité est quasi infinie. Son nom vient de celui du
@@ -21,6 +19,8 @@ dans l'exploration intensive de ce joyau des maths ! Pour ce faire, je
 vous suggère de tester l'applet de cette page sans plus tarder.
 
 <!--more-->
+
+![](fractales.titre.png)
 
 Applet Java
 -----------

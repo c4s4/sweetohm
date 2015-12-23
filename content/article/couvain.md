@@ -10,8 +10,6 @@ lang:       fr
 toc:        
 ---
 
-![](couvain.titre.png)
-
 On constate expérimentalement, en renversant sur une planche le contenu
 du couvain d'une fourmilière, que les fourmis trient spontanément les
 oeufs par stades d'évolution : elles font de petits tas d'oeufs, de
@@ -22,6 +20,8 @@ allons voir dans cet article que l'on peut modéliser par ordinateur ce
 comportement observé par les anthomologistes.
 
 <!--more-->
+
+![](couvain.titre.png)
 
 Applet Java
 -----------

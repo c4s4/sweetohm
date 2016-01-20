@@ -1,7 +1,7 @@
 ---
 title:      Pythenv
 date:       2015-09-29
-edited:     2016-01-20
+updated:    2016-01-20
 author:     Michel Casabianca
 email:      casa@sweetohm.net
 id:         pythenv

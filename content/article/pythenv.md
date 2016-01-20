@@ -1,6 +1,7 @@
 ---
 title:      Pythenv
 date:       2015-09-29
+edited:     2016-01-20
 author:     Michel Casabianca
 email:      casa@sweetohm.net
 id:         pythenv
@@ -29,10 +30,10 @@ foo==1.2.3
 bar
 ```
 
-Pour exécuter un script Python avec ces requirements on tapera :
+Pour exécuter un script Python avec ces requirements, on utilisera l'option *-r* :
 
 ```
-$ pythenv requirements.txt script.py arg1 arg2
+$ pythenv -r requirements.txt script.py arg1 arg2
 ```
 
 ### Embarquer les requirements dans le script

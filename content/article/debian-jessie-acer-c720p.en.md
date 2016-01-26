@@ -11,7 +11,7 @@ toc:        true
 
 The Acer C720 is a chromebook on which you can install a Linux distribution. This is a cheap solution to get a very mobile device (11.6" display in 1 kg, running more than 7 hours for around 250$). This article gathers my sources to install and run Debian Jessie on this machine.
 
-<!--more->
+<!--more-->
 
 ![Debian Logo](debian-jessie-acer-c720p-logo.png)
 

@@ -352,7 +352,7 @@ Donne, après parsing :
  'mercredi': 'des patates'}
 ```
 
-A noter qu'un alias, indiqué par une astérisque `*`, doit pointer vers une ancre valide, indiquée par une arobase `&`, sans quoi il en résulte une erreur de parsing. Ainsi le fichier suivant doit provoquer une erreur lors du parsing :
+A noter qu'un alias, indiqué par une astérisque `*`, doit pointer vers une ancre valide, indiquée par une esperluette `&`, sans quoi il en résulte une erreur de parsing. Ainsi le fichier suivant doit provoquer une erreur lors du parsing :
 
 ```yaml
 *foo

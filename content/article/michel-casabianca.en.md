@@ -45,6 +45,12 @@ Specific Skills
 Professional Experience
 -----------------------
 
+### 2015-2016: Freelance Developer
+
+At the end of 2015, I left the Orange group to work as a Freelance :
+
+- Since december 2015, I work as a Java Expert for SQLI. I mainly practice code and database audits, and estimates workload to internalize existing projects.
+
 ### 2008-2015: Expert Engineer at Orange Applications for Business
 
 In the Vodoo team (2008-2009) I worked on the video on demand project in a large team located in Bordeaux, Paris and Lille. I developed software in Java (on servers) and JavaScript (on set-top boxes).

@@ -45,6 +45,13 @@ Compétences Spécifiques
 Expérience Professionnelle
 ==========================
 
+2015-2016: Développeur Freelance
+--------------------------------
+
+Fin 2015, j'ai quitté le groupe Orange pour repasser en Freelance :
+
+- Depuis décembre 2015, je suis expert Java chez SQLI à Pessac. J'effectue pour l'essentiel des Entrées en Maintenace, donc de l'audit de code, de base de données et des estimations de plans de sécurisation.
+
 2008-2015: Ingénieur Expert chez Orange Applications for Business
 -----------------------------------------------------------------
 

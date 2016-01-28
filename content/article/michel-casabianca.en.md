@@ -1,7 +1,7 @@
 ---
 title:      "Senior Sofware Ingeneer: Software development, Architecture and Project Management"
 #author:     Michel Casabianca
-date:       2015-05-25
+date:       2016-01-28
 tags:       [cv, resume, michel casabianca]
 id:         michel-casabianca.en
 email:      casa@sweetohm.net

@@ -1,5 +1,5 @@
 ---
-title:      Template Slides
+title:      Template de Slides
 date:       2015-11-11
 author:     Michel Casabianca
 email:      casa@sweetohm.net

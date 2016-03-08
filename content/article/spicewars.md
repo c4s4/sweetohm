@@ -16,6 +16,8 @@ Un jeu de Stratégie sur l'internet
 Spice Wars est un jeu de statégie pour 3 (minimum pour que le jeu soit
 intéressant, mais il est possible de jouer seul) à 6 joueurs.
 
+<!--more-->
+
 ![](spicewars.capture.png)
 
 SpiceWars a remporté la première place à la <http://www.jcup.com> dans

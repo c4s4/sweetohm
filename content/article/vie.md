@@ -104,7 +104,7 @@ langues ont prétendu que les premiers écrans graphiques ont été conçus
 pour permettre aux informaticiens de visualiser ce jeu !
 
 Pour en savoir plus
-===================
+-------------------
 
 - La vie artificielle (Julio Fernandez Ostolaza et Alvaro Moreno
   Bergareche) chez Seuil / point découverte.

@@ -1,6 +1,6 @@
 VERSION=$(shell date -I)
 MESSAGE=Release $(VERSION)
-CV_DEST=casa@sweetohm.net:/home/web/public
+CV_DEST=casa@localhost:/home/web/public
 
 YELLOW=\033[1m\033[93m
 CYAN=\033[1m\033[96m
@@ -27,7 +27,7 @@ generate: dirs $(PDF) $(EPUB)
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
-	rsync -av public/ casa@sweetohm.net:/home/web/sweetohm/
+	rsync -av public/ ${CV_DEST}
 
 update:
 	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"

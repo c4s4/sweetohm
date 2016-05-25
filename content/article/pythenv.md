@@ -9,7 +9,6 @@ categories: [projets]
 tags:       [python]
 lang:       fr
 toc:        
-new:        true
 ---
 
 Sur Github: <https://github.com/c4s4/pythenv>

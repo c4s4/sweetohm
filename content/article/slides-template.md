@@ -8,7 +8,6 @@ categories: [projets]
 tags:       [markdown]
 lang:       fr
 toc:        false
-new:        false
 ---
 
 Sur Github: <https://github.com/c4s4/slides>

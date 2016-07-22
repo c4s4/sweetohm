@@ -1,6 +1,6 @@
 VERSION=$(shell date -I)
 MESSAGE=Release $(VERSION)
-CV_DEST=/home/web/sweetohm
+CV_DEST=/home/web/public/
 
 YELLOW=\033[1m\033[93m
 CYAN=\033[1m\033[96m

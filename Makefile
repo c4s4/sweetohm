@@ -1,5 +1,6 @@
 VERSION=$(shell date -I)
 MESSAGE=Release $(VERSION)
+SYNC_DEST=/home/web/sweetohm/
 CV_DEST=/home/web/public/
 
 YELLOW=\033[1m\033[93m
@@ -27,7 +28,7 @@ generate: dirs $(PDF) $(EPUB)
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
-	rsync -av public/ ${CV_DEST}
+	rsync -av public/ ${SYNC_DEST}
 
 update:
 	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"

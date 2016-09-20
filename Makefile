@@ -12,6 +12,12 @@ EPUB=$(patsubst content/article/%.md,public/epub/%.epub,$(wildcard content/artic
 
 all: generate
 
+init:
+	@echo "$(YELLOW)Creating virtualenv$(CLEAR)"
+	rm -rf venv
+	virtualenv venv
+	. venv/bin/activate && pip install -r requirements.txt
+
 dirs:
 	@echo "$(YELLOW)Creating directories$(CLEAR)"
 	mkdir -p public/pdf public/epub
@@ -20,7 +26,7 @@ public/pdf/%.pdf: content/article/%.md
 	md2pdf -i content/article -o $@ $<
 
 public/epub/%.epub: content/article/%.md image_dir.py
-	pandoc -t epub -o $@ --filter ./image_dir.py $<
+	. venv/bin/activate && pandoc -t epub -o $@ --filter ./image_dir.py $<
 
 generate: dirs $(PDF) $(EPUB)
 	@echo "$(YELLOW)Generating static site$(CLEAR)"
@@ -60,6 +66,7 @@ cv:
 		rm michel-casabianca.md michel-casabianca.pdf michel-casabianca.docx
 
 help:
+	@echo "$(CYAN)init$(CLEAR)      Create virtualenv"
 	@echo "$(CYAN)dirs$(CLEAR)      Create destination directories"
 	@echo "$(CYAN)generate$(CLEAR)  Generate static site"
 	@echo "$(CYAN)sync$(CLEAR)      Synchronize site with server"

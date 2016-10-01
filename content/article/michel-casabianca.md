@@ -50,7 +50,9 @@ Expérience Professionnelle
 
 Fin 2015, j'ai quitté le groupe Orange pour repasser en Freelance :
 
-- Depuis décembre 2015, je suis expert Java chez SQLI à Pessac. J'ai travaillé comme expert technique sur un projet de batch de calcul (écriture de POCs, mise en place de Spring Batch, de scripts de migration de base de données, génération des livrables, intégration continue, etc). J'ai aussi effectué des missions transverses, comme des Entrées en Maintenace (audit de code, de base de données et estimations de plans de sécurisation), de la formation Python et autres missions ponctuelles.
+- Depuis septembre 2016 je suis expert XML aux Éditions Lefebvre Sarrut. Je suis en charge de développer des outils de transformation entre formats d'ouvrages.
+
+- De décembre 2015 à août 2016 (soit 9 mois), j'ai été expert Java chez SQLI à Pessac. J'ai travaillé comme référant technique sur un projet de batch de calcul (écriture de POCs, mise en place de Spring Batch, de scripts de migration de base de données, génération des livrables, intégration continue, etc). J'ai aussi effectué des missions transverses, comme des Entrées en Maintenace (audit de code, de base de données et estimations de plans de sécurisation), de la formation Python et autres missions ponctuelles.
 
 2008-2015: Ingénieur Expert chez Orange Applications for Business
 -----------------------------------------------------------------

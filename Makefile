@@ -59,13 +59,15 @@ clean:
 
 cv:
 	@echo "$(YELLOW)Generating resume$(CLEAR)"
+	mkdir -p $(BUILD_DIR)
 	cp content/article/michel-casabianca.md $(BUILD_DIR)
 	cd $(BUILD_DIR) && \
 		md2pdf michel-casabianca.md && \
 		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
 		rm michel-casabianca.md
 	for dest in $(DESTINATIONS); do \
-		scp $(BUILD_DIR)/michel-casabianca.* $${dest}/../public/
+		scp $(BUILD_DIR)/michel-casabianca.* $${dest}/../public/; \
+	done
 
 help:
 	@echo "$(CYAN)init$(CLEAR)      Create virtualenv"

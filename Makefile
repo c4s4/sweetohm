@@ -30,7 +30,7 @@ $(BUILD_DIR)/epub/%.epub: content/article/%.md image_dir.py
 
 generate: dirs $(PDF) $(EPUB)
 	@echo "$(YELLOW)Generating static site$(CLEAR)"
-	hugoa -d $(BUILD_DIR)
+	hugo -d $(BUILD_DIR)
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"

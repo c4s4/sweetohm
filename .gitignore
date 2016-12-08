@@ -1,4 +1,4 @@
 venv/
-public/
+build/
 .idea/
 .ropeproject/

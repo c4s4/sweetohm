@@ -1,14 +1,14 @@
 VERSION=$(shell date -I)
+BUILD_DIR=build
 MESSAGE=Release $(VERSION)
-SYNC_DEST=/home/web/sweetohm/
-CV_DEST=/home/web/public/
+DESTINATIONS=casa@sweetohm.org:/home/web/sweetohm casa@sweetohm.net:/home/web/sweetohm
 
 YELLOW=\033[1m\033[93m
 CYAN=\033[1m\033[96m
 CLEAR=\033[0m
 
-PDF=$(patsubst content/article/%.md,public/pdf/%.pdf,$(wildcard content/article/*.md))
-EPUB=$(patsubst content/article/%.md,public/epub/%.epub,$(wildcard content/article/*.md))
+PDF=$(patsubst content/article/%.md,$(BUILD_DIR)/pdf/%.pdf,$(wildcard content/article/*.md))
+EPUB=$(patsubst content/article/%.md,$(BUILD_DIR)/epub/%.epub,$(wildcard content/article/*.md))
 
 all: generate
 
@@ -20,21 +20,22 @@ init:
 
 dirs:
 	@echo "$(YELLOW)Creating directories$(CLEAR)"
-	mkdir -p public/pdf public/epub
+	mkdir -p $(BUILD_DIR)/pdf $(BUILD_DIR)/epub
 
-public/pdf/%.pdf: content/article/%.md
+$(BUILD_DIR)/pdf/%.pdf: content/article/%.md
 	md2pdf -i content/article -o $@ $<
 
-public/epub/%.epub: content/article/%.md image_dir.py
+$(BUILD_DIR)/epub/%.epub: content/article/%.md image_dir.py
 	. venv/bin/activate && pandoc -t epub -o $@ --filter ./image_dir.py $<
 
 generate: dirs $(PDF) $(EPUB)
 	@echo "$(YELLOW)Generating static site$(CLEAR)"
-	hugo
+	hugoa -d $(BUILD_DIR)
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
-	rsync -av public/ ${SYNC_DEST}
+	for dest in $(DESTINATIONS); do
+		rsync -av $(BUILD_DIR) $${dest}
 
 update:
 	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"
@@ -45,7 +46,7 @@ update:
 
 server: dirs $(PDF) $(EPUB)
 	@echo "$(YELLOW)Running development server$(CLEAR)"
-	hugo server --watch
+	hugo server -d $(BUILD_DIR) --watch
 
 release:
 	@echo "$(YELLOW)Releasing project$(CLEAR)"
@@ -54,16 +55,17 @@ release:
 
 clean:
 	@echo "$(YELLOW)Cleaning generated files$(CLEAR)"
-	rm -rf public/
+	rm -rf $(BUILD_DIR)
 
 cv:
 	@echo "$(YELLOW)Generating resume$(CLEAR)"
-	cp content/article/michel-casabianca.md /tmp/
-	cd /tmp && \
+	cp content/article/michel-casabianca.md $(BUILD_DIR)
+	cd $(BUILD_DIR) && \
 		md2pdf michel-casabianca.md && \
 		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
-		scp michel-casabianca.pdf michel-casabianca.docx $(CV_DEST) && \
-		rm michel-casabianca.md michel-casabianca.pdf michel-casabianca.docx
+		rm michel-casabianca.md
+	for dest in $(DESTINATIONS); do \
+		scp $(BUILD_DIR)/michel-casabianca.* $${dest}/../public/
 
 help:
 	@echo "$(CYAN)init$(CLEAR)      Create virtualenv"

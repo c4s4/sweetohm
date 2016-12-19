@@ -35,7 +35,7 @@ generate: dirs $(PDF) $(EPUB)
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
-	rsync -av $(BUILD_DIR) $(DESTINATION)
+	rsync -av $(BUILD_DIR)/ $(DESTINATION)/
 
 update:
 	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"

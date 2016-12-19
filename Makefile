@@ -1,7 +1,8 @@
 VERSION=$(shell date -I)
 BUILD_DIR=build
 MESSAGE=Release $(VERSION)
-DESTINATIONS=casa@sweetohm.org:/home/web/sweetohm casa@sweetohm.net:/home/web/sweetohm
+DESTINATION=/home/web/sweetohm
+CV_DESTS=casa@sweetohm.org:/home/web/sweetohm casa@sweetohm.net:/home/web/sweetohm
 
 YELLOW=\033[1m\033[93m
 CYAN=\033[1m\033[96m
@@ -34,8 +35,7 @@ generate: dirs $(PDF) $(EPUB)
 
 sync:
 	@echo "$(YELLOW)Syncing website$(CLEAR)"
-	for dest in $(DESTINATIONS); do
-		rsync -av $(BUILD_DIR) $${dest}
+	rsync -av $(BUILD_DIR) $(DESTINATION)
 
 update:
 	@echo "$(YELLOW)Update site if changed on remote master$(CLEAR)"
@@ -65,7 +65,7 @@ cv:
 		md2pdf michel-casabianca.md && \
 		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
 		rm michel-casabianca.md
-	for dest in $(DESTINATIONS); do \
+	for dest in $(CV_DESTS); do \
 		scp $(BUILD_DIR)/michel-casabianca.* $${dest}/../public/; \
 	done
 

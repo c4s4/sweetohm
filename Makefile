@@ -60,13 +60,15 @@ clean:
 cv:
 	@echo "$(YELLOW)Generating resume$(CLEAR)"
 	mkdir -p $(BUILD_DIR)
-	cp content/article/michel-casabianca.md $(BUILD_DIR)
+	cp content/article/michel-casabianca*.md $(BUILD_DIR)
 	cd $(BUILD_DIR) && \
 		md2pdf michel-casabianca.md && \
+		md2pdf michel-casabianca.en.md && \
 		pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
-		rm michel-casabianca.md
+		pandoc -t docx -o michel-casabianca.en.docx michel-casabianca.en.md && \
+		rm michel-casabianca*.md
 	for dest in $(CV_DESTS); do \
-		scp $(BUILD_DIR)/michel-casabianca.* $${dest}/../public/; \
+		scp $(BUILD_DIR)/michel-casabianca*.* $${dest}/../public/; \
 	done
 
 help:

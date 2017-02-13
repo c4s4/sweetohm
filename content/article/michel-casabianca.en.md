@@ -47,9 +47,11 @@ Professional Experience
 
 ### 2015-2016: Freelance Developer
 
-At the end of 2015, I left the Orange group to work as a Freelance :
+At the end of 2015, I left the Orange group to work as a Freelance:
 
-- Since december 2015, I work as a Java Expert for SQLI. I mainly practice code and database audits, and estimates workload to internalize existing projects.
+- Since September 2016 I am XML and Java expert at Editons Lefebvre Sarrut. I'm in charge of developing tools to transform books in the editorial process.
+
+- From December 2015 to August 2016 (9 months), I have been Java Expert at SQLI in Pessac. I have been technical referent on a computation batch project (proofs of concept, Spring Batch adoption, database migration scripts, package generation, continuous integration, etc). I have also work on transverse projects, such as reception of maintenance projects (code and database audits, securisation cost estimates), Python training and other missions.
 
 ### 2008-2015: Expert Engineer at Orange Applications for Business
 

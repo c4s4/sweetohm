@@ -67,7 +67,7 @@ J'ai ensuite intégré l'équipe Telefact (2010-2013) pour développer un backen
 
 J'ai fait un bref passage dans l'équipe MonSVI (début 2014) pour mettre en place des batchs de statistique en Python et SQL.
 
-J'ai par la suite intégré début 2014 l'équipe xMS pour réfactorer le frontal de rupture de protocole sgs-enabler. Il avait été développé en Java et NIO et a été réécrit en Go. Gain de fiabilité et de performances énorme. Cette mission a donné lieu à un retour d'expérience sur Go (présenté à BDX.IO, aux DevDays et aux Midi Techniques Orange), disponible ici <http://sweetohm.net/public/go-retour-experience.html>.
+J'ai par la suite intégré début 2014 l'équipe xMS pour réfactorer le frontal de rupture de protocole sgs-enabler. Il avait été développé en Java et NIO et a été réécrit en Go. Gain de fiabilité et de performances énorme. Cette mission a donné lieu à un retour d'expérience sur Go (présenté à BDX.IO, aux DevDays et aux Midi Techniques Orange), disponible ici <http://sweetohm.net/slides/go-retour-experience/>.
 
 Pour finir, j'ai rejoint mi-2014 l'équipe Cloud pour développer des outils (en Python essentiellement) de gestion du parc des machines virtuelles.
 

@@ -65,7 +65,7 @@ I then joined the Telefact team (2010-2013), to work on payment software (credit
 
 I then worked on MonSVI team (2013-2014) on statistics batches using Python and MySQL.
 
-In 2014 I worked in the xMS team to refactor a protocol frontend named sgs-enabler. It had been developed in Java using NIO and we rewrote it in Go. This was a huge improvement in terms of of reliability and performance. This project was the subject of a presentation at BDX.IO, DevDays and Midi Techniques Orange, online at <http://sweetohm.net/public/go-retour-experience.html>.
+In 2014 I worked in the xMS team to refactor a protocol frontend named sgs-enabler. It had been developed in Java using NIO and we rewrote it in Go. This was a huge improvement in terms of of reliability and performance. This project was the subject of a presentation at BDX.IO, DevDays and Midi Techniques Orange, online at <http://sweetohm.net/slides/go-retour-experience/>.
 
 Finally I joined mid-2014 the Cloud team to develop tools to manage virtual machines, in Python.
 

@@ -9,15 +9,15 @@ email:      casa@sweetohm.net
 lang:       fr
 toc:        
 announce:   |
-	Le 11e Tournoi international d’awélé aura lieu du 14 au 17 septembre 2017
+    Le 11e Tournoi international d’awélé aura lieu du 14 au 17 septembre 2017
     à Fribourg (Suisse) dans les locaux du Centre d’animation socioculturelle
     du Schönberg. 
-	
-	L’association Internationale des Joueurs d’Awélé (AIJA) créée en 2008
+    
+    L’association Internationale des Joueurs d’Awélé (AIJA) créée en 2008
     tiendra son assemblée générale le jeudi 14 septembre à 19h.
-
-	Le 5e tournoi international de «toguzkumalak» aura lieu le dimanche 17
-	septembre.
+    
+    Le 5e tournoi international de «toguzkumalak» aura lieu le dimanche 17
+    septembre.
 ---
 
 L'awélé est le jeu du continent africain. Ses règles sont presque aussi

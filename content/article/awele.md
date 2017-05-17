@@ -9,13 +9,15 @@ email:      casa@sweetohm.net
 lang:       fr
 toc:        
 announce:   |
-    Le **10e Tournoi international d'awélé** de La Tour-de-Peilz (Suisse) aura lieu du 13 au 15 novembre 2015
-    au Musée Suisse du Jeu.
+	Le 11e Tournoi international d’awélé aura lieu du 14 au 17 septembre 2017
+    à Fribourg (Suisse) dans les locaux du Centre d’animation socioculturelle
+    du Schönberg. 
+	
+	L’association Internationale des Joueurs d’Awélé (AIJA) créée en 2008
+    tiendra son assemblée générale le jeudi 14 septembre à 19h.
 
-    L’association Internationale des Joueurs d’Awélé (AIJA) créée en 2008 tiendra son assemblée générale le
-    dimanche 15 novembre à 9h.
-
-    Le 4e tournoi de **toguzkumalak** (mancala de l'Asie Centrale), aura lieu le dimanche 15 novembre 2015.
+	Le 5e tournoi international de «toguzkumalak» aura lieu le dimanche 17
+	septembre.
 ---
 
 L'awélé est le jeu du continent africain. Ses règles sont presque aussi

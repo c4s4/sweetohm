@@ -4,6 +4,8 @@
 {{ $weight := len $tag.Pages }}
 {{ if eq $name "apple" }}
 <span data-weight="10"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
+{{ else if eq $name "python" }}
+<span data-weight="10"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
 {{ else }}
 <span data-weight="{{ $weight }}"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
 {{ end }}

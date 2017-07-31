@@ -1,0 +1,103 @@
+default:
+- clean
+- site
+- sync
+
+properties:
+  VENV_DIR:    'venv'
+  BUILD_DIR:   'build'
+  ARTICLE_DIR: 'content/article'
+  DESTINATION: '/home/web/sweetohm'
+  CV_DESTS:
+  - 'casa@sweetohm.org:/home/web/public'
+  - 'casa@sweetohm.net:/home/web/public'
+
+targets:
+
+  init:
+    doc: Create virtual encironment
+    steps:
+    - delete: '#{VENV_DIR}'
+    - '$ virtualenv #{VENV_DIR}'
+    - '. {VENV_DIR}/bin/activate && pip install -r requirements.txt'
+
+  pdf:
+    doc: Generate PDF files
+    steps:
+    - mkdir: '#{BUILD_DIR}/pdf'
+    - for: file
+      in:  'find(ARTICLE_DIR, "*.md")'
+      do:
+      - 'md = joinpath(ARTICLE_DIR, file)'
+      - 'pdf = joinpath(BUILD_DIR, "pdf", file[0:len(file)-3]+".pdf")'
+      - if: 'older(md, pdf)'
+        then:
+        - print: 'Generating "#{pdf}"'
+        - '$ md2pdf -i content/article -o "#{pdf}" "#{md}"'
+
+  epub:
+    doc: Generate Epub files
+    steps:
+    - mkdir: '#{BUILD_DIR}/epub'
+    - for: file
+      in:  'find(ARTICLE_DIR, "*.md")'
+      do:
+      - 'md = joinpath(ARTICLE_DIR, file)'
+      - 'epub = joinpath(BUILD_DIR, "epub", file[0:len(file)-3]+".epub")'
+      - if: 'older(md, epub)'
+        then:
+        - print: 'Generating "#{epub}"'
+        #- '$ . #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" --filter ./image_dir.py "#{md}"'
+        - '$ . #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" "#{md}"'
+
+  site:
+    doc: Generate static site
+    depends: [pdf, epub]
+    steps:
+    - '$ hugo -d "#{BUILD_DIR}"'
+
+  sync:
+    doc: Synchronize website
+    steps:
+    - '$ rsync -av "#{BUILD_DIR}/" "#{DESTINATION}/"'
+
+  update:
+    doc: Update site if changed on remote master
+    steps:
+    - '$ git fetch'
+    - execute: 'git rev-parse origin/master'
+      output:  'master'
+    - execute: 'git rev-parse HEAD'
+      output:  'local'
+    - if: 'local != master'
+      then:
+      - '$ git pull && neon site sync'
+
+  server:
+    doc: Run development server
+    steps:
+    - '$ hugo server -d "#{BUILD_DIR}" --watch'
+
+  cv:
+    doc: Generate resume
+    steps:
+    - mkdir: '#{BUILD_DIR}'
+    - copy:  'content/article/michel-casabianca*.md'
+      todir: '#{BUILD_DIR}'
+    - |
+      $
+      cd "#{BUILD_DIR}" && \
+      md2pdf michel-casabianca.md && \
+      md2pdf michel-casabianca.en.md && \
+      pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
+      pandoc -t docx -o michel-casabianca.en.docx michel-casabianca.en.md && \
+      rm michel-casabianca*.md
+    - for: dest
+      in:  CV_DESTS
+      do:
+      - '$ scp #{BUILD_DIR}/michel-casabianca*.* #{dest}/../public/'
+
+  clean:
+    doc: Clean generated file
+    steps:
+    - delete: '#{BUILD_DIR}'

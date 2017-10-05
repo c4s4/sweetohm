@@ -18,8 +18,8 @@ targets:
     doc: Create virtual encironment
     steps:
     - delete: '#{VENV_DIR}'
-    - '$ virtualenv #{VENV_DIR}'
-    - '. {VENV_DIR}/bin/activate && pip install -r requirements.txt'
+    - $: 'virtualenv #{VENV_DIR}'
+    - $: '. {VENV_DIR}/bin/activate && pip install -r requirements.txt'
 
   pdf:
     doc: Generate PDF files
@@ -33,7 +33,7 @@ targets:
       - if: 'older(md, pdf)'
         then:
         - print: 'Generating "#{pdf}"'
-        - '$ md2pdf -i content/article -o "#{pdf}" "#{md}"'
+        - $: 'md2pdf -i content/article -o "#{pdf}" "#{md}"'
 
   epub:
     doc: Generate Epub files
@@ -47,36 +47,36 @@ targets:
       - if: 'older(md, epub)'
         then:
         - print: 'Generating "#{epub}"'
-        #- '$ . #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" --filter ./image_dir.py "#{md}"'
-        - '$ . #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" "#{md}"'
+        #- $: '. #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" --filter ./image_dir.py "#{md}"'
+        - $: '. #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" "#{md}"'
 
   site:
     doc: Generate static site
     depends: [pdf, epub]
     steps:
-    - '$ hugo -d "#{BUILD_DIR}"'
+    - $: 'hugo -d "#{BUILD_DIR}"'
 
   sync:
     doc: Synchronize website
     steps:
-    - '$ rsync -av "#{BUILD_DIR}/" "#{DESTINATION}/"'
+    - $: 'rsync -av "#{BUILD_DIR}/" "#{DESTINATION}/"'
 
   update:
     doc: Update site if changed on remote master
     steps:
-    - '$ git fetch'
-    - execute: 'git rev-parse origin/master'
-      output:  'master'
-    - execute: 'git rev-parse HEAD'
-      output:  'local'
+    - $: 'git fetch'
+    - $: 'git rev-parse origin/master'
+      =:  'master'
+    - $: 'git rev-parse HEAD'
+      =:  'local'
     - if: 'local != master'
       then:
-      - '$ git pull && neon site sync'
+      - $: 'git pull && neon site sync'
 
   server:
     doc: Run development server
     steps:
-    - '$ hugo server -d "#{BUILD_DIR}" --watch'
+    - $: 'hugo server -d "#{BUILD_DIR}" --watch'
 
   cv:
     doc: Generate resume
@@ -84,18 +84,17 @@ targets:
     - mkdir: '#{BUILD_DIR}'
     - copy:  'content/article/michel-casabianca*.md'
       todir: '#{BUILD_DIR}'
-    - |
-      $
-      cd "#{BUILD_DIR}" && \
-      md2pdf michel-casabianca.md && \
-      md2pdf michel-casabianca.en.md && \
-      pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
-      pandoc -t docx -o michel-casabianca.en.docx michel-casabianca.en.md && \
-      rm michel-casabianca*.md
+    - $: |
+         cd "#{BUILD_DIR}" && \
+         md2pdf michel-casabianca.md && \
+         md2pdf michel-casabianca.en.md && \
+         pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
+         pandoc -t docx -o michel-casabianca.en.docx michel-casabianca.en.md && \
+         rm michel-casabianca*.md
     - for: dest
       in:  CV_DESTS
       do:
-      - '$ scp #{BUILD_DIR}/michel-casabianca*.* #{dest}/../public/'
+      - $: 'scp #{BUILD_DIR}/michel-casabianca*.* #{dest}/../public/'
 
   clean:
     doc: Clean generated file

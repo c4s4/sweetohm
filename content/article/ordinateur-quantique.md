@@ -11,6 +11,10 @@ lang:       fr
 toc:        yes
 ---
 
+Cet article est une introduction aux ordinateurs quantiques, tiré [d'une conférence](http://sweetohm.net/slides/ordinateur-quantique/) que j'ai présentée à [BDXIO 2017](https://www.bdx.io/). Elle a pour ambition d'aller plus loin que les articles de vulgarisation sur le sujet en montrant des exemples concrets algorithmes quantique.
+
+<!--more-->
+
 Pourquoi l'ordinateur Quantique ?
 ---------------------------------
 

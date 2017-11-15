@@ -16,7 +16,7 @@ Pourquoi l'ordinateur Quantique ?
 
 Nos ordinateurs classiques nous ont suffi jusqu'à maintenant...
 
-![](img/amour-ordi.png)
+![](ordinateur-quantique-amour-ordi.png)
 
 ### La Loi de Moore
 
@@ -26,7 +26,7 @@ Le nombre de transistors dans les microprocesseurs double tous les deux ans.
 
 Cette loi a été énoncée par Gordon E. Moore, l'un des trois fondateurs d'Intel, en 1975. Elle a été **très bien vérifiée** pendant de nombreuses années.
 
-![Loi de Moore](img/loi-moore.png)
+![Loi de Moore](ordinateur-quantique-loi-moore.png)
 
 ### Limites Physiques
 
@@ -44,7 +44,7 @@ Ces limites physiques conduisent au plafonnement des performances des processeur
 
 A titre d'exemple, voici l'évolution de la puissance des super-caculateurs de Météo France entre 1992 et 2016, l'échelle est **logarithmique** :
 
-![](img/evolution-meteo-france.png)
+![](ordinateur-quantique-evolution-meteo-france.png)
 
 ### Nombre d'ordinateurs croissant
 
@@ -131,7 +131,7 @@ Dans le cas de la particule quantique, c'est différent : avant la mesure, son �
 
 On peut faire le parallèle avec un billet de loterie : **tant que le tirage n'a pas eu lieu, le billet est à la fois perdant ET gagnant**. Et ce n'est pas parce qu'il nous manque des informations sur ce billet.
 
-![](img/billet-loterie.png)
+![](ordinateur-quantique-billet-loterie.png)
 
 ### Intrication quantique
 
@@ -139,7 +139,7 @@ Deux objets quantiques peuvent être **liés** de sorte que si l'on connait l'é
 
 Ainsi, à l'issu de la désintégration d'une particule en deux autres, il peut arriver que les spins de ces deux particules soient intriqués. **Si on connait le spin de l'une on peut en déduire celui de l'autre**, et ce quelle que soit la distance qui les sépare.
 
-![](img/intrication-quantique.png)
+![](ordinateur-quantique-intrication-quantique.png)
 
 On peut expliquer ce phénomène par le fait que ces particules intriquées, qui peuvent être en nombre quelconque, forment **un seul système**.
 
@@ -195,13 +195,13 @@ Il existe un très grand nombre d'autres implémentations de qubits. Mais ce qu'
 
 Voici à quoi ressemble l'ordinateur quantique d'IBM :
 
-![](img/ordinateur-ibm.png)
+![](ordinateur-quantique-ordinateur-ibm.png)
 
 ### Le processeur quantique d'IBM
 
 Le processeur quantique IBM à 16 qubits :
 
-![](img/processeur-ibm.png)
+![](ordinateur-quantique-processeur-ibm.png)
 
 ### Mise en œuvre
 
@@ -243,7 +243,7 @@ Les algorithmes quantiques sont composés de **portes quantiques** appliquées a
 - En entrée, des **qubits sont préparés** dans des états donnés.
 - En sortie, **on lit des bits**. Ce ne sont plus des qubits car la mesure du résultat fixe leur valeur et il n'y a plus de superposition d'états.
 
-![](img/algo-quantique.png)
+![](ordinateur-quantique-algo-quantique.png)
 
 En pratique, on représente souvent les algorithmes sous forme d'une **partition** dans laquelle chaque ligne représente un qubit et où les portes quantiques sont placées sur ces lignes.
 
@@ -259,7 +259,7 @@ http://quantumexperience.ng.bluemix.net
 
 Après inscription, on accède à une page, le *composer*, nous permettant d'éditer notre *partition* :
 
-![](img/ibm-composer.png)
+![](ordinateur-quantique-ibm-composer.png)
 
 ### Le composer
 
@@ -280,13 +280,13 @@ Lorsque nous avons composé notre partition, nous pouvons l'exécuter sur un **s
 
 Par exemple, si nous voulons laisser le premier qubit à l'état *|0>* et faire passer le second à l'état *|1>*, puis réaliser une mesure de ces qubits, nous composerons :
 
-![](img/partition-1.png)
+![](ordinateur-quantique-partition-1.png)
 
 Après avoir cliqué sur **Simulate**, nous obtenons la page suivante :
 
 ### Exemple de résultat
 
-![](img/resultat-1.png)
+![](ordinateur-quantique-resultat-1.png)
 
 Ce résultat se présente sous la forme d'un histogramme où :
 
@@ -301,11 +301,11 @@ Ce résultat est probabiliste comme toute mesure quantique.
 
 La porte **H** (pour *Hadamard*) transforme le qubit *|0>* en un état de superposition de *|0>* et de *|1>* à égale probabilité. Ainsi, la partition suivante :
 
-![](img/partition-2.png)
+![](ordinateur-quantique-partition-2.png)
 
 Donne le résultat suivant :
 
-![](img/resultat-2.png)
+![](ordinateur-quantique-resultat-2.png)
 
 Nous mesurons bien (quasiment) autant de *|0>* que de *|1>*.
 
@@ -313,7 +313,7 @@ Nous mesurons bien (quasiment) autant de *|0>* que de *|1>*.
 
 Pour pouvoir réaliser des calculs intéressants, il nous faut disposer de portes capables de réaliser des opérations **conditionnelles**. C'est le cas de la porte **CNOT** (pour *controlled not*) qui inverse l'état du second qubit si le premier est à *|1>* et ne fait rien sinon.
 
-![](img/partition-3.png)
+![](ordinateur-quantique-partition-3.png)
 
 Ce qui donne **00** (pour les deux premières lignes) et **11** (pour les deux suivantes).
 
@@ -321,7 +321,7 @@ Ce qui donne **00** (pour les deux premières lignes) et **11** (pour les deux s
 
 Nous pouvons intriquer deux qubits avec le circuit suivant :
 
-![](img/partition-4.png)
+![](ordinateur-quantique-partition-4.png)
 
 Ce qui donne **00** ou **11** avec la même probabilité pour le premier circuit, et **01** ou **10** avec le même probabilité, pour le deuxième circuit.
 
@@ -331,7 +331,7 @@ Dans le premier cas, les deux qubits ont la même valeur, dans le deuxième, ils
 
 Voici un exemple d'algorithme quantique qui permet de réaliser une recherche avec **√n** itérations.
 
-![](img/grover-algo.png)
+![](ordinateur-quantique-grover-algo.png)
 
 - Les deux portes H créent un **état superposé**.
 - La partie entre les portes S **inverse la valeur à rechercher** et est appelé l'Oracle.
@@ -419,7 +419,7 @@ Pour aller plus loin
 
 Pour comprendre en profondeur le fonctionnement des ordinateurs quantiques, il faut commencer par se familiariser avec la physique quantique. Je conseille donc de lire l'ouvrage de *Leonard Susskind* **Le minimum théorique, Mécanique Quantique**.
 
-![](img/minimum-theorique.png)
+![](ordinateur-quantique-minimum-theorique.png)
 
 ### The Quantum Experience
 

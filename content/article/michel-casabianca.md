@@ -45,19 +45,18 @@ Compétences Spécifiques
 Expérience Professionnelle
 ==========================
 
-2015-2016: Développeur Freelance
---------------------------------
+Depuis 2015 : Développeur Freelance
+-----------------------------------
 
 Fin 2015, j'ai quitté le groupe Orange pour repasser en Freelance :
 
 - Depuis septembre 2016 je suis expert XML et Java aux Éditions Lefebvre Sarrut. A cours de cette mission, j'ai mené à bien les projets suivants :
-  - Transformation de encyclopédies Dalloz de l'ancien format vers la nouvelle DTD (XSLT 2.0)
-  - Développement de la nouvelle chaîne de publication XML (Java, Golang et XSLT).
-
+  - Transformation de encyclopédies Dalloz de l'ancien format vers la nouvelle DTD (XML et XSLT 2.0)
+  - Développement de la nouvelle chaîne de publication XML pour les ouvrages et encyclopédies Dalloz (Java, Golang et XSLT 2.0).
 - De décembre 2015 à août 2016 (soit 9 mois), j'ai été expert Java chez SQLI à Pessac. J'ai travaillé comme référant technique sur un projet de batch de calcul (écriture de POCs, mise en place de Spring Batch, de scripts de migration de base de données, génération des livrables, intégration continue, etc). J'ai aussi effectué des missions transverses, comme des Entrées en Maintenace (audit de code, de base de données et estimations de plans de sécurisation), de la formation Python et autres missions ponctuelles.
 
-2008-2015: Ingénieur Expert chez Orange Applications for Business
------------------------------------------------------------------
+2008-2015 : Ingénieur Expert chez Orange Applications for Business
+------------------------------------------------------------------
 
 Au sein de l'équipe Vodoo (2008-2009), j'ai travaillé sur un projet de vidéo à la demande au sein d'une vaste équipe localisée à Bordeaux, Paris et Lille. Travail sur du logiciel Java (côté serveur) et JavaScript (côté box TV).
 
@@ -83,8 +82,8 @@ A l'occasion de ces missions, j'ai été amené à développer des outils utilis
 
 Pour finir, j'ai eu l'occasion d'animer au sein d'OAB de nombreux ateliers et formations sur des thèmes techniques tels que Python, Django, YAML, Go et Raspberry Pi.
 
-2007-2008: Développeur indépendant
-----------------------------------
+2007-2008 : Développeur indépendant
+-----------------------------------
 
 Après mon départ d'In-Fusio, suite à un plan social, je me suis mis à mon compte en tant que développeur indépendant. A cette occasion, j'ai mené à bien les missions suivantes :
 
@@ -92,8 +91,8 @@ Après mon départ d'In-Fusio, suite à un plan social, je me suis mis à mon co
 - Unedic (4 mois) : développement d'une interface de connexion à LDAP pour configuration.
 - CVF (9 mois) : mission d'expertise Java (développée dans la section ci-dessus).
 
-2000-2007: Expert Java et XML chez In-Fusio
--------------------------------------------
+2000-2007 : Expert Java et XML chez In-Fusio
+--------------------------------------------
 
 Dans le département R&D chez In-Fusio, société Bordelaise de services de jeu sur téléphone mobile ayant développé des technologies côté téléphone (ExEn et EGE) et côté serveur (Gamezilla). La plateforme Gamezilla gère les interactions avec les joueurs, téléchargements et SMS, depuis 2001 avec une disponibilité supérieure à 99 %. Gamezilla a géré plus de 20 millions de joueurs ayant effectué 30 millions de téléchargements et 220 millions d’interactions dans 45 pays.
 
@@ -107,8 +106,8 @@ Formations en interne données aux membres des équipes sur les bases de Java et
 
 Chef de projet en intérim pendant 6 mois pour l’équipe GameZilla (6 développeurs).
 
-1996-2000: Auteur, Conférencier et développeur Indépendant
-----------------------------------------------------------
+1996-2000 : Auteur, Conférencier et développeur Indépendant
+-----------------------------------------------------------
 
 Travaux d'édition pour les Éditions O'Reilly :
 
@@ -158,10 +157,13 @@ D'autre part, j'interviens régulièrement dans des conférences sur des sujets 
 - Conférences sur les thèmes *Java et Linux* et *Développement XML en Java* aux Journées du Libre III (à Strasbourg).
 - Conférence sur le thème *Développement XML en Java* à la Linux Expo de Paris en janvier 2001.
 - Conférence sur le thème *Outils J2EE Open Source* à la Linux Expo de février 2002 à Paris.
-- Conférence sur Bee au Rencontres Mondiales du Logiciel Libre en juillet 2010.
-- Conférence Retour d'expérience sur Go aux DevDays en octobre 2014.
-- Conférence Retour d'expérience sur Go à BDX.IO en octobre 2014.
-- Conférence Faut-t-il passer à Python 3 ? à BDX.io en octobre 2015.
+- Conférence sur *Bee* au Rencontres Mondiales du Logiciel Libre en juillet 2010.
+- Conférence *Retour d'expérience sur Go* aux DevDays en octobre 2014.
+- Conférence *Retour d'expérience sur Go* à BDX.IO en octobre 2014.
+- Conférence *Faut-t-il passer à Python 3 ?* à BDX.io en octobre 2015.
+- Conférence *Michel développeur à 50 ans* à BDX.io (keynote) en octobre 2016.
+- Conférence *Migration BDD* à BDX.io en octobre 2016.
+- Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* à BDX.io en novembre 2017.
 
 Pour finir, quelques activités personnelles dans le domaine de l'informatique :
 

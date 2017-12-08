@@ -45,12 +45,13 @@ Specific Skills
 Professional Experience
 -----------------------
 
-### 2015-2016: Freelance Developer
+### Since 2015: Freelance Developer
 
 At the end of 2015, I left the Orange group to work as a Freelance:
 
-- Since September 2016 I am XML and Java expert at Editons Lefebvre Sarrut. I'm in charge of developing tools to transform books in the editorial process.
-
+- Since September 2016 I am XML and Java expert at Editons Lefebvre Sarrut. During this mission, I have conducted following projects:
+  - Transformation from old Dalloz encyclopedia format to the new DTD (XML and XSLT 2.0).
+  - Development of the new XML publication line for Dalloz books and encyclopedias (Java, Golang and XSLT 2.0).
 - From December 2015 to August 2016 (9 months), I have been Java Expert at SQLI in Pessac. I have been technical referent on a computation batch project (proofs of concept, Spring Batch adoption, database migration scripts, package generation, continuous integration, etc). I have also work on transverse projects, such as reception of maintenance projects (code and database audits, securisation cost estimates), Python training and other missions.
 
 ### 2008-2015: Expert Engineer at Orange Applications for Business
@@ -149,7 +150,10 @@ I have been speakers at following lectures:
 - *Bee* at Rencontres Mondiales du Logiciel Libre in July 2010.
 - *Putting Go in Production* at DevDays in October 2014.
 - *Putting Go in Production* at BDX.IO in October 2014.
-- *Should you migrate to Python 3?* at BDX.io in october 2915.
+- *Should you migrate to Python 3?* at BDX.io in October 2015.
+- *Michel, 50 years old developer* (keynote) at BDX.io in October 2016.
+- *Database Migration* at BDX.io in October 2016.
+- *Quantum Computer: Myth or Reality?* at BDX.io in November 2017.
 
 Few activities related to computer science:
 

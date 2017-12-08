@@ -9,7 +9,7 @@ properties:
   ARTICLE_DIR: 'content/article'
   DESTINATION: '/home/web/sweetohm'
   CV_DESTS:
-  - 'casa@sweetohm.org:/home/web/public'
+  #- 'casa@sweetohm.org:/home/web/public'
   - 'casa@sweetohm.net:/home/web/public'
 
 targets:

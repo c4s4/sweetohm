@@ -1,0 +1,19 @@
+{{ $taxonomies := .Site.Taxonomies.categories }}
+{{ range $category := .Site.Params.categories }}
+{{ range $key, $taxonomy := $taxonomies }}
+{{ if eq $category $key }}
+<!-- <div class="panel panel-primary"> -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{ $key | title }}</h3>
+  </div>
+  <div class="panel-body">
+    {{ range $taxonomy.Pages }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}
+    </a><br>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

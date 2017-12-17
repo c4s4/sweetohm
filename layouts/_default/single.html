@@ -1,0 +1,37 @@
+<!DOCTYPE html>                                                                                                                
+<html lang="{{ .Params.lang }}">
+
+{{ partial "header.html" . }}
+
+<body>
+
+{{ partial "jumbo.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-3 hidden-sm hidden-xs">
+{{ partial "menu-cv.html" . }}
+{{ partial "poweredby.html" . }}
+</div>
+
+<div class="col-md-9 col-sm-12">
+
+<div class="page-header">
+    <h1 class="title">Michel Casabianca</h1>
+</div>
+
+</div>
+</div>
+</div>
+
+{{ partial "footer.html" . }}
+
+{{ partial "javascript.html" . }}
+
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 ---
 title:      "Ingénieur Logiciel Sénior : Développement, Architecture et Conduite de Projet"
 #author:     Michel Casabianca
-date:       2016-10-01
+date:       2017-12-17
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         michel-casabianca

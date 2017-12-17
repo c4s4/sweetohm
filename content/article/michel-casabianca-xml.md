@@ -22,7 +22,7 @@ Collaboration avec les Éditions O'Reilly
 J'ai utilisé XML et XSLT lorsque je travaillais en freelance pour les Editions O'Reilly.
 
 - Développement du générateur de site web des Éditions O'Reilly, basé sur XML et XSLT. Article décrivant le moteur : <http://sweetohm.net/article/ant-web.html>. La précédente version de mon site web était basée sur ce moteur : <http://sweetohm.net/vintage/>.
-- Coauteur du livre *XML Précis et Concis* (partie XSLT). Traduit aux États-Unis, en Allemagne et au Japon.
+- Coauteur de *XML Précis et Concis* (traduit en Anglais, Allemand et Japonais), dont le chapitre sur XSLT a été repris dans la dernière édition de Webmaster in a Nutshell.
 
 Expert Java et XML chez In-Fusio
 --------------------------------

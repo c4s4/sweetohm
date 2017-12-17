@@ -1,7 +1,4 @@
-default:
-- clean
-- site
-- sync
+default: site
 
 properties:
   VENV_DIR:    'venv'

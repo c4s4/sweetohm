@@ -60,6 +60,7 @@ targets:
   update:
     doc: Update site if changed on remote master
     steps:
+    - print: 'Update at #{now()}'
     - $: 'git fetch'
     - $: 'git rev-parse origin/master'
       =:  'master'

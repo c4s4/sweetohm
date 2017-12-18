@@ -16,7 +16,7 @@ targets:
     steps:
     - delete: '#{VENV_DIR}'
     - $: 'virtualenv #{VENV_DIR}'
-    - $: '. {VENV_DIR}/bin/activate && pip install -r requirements.txt'
+    - $: '. #{VENV_DIR}/bin/activate && pip install -r requirements.txt'
 
   pdf:
     doc: Generate PDF files
@@ -44,8 +44,7 @@ targets:
       - if: 'older(md, epub)'
         then:
         - print: 'Generating "#{epub}"'
-        #- $: '. #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" --filter ./image_dir.py "#{md}"'
-        - $: '. #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" "#{md}"'
+        - $: '. #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" --filter ./image_dir.py "#{md}"'
 
   site:
     doc: Generate static site

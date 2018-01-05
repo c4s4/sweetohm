@@ -1,11 +1,11 @@
 ---
 title:      "Expérience Java"
-#author:     Michel Casabianca
+author:     Michel Casabianca
 date:       2017-12-17
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         michel-casabianca-java
-#email:      casa@sweetohm.net
+email:      casa@sweetohm.net
 lang:       fr
 toc:        false
 ---

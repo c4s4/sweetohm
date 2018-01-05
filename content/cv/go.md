@@ -1,11 +1,11 @@
 ---
 title:      "Expérience Go"
-#author:     Michel Casabianca
+author:     Michel Casabianca
 date:       2018-01-05
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         go
-#email:      casa@sweetohm.net
+email:      casa@sweetohm.net
 lang:       fr
 toc:        false
 ---

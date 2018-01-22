@@ -14,14 +14,14 @@ targets:
   init:
     doc: Create virtual encironment
     steps:
-    - delete: '#{VENV_DIR}'
-    - $: 'virtualenv #{VENV_DIR}'
-    - $: '. #{VENV_DIR}/bin/activate && pip install -r requirements.txt'
+    - delete: '={VENV_DIR}'
+    - $: 'virtualenv ={VENV_DIR}'
+    - $: '. ={VENV_DIR}/bin/activate && pip install -r requirements.txt'
 
   pdf:
     doc: Generate PDF files
     steps:
-    - mkdir: '#{BUILD_DIR}/pdf'
+    - mkdir: '={BUILD_DIR}/pdf'
     - for: file
       in:  'find(ARTICLE_DIR, "*.md")'
       do:
@@ -29,13 +29,13 @@ targets:
       - 'pdf = joinpath(BUILD_DIR, "pdf", file[0:len(file)-3]+".pdf")'
       - if: 'older(md, pdf)'
         then:
-        - print: 'Generating "#{pdf}"'
-        - $: 'md2pdf -i content/article -o "#{pdf}" "#{md}"'
+        - print: 'Generating "={pdf}"'
+        - $: 'md2pdf -i content/article -o "={pdf}" "={md}"'
 
   epub:
     doc: Generate Epub files
     steps:
-    - mkdir: '#{BUILD_DIR}/epub'
+    - mkdir: '={BUILD_DIR}/epub'
     - for: file
       in:  'find(ARTICLE_DIR, "*.md")'
       do:
@@ -43,24 +43,24 @@ targets:
       - 'epub = joinpath(BUILD_DIR, "epub", file[0:len(file)-3]+".epub")'
       - if: 'older(md, epub)'
         then:
-        - print: 'Generating "#{epub}"'
-        - $: '. #{VENV_DIR}/bin/activate && pandoc -t epub -o "#{epub}" --filter ./image_dir.py "#{md}"'
+        - print: 'Generating "={epub}"'
+        - $: '. ={VENV_DIR}/bin/activate && pandoc -t epub -o "={epub}" --filter ./image_dir.py "={md}"'
 
   site:
     doc: Generate static site
     depends: [pdf, epub]
     steps:
-    - $: 'hugo -d "#{BUILD_DIR}"'
+    - $: 'hugo -d "={BUILD_DIR}"'
 
   sync:
     doc: Synchronize website
     steps:
-    - $: 'rsync -av "#{BUILD_DIR}/" "#{DESTINATION}/"'
+    - $: 'rsync -av "={BUILD_DIR}/" "={DESTINATION}/"'
 
   update:
     doc: Update site if changed on remote master
     steps:
-    - print: 'Update at #{now()}'
+    - print: 'Update at ={now()}'
     - $: 'git fetch'
     - $: 'git rev-parse origin/master'
       =:  'master'
@@ -73,27 +73,26 @@ targets:
   server:
     doc: Run development server
     steps:
-    - $: 'hugo server -d "#{BUILD_DIR}" --watch'
+    - $: 'hugo server -d "={BUILD_DIR}" --watch'
 
   cv:
     doc: Generate resume
+    depends: clean
     steps:
-    - mkdir: '#{BUILD_DIR}'
-    - copy:  'content/article/michel-casabianca*.md'
-      todir: '#{BUILD_DIR}'
-    - $: |
-         cd "#{BUILD_DIR}" && \
-         md2pdf michel-casabianca.md && \
-         md2pdf michel-casabianca.en.md && \
-         pandoc -t docx -o michel-casabianca.docx michel-casabianca.md && \
-         pandoc -t docx -o michel-casabianca.en.docx michel-casabianca.en.md && \
-         rm michel-casabianca*.md
+    - mkdir: '={BUILD_DIR}'
+    - for: file
+      in:  'find("content/cv", "*.md")'
+      do:
+      - 'base = file[0:len(file)-3]'
+      - $: ['md2pdf', '-o', '={BUILD_DIR}/michel-casabianca-={base}.pdf', 'content/cv/={file}']
+      - $: ['pandoc', '-t', 'docx', '-o', '={BUILD_DIR}/michel-casabianca-={base}.docx', 'content/cv/={file}']
+      
     - for: dest
       in:  CV_DESTS
       do:
-      - $: 'scp #{BUILD_DIR}/michel-casabianca*.* #{dest}/../public/'
+      - $: 'scp ={BUILD_DIR}/* ={dest}/../public/'
 
   clean:
     doc: Clean generated file
     steps:
-    - delete: '#{BUILD_DIR}'
+    - delete: '={BUILD_DIR}'

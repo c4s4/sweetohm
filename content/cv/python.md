@@ -12,7 +12,7 @@ toc:        false
 
 Voici un résumé de mon expérience dans le domaine du Python. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).
 
-J'ai commençé à utiliser le langage Python en 1998 et je l'ai depuis utilisé comme mon langage de script de prédilection. Je l'ai aussi mis en œuvre avec le framework Django pour développer des application web.
+J'ai commencé à utiliser le langage Python en 1998 et je l'ai depuis utilisé comme mon langage de script de prédilection. Je l'ai aussi mis en œuvre avec le framework Django pour développer des applications web.
 
 Ingénieur Expert chez OAB (7 ans)
 ---------------------------------

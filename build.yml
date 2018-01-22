@@ -79,18 +79,23 @@ targets:
     doc: Generate resume
     depends: clean
     steps:
-    - mkdir: '={BUILD_DIR}'
+    - 'CV_DIR = joinpath(BUILD_DIR, "michel-casabianca")'
+    - mkdir: '={CV_DIR}'
     - for: file
       in:  'find("content/cv", "*.md")'
       do:
       - 'base = file[0:len(file)-3]'
-      - $: ['md2pdf', '-o', '={BUILD_DIR}/michel-casabianca-={base}.pdf', 'content/cv/={file}']
-      - $: ['pandoc', '-t', 'docx', '-o', '={BUILD_DIR}/michel-casabianca-={base}.docx', 'content/cv/={file}']
-      
+      - $: ['md2pdf', '-o', '={CV_DIR}/={base}.pdf', 'content/cv/={file}']
+      - $: ['pandoc', '-t', 'docx', '-o', '={CV_DIR}/={base}.docx', 'content/cv/={file}']
     - for: dest
       in:  CV_DESTS
       do:
-      - $: 'scp ={BUILD_DIR}/* ={dest}/../public/'
+      - $: 'scp ={CV_DIR}/* ={dest}/../public/'
+    - zip:     '*'
+      dir:     =CV_DIR
+      exclude: '*.en.*'
+      prefix:  'michel-casabianca'
+      tofile:  '~/dsk/michel-casabianca.zip'
 
   clean:
     doc: Clean generated file

@@ -1,7 +1,7 @@
 ---
 title:      "Ingénieur Logiciel Sénior : Développement, Architecture et Conduite de Projet"
 #author:     Michel Casabianca
-date:       2017-12-17
+date:       2018-01-22
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         michel-casabianca
@@ -30,7 +30,7 @@ Technologie Maîtrisées
 - Technologies Web : JavaScript (JQuery), Servlets, JSP (JSTL), Django, Flask, Ruby on Rails, Sinatra, Web Services (XML-RPC et Soap), Rest.
 - Bases de données : SQL sur MySQL, Oracle, PostgresQL et SQLite.
 - Méthodologies : Programmation Orientée Objet, Patterns, Extreme Programming, Développement Agile et Open Source.
-- Documentation : Markdown et Rest, XML (écriture de DTDs, XSLT, XPath, Xpointer et APIs SAX, DOM et JDOM), LaTeX, SGML (HTML et Linux Doc).
+- Documentation : Markdown et Rest, XML (écriture de DTDs, XSLT 1.0 et 2.0, XPath, Xpointer et APIs SAX, DOM et JDOM), LaTeX, SGML (HTML et Linux Doc).
 - Systèmes d'exploitation : Unix (Linux, Solaris et MacOSX) et Windows.
 
 Compétences Spécifiques
@@ -50,9 +50,9 @@ Depuis 2015 : Développeur Freelance
 
 Fin 2015, j'ai quitté le groupe Orange pour repasser en Freelance :
 
-- Depuis septembre 2016 je suis expert XML et Java aux Éditions Lefebvre Sarrut. A cours de cette mission, j'ai mené à bien les projets suivants :
+- De septembre 2016 à janvier 2018 (soit 17 mois), j'ai été expert XML et Java aux Éditions Lefebvre Sarrut. A cours de cette mission, j'ai mené à bien les projets suivants :
   - Transformation de encyclopédies Dalloz de l'ancien format vers la nouvelle DTD (XML et XSLT 2.0)
-  - Développement de la nouvelle chaîne de publication XML pour les ouvrages et encyclopédies Dalloz (Java, Golang et XSLT 2.0).
+  - Développement de la nouvelle chaîne de publication XML pour les ouvrages et encyclopédies Dalloz (XSLT 2.0, Java, Golang et Webservice).
 - De décembre 2015 à août 2016 (soit 9 mois), j'ai été expert Java chez SQLI à Pessac. J'ai travaillé comme référant technique sur un projet de batch de calcul (écriture de POCs, mise en place de Spring Batch, de scripts de migration de base de données, génération des livrables, intégration continue, etc). J'ai aussi effectué des missions transverses, comme des Entrées en Maintenace (audit de code, de base de données et estimations de plans de sécurisation), de la formation Python et autres missions ponctuelles.
 
 2008-2015 : Ingénieur Expert chez Orange Applications for Business

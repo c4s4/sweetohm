@@ -10,8 +10,6 @@ lang:       fr
 toc:        false
 ---
 
-![](michel-casabianca-java.png)
-
 Voici un résumé de mon expérience dans le domaine du Java. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).
 
 J'ai commencé le développement logiciel en freelance avec Java en 1996. Je pratique depuis plus de vingt ans ce langage de programmation avec enthousiasme, mais en connais aussi les travers. J'ai eu l'occasion de pratiquer la plupart des principaux frameworks (Spring, Hibernate et autres frameworks web).

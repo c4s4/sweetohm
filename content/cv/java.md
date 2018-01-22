@@ -1,7 +1,7 @@
 ---
 title:      "Expérience Java"
 author:     Michel Casabianca
-date:       2017-12-17
+date:       2018-01-22
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         michel-casabianca-java
@@ -12,7 +12,41 @@ toc:        false
 
 Voici un résumé de mon expérience dans le domaine du Java. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).
 
-J'ai commencé le développement logiciel en freelance avec Java en 1996. Je pratique depuis plus de vingt ans ce langage de programmation avec enthousiasme, mais en connais aussi les travers. J'ai eu l'occasion de pratiquer la plupart des principaux frameworks (Spring, Hibernate et autres frameworks web).
+J'ai commencé mon activité de freelance avec des contrats Java en 1996. Je pratique depuis régulièrement ce langage avec enthousiasme, mais ayant connu toutes les errances de l'écosystème (EJB, fichiers de configuration XML) et ayant pratiqué d'autres langages, j'en connais aussi les limites. J'ai eu l'occasion de pratiquer la plupart des principaux frameworks (Spring, Hibernate et la plupart des frameworks web).
+
+Expert XML et Java chez ELS Gestion (17 mois)
+---------------------------------------------
+
+J'y ai sécurisé des applications Java, par application de bonnes pratiques, comme la gestion des exceptions.
+
+Expert Java chez SQLI (9 mois)
+------------------------------
+
+Au sein du pôle d'expertise Java, j'ai travaillé comme référant technique sur un projet de batch de calcul avec Spring Batch. J'y ai aussi effectué de nombreuses entrées en maintenance, avec revue de code Java, mise en place de métriques de qualité de code et plan de sécurisation.
+
+Expert Java chez OAB (7 ans)
+----------------------------
+
+J'y ai travaillé sur des projets Java pour l'essentiel :
+
+- Projet de vidéo à la demande Vodoo (2 années) : essentiellement une application web en Java.
+- Passage à la norme bancaire PCIDSS d'applications bancaires web Java (2 années).
+
+Expert Java et XML chez In-Fusion (7 ans)
+-----------------------------------------
+
+J'y ai travaillé pendant 7 années sur des projets Java backend pour l'essentiel, mettant en œuvre nombre de frameworks Java, tels que EJB, Servlets, JSP, Struts et JMX, mais aussi des technologies Java, comme des Security Managers et Class Loaders.
+
+Certaines réalisations ont donné lieu à des exemples de mise en œuvre dans des articles :
+
+- Un framework pour développement de jeux WAP basé sur XML et XSLT, décrit à la fin de l'article <http://sweetohm.net/article/java-xml.html>.
+- Programmation d’applications modulaires (système de logs de GameZilla), décrit à la fin de l'article <http://sweetohm.net/article/xml-java.html>.
+
+Par ailleurs, j'ai été architecte logiciel chez In-Fusio :
+
+- Généralisation des tests unitaires avec JUnit.
+- Mise en place d'une intégration continue.
+- Mise en place de webservices pour remplacer les EJBs.
 
 Collaboration avec les Éditions O'Reilly
 ----------------------------------------
@@ -23,19 +57,14 @@ J'ai travaillé en freelance pour les Editions O'Reilly, avec du travail de trad
 - Relecture technique de *Java Examples in a Nutshell*, *Ant précis et concis*, *Java et SOAP* et *Java plus rapide, plus léger*.
 - Écriture d’articles Java et brèves sur leur site.
 
-Expert Java et XML pour In-Fusio
---------------------------------
+Conférences sur des thèmes Java
+-------------------------------
 
-J'ai été expert Java pendant 7 ans chez In-Fusio, société Bordelaise de jeu sur téléphones mobiles. J'y ai développé près de la moitié des logiciels de la plateforme serveur Gamezilla, des applications web pour l’essentiel (Servlets, JSP et PHP, mais aussi Python et Ruby).
+J'ai eu l'occasion de présenter nombre de conférences sur des thèmatiques Java :
 
-Élaboration de l’architecture de Gamezilla, tout d’abord en tant qu’expert (en l’absence d’architecte logiciel), puis au poste d’architecte. J'y ai remplacé les composants EJB par des webservices XML-RPC. Nous avons ainsi gagné un facteur *10* en performances.
-
-J'ai aussi mis en place d’un processus de développement comportant une gestion des dépendances, un nightly build ainsi qu’une suite d’outils de développement, gestion centralisée de la documentation (à l’aide d’un Wiki).
-
-Activités de veille technologique sur les serveurs d’application Java (choix de BEA Weblogic), JMX (management d’applications Java), Maven (build d’applications Java) et JSR 124 (Java Vending Machines).
-
-Formations en interne données aux membres des équipes sur les bases de Java et la programmation objet ainsi que sur XML et XSLT.
-
-Chef de projet en intérim pendant 6 mois pour l’équipe GameZilla (6 développeurs).
-
-
+- *Java et Linux* à la Linux Expo de Paris en juin 1999.
+- *Développement XML en Java* à la Linux Expo Paris de février 2000 (modérateur session *Java et Linux*).
+- *Développement XML en Java* à la Linux Expo Montréal d'avril 2000 (modérateur session *Linux Application Development*).
+- *Java et Linux* et *Développement XML en Java* aux Journées du Libre III (à Strasbourg).
+- *Développement XML en Java* à la Linux Expo de Paris en janvier 2001.
+- *Outils J2EE Open Source* à la Linux Expo de février 2002 à Paris.

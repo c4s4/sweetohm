@@ -1,7 +1,7 @@
 ---
 title:      "Expérience XML"
 author:     Michel Casabianca
-date:       2017-12-17
+date:       2018-01-22
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         michel-casabianca-xml
@@ -12,7 +12,24 @@ toc:        false
 
 Voici un résumé de mon expérience dans le domaine du XML. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).
 
-J'ai découvert XML en 1998 pour développer le générateur du site des Editions O'Reilly. J'ai par le suite beaucoup utilisé XML et XSLT, dans le milieu de l'édition pour l'essentiel.
+J'ai découvert XML en 1998 pour développer le générateur du site des Editions O'Reilly. J'ai par le suite beaucoup utilisé XML et XSLT, dans le développement d'applications Java et dans milieu de l'édition d'ouvrages techniques.
+
+Expert XML et Java chez ELS Gestion
+-----------------------------------
+
+J'ai travaillé en freelance pour ELS Gestion en tant qu'expert XML et Java pendant 17 mois (de septembre 2016 à janvier 2018). J'y ai réalisé les développements suivants :
+
+- Transformation de encyclopédies Dalloz de l’ancien format vers la nouvelle DTD (XML et XSLT 2.0).
+- Développement de la nouvelle chaîne de publication XML pour les ouvrages et encyclopédies Dalloz (XSLT 2.0, Java, Golang et Webservice).
+
+Expert Java et XML chez In-Fusio
+--------------------------------
+
+J'ai été Ingénieur Expert Java et XML chez In-Fusio pendant sept ans. J'ai eu l'occasion d'y développer nombre d'applications basées sur XML, dont :
+
+- Un framework pour développement de jeux WAP basé sur XML et XSLT, décrit à la fin de l'article <http://sweetohm.net/article/java-xml.html>.
+- Programmation d’applications modulaires (système de logs de GameZilla), décrit à la fin de l'article <http://sweetohm.net/article/xml-java.html>.
+- Nombre d'autre applications Java utilisant des APIs SAX, DOM et JDom.
 
 Collaboration avec les Éditions O'Reilly
 ----------------------------------------
@@ -22,29 +39,15 @@ J'ai utilisé XML et XSLT lorsque je travaillais en freelance pour les Editions 
 - Développement du générateur de site web des Éditions O'Reilly, basé sur XML et XSLT. Article décrivant le moteur : <http://sweetohm.net/article/ant-web.html>. La précédente version de mon site web était basée sur ce moteur : <http://sweetohm.net/vintage/>.
 - Coauteur de *XML Précis et Concis* (traduit en Anglais, Allemand et Japonais), dont le chapitre sur XSLT a été repris dans la dernière édition de Webmaster in a Nutshell.
 
-Expert Java et XML chez In-Fusio
---------------------------------
-
-J'ai été Ingénieur Expert Java et XML chez In-Fusio pendant sept ans. J'ai eu l'occasion d'y développer nombre d'applications basées sur XML, dont :
-
-- Un framework pour développement de jeux WAP basé sur XML et XSLT, décrit à la fin de l'article <http://sweetohm.net/article/java-xml.html>.
-- Programmation d’applications modulaires (système de logs de GameZilla), décrit à la fin de l'article <http://sweetohm.net/article/xml-java.html>.
-
-Expert XML et Java aux Éditions Lefebvre-Sarrut
------------------------------------------------
-
-J'ai pratiqué de nouveau XML et XSLT lors de ma mission d'expertise XML et Java aux Editions Lefebvre-Sarrut.
-
-- Transformation de encyclopédies Dalloz de l’ancien format vers la nouvelle DTD (XML et XSLT 2.0)
-- Développement de la nouvelle chaîne de publication XML pour les ouvrages et encyclopédies Dalloz (Java, Golang et XSLT 2.0).
-
 Cycle de conférences XML
 ------------------------
 
-- Conférence sur le thème Développement XML en Java à la Linux Expo Paris de février 2000 (modérateur session Java et Linux).
-- Conférence sur le thème Développement XML en Java à la Linux Expo Montréal d'avril 2000 (modérateur session Linux Application Development).
-- Conférence sur le thème Développement XML en Java aux Journées du Libre III (à Strasbourg).
-- Conférence sur le thème Développement XML en Java à la Linux Expo de Paris en janvier 2001.
+J'ai présenté des conférences sur des thèmes XML :
+
+- *Développement XML en Java sous Linux* à la Linux Expo Paris de février 2000 (modérateur session Java et Linux).
+- *Développement XML en Java sous Linux* à la Linux Expo Montréal d'avril 2000 (modérateur session Linux Application Development).
+- *Développement XML en Java sous Linux* aux Journées du Libre III (à Strasbourg).
+- *Développement XML en Java* à la Linux Expo de Paris en janvier 2001.
 
 Le texte de ces conférences est disponible sur mon site :
 

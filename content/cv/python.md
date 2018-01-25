@@ -38,7 +38,7 @@ Expert Java XML chez In-Fusio (7 ans)
 
 J'ai commencé à mettre en œuvre Python chez In-Fusio pour développer un serveur de binaires téléchargés par les téléphones mobiles. Je l'ai aussi utilisé pour développer un outil d'intégration continue maison (nous étions en 2004).
 
-C'est à l'occasion de ces développements que je me suis rendu compte que Python permet un développement plus rapide que Java et que ses performances peuvent être bien meilleurs dans certains domaines.
+C'est à l'occasion de ces développements que je me suis rendu compte que Python permet un développement plus rapide que Java et que ses performances peuvent être bien meilleures dans certains domaines.
 
 Conférences sur des thématiques Python
 --------------------------------------

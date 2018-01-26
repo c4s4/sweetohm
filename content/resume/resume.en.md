@@ -12,6 +12,14 @@ announce:   |
     à partir du début du mois de février 2018.
 ---
 
+Here is my complete resume. Resumes by technology are available for
+[Java](http://sweetohm.net/resume/java.html),
+[Golang](http://sweetohm.net/resume/golang.html),
+[Python](http://sweetohm.net/resume/python.html)
+and [XML/XSLT](http://sweetohm.net/resume/xml.html).
+
+<!--more-->
+
 ```
 Michel Casabianca
 110 cours Saint Louis

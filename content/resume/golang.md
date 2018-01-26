@@ -13,7 +13,9 @@ announce:   |
     à partir du début du mois de février 2018.
 ---
 
-Voici un résumé de mon expérience dans le domaine du Go. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).
+Voici un résumé de mon expérience dans le domaine du Go. Une [version complète de mon CV est disponible ici](http://sweetohm.net/resume/resume.html).
+
+<!--more-->
 
 Mise en œuvre chez Orange
 -------------------------

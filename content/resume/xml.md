@@ -13,7 +13,7 @@ announce:   |
     à partir du début du mois de février 2018.
 ---
 
-Voici un résumé de mon expérience dans le domaine du XML. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).
+Voici un résumé de mon expérience dans le domaine du XML. Une [version complète de mon CV est disponible ici](http://sweetohm.net/resume/resume.html).
 
 J'ai découvert XML en 1998 pour développer le générateur du site des Editions O'Reilly. J'ai par le suite beaucoup utilisé XML et XSLT, dans le développement d'applications Java et dans milieu de l'édition d'ouvrages techniques.
 

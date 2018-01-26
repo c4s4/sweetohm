@@ -1,13 +1,16 @@
 ---
-title:      "Ingénieur Logiciel Sénior : Développement, Architecture et Conduite de Projet"
+title:      "Curriculum Vitae"
 #author:     Michel Casabianca
 date:       2018-01-22
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
-id:         michel-casabianca
+id:         resume
 #email:      casa@sweetohm.net
 lang:       fr
 toc:        false
+announce:   |
+    Ma mission en cours se terminant fin janvier, je serai disponible
+    à partir du début du mois de février 2018.
 ---
 
 ```

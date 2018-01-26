@@ -8,6 +8,9 @@ id:         golang
 email:      casa@sweetohm.net
 lang:       fr
 toc:        false
+announce:   |
+    Ma mission en cours se terminant fin janvier, je serai disponible
+    à partir du début du mois de février 2018.
 ---
 
 Voici un résumé de mon expérience dans le domaine du Go. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).

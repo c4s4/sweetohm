@@ -4,10 +4,13 @@ author:     Michel Casabianca
 date:       2018-01-22
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
-id:         michel-casabianca-xml
+id:         xml
 email:      casa@sweetohm.net
 lang:       fr
 toc:        false
+announce:   |
+    Ma mission en cours se terminant fin janvier, je serai disponible
+    à partir du début du mois de février 2018.
 ---
 
 Voici un résumé de mon expérience dans le domaine du XML. Une [version complète de mon CV est disponible ici](http://sweetohm.net/article/michel-casabianca.html).

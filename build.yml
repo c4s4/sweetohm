@@ -6,6 +6,7 @@ extends:
 properties:
   VENV_DIR:    'venv'
   ARTICLE_DIR: 'content/article'
+  RESUME_DIR:  'content/resume'
   DESTINATION: '/home/web/sweetohm'
   PANDOC_FILTERS:
     '8': '1.2.4'
@@ -36,15 +37,18 @@ targets:
     doc: Generate PDF files
     steps:
     - mkdir: '={BUILD_DIR}/pdf'
-    - for: file
-      in:  'find(ARTICLE_DIR, "*.md")'
+    - for: dir
+      in:  [=ARTICLE_DIR, =RESUME_DIR]
       do:
-      - 'md = joinpath(ARTICLE_DIR, file)'
-      - 'pdf = joinpath(BUILD_DIR, "pdf", file[0:len(file)-3]+".pdf")'
-      - if: 'older(md, pdf)'
-        then:
-        - print: 'Generating "={pdf}"'
-        - $: ['md2pdf', '-i', 'content/article', '-o', =pdf, =md]
+      - for: file
+        in:  'find(dir, "*.md")'
+        do:
+        - 'md = joinpath(dir, file)'
+        - 'pdf = joinpath(BUILD_DIR, "pdf", file[0:len(file)-3]+".pdf")'
+        - if: 'older(md, pdf)'
+          then:
+          - print: 'Generating "={pdf}"'
+          - $: ['md2pdf', '-i', =dir, '-o', =pdf, =md]
 
   epub:
     doc: Generate Epub files
@@ -59,6 +63,20 @@ targets:
         then:
         - print: 'Generating "={epub}"'
         - $: ['pandoc', '-t', 'epub', '-o', =epub, '--filter', './image_dir.py', =md]
+
+  docx:
+    doc: Generate Docx files
+    steps:
+    - mkdir: '={BUILD_DIR}/docx'
+    - for: file
+      in:  'find(RESUME_DIR, "*.md")'
+      do:
+      - 'md = joinpath(RESUME_DIR, file)'
+      - 'docx = joinpath(BUILD_DIR, "docx", file[0:len(file)-3]+".docx")'
+      - if: 'older(md, docx)'
+        then:
+        - print: 'Generating "={docx}"'
+        - $: ['pandoc', '-t', 'docx', '-o', =docx, '--filter', './image_dir.py', =md]
 
   site:
     doc: Generate static site

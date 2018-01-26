@@ -2,7 +2,6 @@ default: site
 
 extends:
 - c4s4/build/buildir.yml
-- c4s4/build/release.yml
 
 properties:
   VENV_DIR:    'venv'

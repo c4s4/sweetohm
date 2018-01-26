@@ -15,6 +15,8 @@ announce:   |
 
 Voici un résumé de mon expérience dans le domaine du Go. Une [version complète de mon CV est disponible ici](http://sweetohm.net/resume/resume.html).
 
+<!--more-->
+
 Mise en œuvre chez Orange
 -------------------------
 

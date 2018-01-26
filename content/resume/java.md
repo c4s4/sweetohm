@@ -15,6 +15,8 @@ announce:   |
 
 Voici un résumé de mon expérience dans le domaine du Java. Une [version complète de mon CV est disponible ici](http://sweetohm.net/resume/resume.html).
 
+<!--more-->
+
 J'ai commencé mon activité de freelance avec des contrats Java en 1996. Je pratique depuis régulièrement ce langage avec enthousiasme, mais ayant connu toutes les errances de l'écosystème (EJB, fichiers de configuration XML) et ayant pratiqué d'autres langages, j'en connais aussi les limites. J'ai eu l'occasion de pratiquer la plupart des principaux frameworks (Spring, Hibernate et la plupart des frameworks web).
 
 Expert XML et Java chez ELS Gestion (17 mois)

@@ -13,6 +13,14 @@ announce:   |
     à partir du début du mois de février 2018.
 ---
 
+Voici mon CV complet. Des CVs par techno sont disponibles pour
+[Java](http://sweetohm.net/resume/java.html),
+[Golang](http://sweetohm.net/resume/golang.html),
+[Python](http://sweetohm.net/resume/python.html)
+et [XML/XSLT](http://sweetohm.net/resume/xml.html).
+
+<!--more-->
+
 ```
 Michel Casabianca
 110 cours Saint Louis
@@ -24,12 +32,6 @@ http://sweetohm.net
 https://github.com/c4s4
 http://linkedin.com/in/casabianca
 ```
-
-Des CVs par techno sont disponibles pour
-[Java](http://sweetohm.net/resume/java.html),
-[Golang](http://sweetohm.net/resume/golang.html),
-[Python](http://sweetohm.net/resume/python.html)
-et [XML/XSLT](http://sweetohm.net/resume/xml.html).
 
 Technologie Maîtrisées
 ======================

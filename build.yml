@@ -1,22 +1,36 @@
 default: site
 
+extends:
+- c4s4/build/buildir.yml
+
 properties:
   VENV_DIR:    'venv'
-  BUILD_DIR:   'build'
   ARTICLE_DIR: 'content/article'
   DESTINATION: '/home/web/sweetohm'
+  PANDOC_FILTERS:
+    '8': '1.2.4'
+    '9': '1.4.2'
   CV_DESTS:
-  #- 'casa@sweetohm.org:/home/web/public'
   - 'casa@sweetohm.net:/home/web/public'
+  #- 'casa@sweetohm.org:/home/web/public'
+
+environment:
+  PATH:       '={VENV_DIR}/bin:${PATH}'
+  PYTHONHOME: ''
 
 targets:
 
   init:
     doc: Create virtual encironment
     steps:
-    - delete: '={VENV_DIR}'
-    - $: 'virtualenv ={VENV_DIR}'
-    - $: '. ={VENV_DIR}/bin/activate && pip install -r requirements.txt'
+    - delete: =VENV_DIR
+    - $: ['virtualenv', =VENV_DIR]
+    - 'debian = split(read("/etc/debian_version"), ".")[0]'
+    - if: PANDOC_FILTERS[debian] == nil
+      then:
+      - throw: 'No pandocfilters version defined for Debian ={debian}'
+    - 'version = PANDOC_FILTERS[debian]'
+    - $: ['={VENV_DIR}/bin/pip', 'install', 'pandocfilters==={version}']
 
   pdf:
     doc: Generate PDF files
@@ -30,7 +44,7 @@ targets:
       - if: 'older(md, pdf)'
         then:
         - print: 'Generating "={pdf}"'
-        - $: 'md2pdf -i content/article -o "={pdf}" "={md}"'
+        - $: ['md2pdf', '-i', 'content/article', '-o', =pdf, =md]
 
   epub:
     doc: Generate Epub files
@@ -44,36 +58,37 @@ targets:
       - if: 'older(md, epub)'
         then:
         - print: 'Generating "={epub}"'
-        - $: '. ={VENV_DIR}/bin/activate && pandoc -t epub -o "={epub}" --filter ./image_dir.py "={md}"'
+        - $: ['pandoc', '-t', 'epub', '-o', =epub, '--filter', './image_dir.py', =md]
 
   site:
     doc: Generate static site
     depends: [pdf, epub]
     steps:
-    - $: 'hugo -d "={BUILD_DIR}"'
+    - $: ['hugo', '-d', =BUILD_DIR]
 
   sync:
     doc: Synchronize website
     steps:
-    - $: 'rsync -av "={BUILD_DIR}/" "={DESTINATION}/"'
+    - $: ['rsync', '-av', '={BUILD_DIR}/', '={DESTINATION}/']
 
   update:
     doc: Update site if changed on remote master
     steps:
     - print: 'Update at ={now()}'
-    - $: 'git fetch'
-    - $: 'git rev-parse origin/master'
+    - $: ['git', 'fetch']
+    - $: ['git', 'rev-parse', 'origin/master']
       =:  'master'
-    - $: 'git rev-parse HEAD'
+    - $: ['git', 'rev-parse', 'HEAD']
       =:  'local'
     - if: 'local != master'
       then:
-      - $: 'git pull && neon site sync'
+      - $: ['git', 'pull']
+      - $: ['neon', 'site', 'sync']
 
   server:
     doc: Run development server
     steps:
-    - $: 'hugo server -d "={BUILD_DIR}" --watch'
+    - $: ['hugo', 'server', '-d', =BUILD_DIR, '--watch']
 
   cv:
     doc: Generate resume
@@ -96,8 +111,3 @@ targets:
       exclude: '*.en.*'
       prefix:  'michel-casabianca'
       tofile:  '~/dsk/michel-casabianca.zip'
-
-  clean:
-    doc: Clean generated file
-    steps:
-    - delete: '={BUILD_DIR}'

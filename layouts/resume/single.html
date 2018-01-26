@@ -1,4 +1,4 @@
-<!DOCTYPE html>                                                                                                                
+<!DOCTYPE html>
 <html lang="{{ .Params.lang }}">
 
 {{ partial "header.html" . }}
@@ -6,13 +6,13 @@
 <body>
 
 {{ partial "jumbo.html" . }}
-
 {{ partial "navbar.html" . }}
 
 <div class="container">
-
 <div class="row">
+
 <div class="col-md-3 hidden-sm hidden-xs">
+{{ partial "menu-cv.html" . }}
 {{ partial "menu-blog.html" . }}
 {{ partial "poweredby.html" . }}
 </div>
@@ -21,33 +21,26 @@
 
 {{ partial "title.html" . }}
 
+{{ if isset .Params "announce" }}
+<div class="alert alert-info" role="alert">
+{{ .Params.announce | markdownify }}
+</div>
+{{ end }}
+
 <br>
 
 {{ .Content }}
 
-<nav>
-<ul class="pager">
-{{ if .PrevInSection }}
-<li class="previous"><a href="{{ .PrevInSection.RelPermalink }}"><span aria-hidden="true">&larr;</span> Précédent</a></li>
-{{ end }}
-{{ if .NextInSection }}
-<li class="next"><a href="{{ .NextInSection.RelPermalink }}">Suivant <span aria-hidden="true">&rarr;</span></a></li>
-{{ end }}
-</ul>
-</nav>
-
+<br>
 
 {{ partial "disqus.html" . }}
 
 </div>
 </div>
-
 </div>
 
 {{ partial "footer.html" . }}
-
 {{ partial "javascript.html" . }}
 
 </body>
-
 </html>

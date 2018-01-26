@@ -12,36 +12,20 @@
 <div class="container">
 
 <div class="row">
+
 <div class="col-md-3 hidden-sm hidden-xs">
-{{ partial "menu-blog.html" . }}
+{{ partial "menu-cv.html" . }}
 {{ partial "poweredby.html" . }}
 </div>
 
 <div class="col-md-9 col-sm-12">
 
-{{ partial "title.html" . }}
-
-<br>
-
-{{ .Content }}
-
-<nav>
-<ul class="pager">
-{{ if .PrevInSection }}
-<li class="previous"><a href="{{ .PrevInSection.RelPermalink }}"><span aria-hidden="true">&larr;</span> Précédent</a></li>
-{{ end }}
-{{ if .NextInSection }}
-<li class="next"><a href="{{ .NextInSection.RelPermalink }}">Suivant <span aria-hidden="true">&rarr;</span></a></li>
-{{ end }}
-</ul>
-</nav>
-
-
-{{ partial "disqus.html" . }}
+<div class="page-header">
+    <h1 class="title">Michel Casabianca</h1>
+</div>
 
 </div>
 </div>
-
 </div>
 
 {{ partial "footer.html" . }}

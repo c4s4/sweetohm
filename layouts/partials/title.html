@@ -37,5 +37,17 @@
       </span>
     </div>
     {{ end }}
+    {{ if eq .Section "resume" }}
+    <div class="title-info">
+      <span data-toggle="tooltip" data-placement="bottom" title="CV au format PDF">
+        <span class="glyphicon glyphicon-file"></span> <a href="/pdf/{{ .Params.id }}.pdf">PDF</a>
+      </span>
+    </div>
+    <div class="title-info">
+      <span data-toggle="tooltip" data-placement="bottom" title="CV au format Docx">
+        <span class="glyphicon glyphicon-book"></span> <a href="/docx/{{ .Params.id }}.docx">DocX</a>
+      </span>
+    </div>
+    {{ end }}
   </div>
 </div>

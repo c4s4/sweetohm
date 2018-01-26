@@ -1,12 +1,15 @@
 ---
-title:      "Senior Sofware Ingeneer: Software development, Architecture and Project Management"
+title:      "Resume in English"
 #author:     Michel Casabianca
-date:       2016-01-28
+date:       2017-12-17
 tags:       [cv, resume, michel casabianca]
-id:         michel-casabianca.en
+id:         resume.en
 email:      casa@sweetohm.net
 lang:       en
 toc:        false
+announce:   |
+    Ma mission en cours se terminant fin janvier, je serai disponible
+    à partir du début du mois de février 2018.
 ---
 
 ```

@@ -80,7 +80,7 @@ targets:
 
   site:
     doc: Generate static site
-    depends: [pdf, epub]
+    depends: [pdf, epub, docx]
     steps:
     - $: ['hugo', '-d', =BUILD_DIR]
 

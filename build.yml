@@ -113,13 +113,13 @@ targets:
     depends: clean
     steps:
     - 'CV_DIR = joinpath(BUILD_DIR, "michel-casabianca")'
-    - mkdir: '={CV_DIR}'
+    - mkdir: =CV_DIR
     - for: file
-      in:  'find("content/cv", "*.md")'
+      in:  'find("content/resume", "*.md")'
       do:
       - 'base = file[0:len(file)-3]'
-      - $: ['md2pdf', '-o', '={CV_DIR}/={base}.pdf', 'content/cv/={file}']
-      - $: ['pandoc', '-t', 'docx', '-o', '={CV_DIR}/={base}.docx', 'content/cv/={file}']
+      - $: ['md2pdf', '-o', '={CV_DIR}/={base}.pdf', 'content/resume/={file}']
+      - $: ['pandoc', '-t', 'docx', '-o', '={CV_DIR}/={base}.docx', 'content/resume/={file}']
     - for: dest
       in:  CV_DESTS
       do:

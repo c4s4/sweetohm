@@ -53,4 +53,11 @@ J'ai eu l'occasion de donner des conférences en relation avec Python :
 - [Faut-t-il passer à Python 3 ?](http://sweetohm.net/slides/python-3-migration/) à BDX.io en octobre 2015.
 - [Migration BDD](http://sweetohm.net/slides/db-migration/) à BDX.io en octobre 2016.
 
-Par ailleurs, j'ai sur mon compte Github [un certain nombre de projets Python](https://github.com/c4s4?utf8=%E2%9C%93&tab=repositories&q=&type=&language=python).
+Par ailleurs, j'ai sur mon compte Github [un certain nombre de projets Python](https://github.com/c4s4?utf8=%E2%9C%93&tab=repositories&q=&type=&language=python). Parmi lesquels :
+
+- [db_migration](https://github.com/c4s4/db_migration) est un outil de migration de base de données, qui a donné lieu à une [présentation à BDX.io en 2016](http://sweetohm.net/slides/db-migration/).
+- [mail1](https://github.com/c4s4/mail1) est une bibliothéque d'envoi d'email, [disponible sur Pypi](https://pypi.python.org/pypi/mail1/3.0.1).
+- [http1](https://github.com/c4s4/http1) est une bibliothèque pour effectuer simplement des requêtes HTTP, [disponible sur Pypi](https://pypi.python.org/pypi/http1/1.0.1).
+- [CheeseShop](https://github.com/c4s4/cheeseshop) est un repository de packages Python, écrit en Go.
+- [Pythenv](https://github.com/c4s4/pythenv) permet de lancer des scripts Pyton en créant des environnements virtuels à la volée.
+- [python-continuum](https://github.com/c4s4/python-continuum) est un outil d'intégration continue minimaliste.

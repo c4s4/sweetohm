@@ -17,7 +17,6 @@ properties:
 
 environment:
   PATH:       '={VENV_DIR}/bin:${PATH}'
-  PYTHONHOME: ''
 
 targets:
 

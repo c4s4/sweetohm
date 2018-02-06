@@ -2,6 +2,7 @@
 title:      Debian Jessie on Acer C720P
 author:     Michel Casabianca
 date:       2014-07-09
+updated:    2018-02-06
 tags:       [debian, linux, acer c720]
 id:         debian-jessie-acer-c720p.en
 email:      casa@sweetohm.net
@@ -177,6 +178,7 @@ Here are links dealing with Linux on Acer C720 :
 Updates
 -------
 
+- **2018-02-06** : Latest kernels versions manage the trackpad. Thus it's not necessary to install a patched kernel anymore. Furthermore, touch screen is also managed.
 - **2014-10-11**: Added Xmodmap configuration to get Delete key.
 - **2014-06-25**: Since last system update, when I press *Power* button, it prints a menu, as before update, but it shuts down immediately. I'm investigating...
 - **2014-08-09**: After last system update the menu does't even appear when I press *Power* button and machine shutdowns immediately.
@@ -186,7 +188,6 @@ Unsolved Issues
 ---------------
 
 - Suspending the machine reboots.
-- Touch screen management?
 - Mic and cam management?
 
 ![Jessie](debian-jessie-acer-c720p-jessie.png)

@@ -2,7 +2,7 @@
 title:      Debian Jessie on Acer C720P
 author:     Michel Casabianca
 date:       2014-07-09
-updated:    2018-02-06
+updated:    2018-02-07
 tags:       [debian, linux, acer c720]
 id:         debian-jessie-acer-c720p.en
 email:      casa@sweetohm.net
@@ -55,10 +55,43 @@ Issues during installation:
 - netinst didn't work for me (BusyBox wouldn't install).
 - I had to disable Wifi security to be able to connect during installation.
 
-Enable trackpad
----------------
+Configure trackpad
+==================
 
-You must recompile the kernel. Fortunately some do it for you: you'll find Jessie kernels with trackpad support at: <http://files.mdosch.de/acer-c720-kernel/>.
+Trackpad is now managed by latest kernels and can be configured as follows:
+
+- Create a directory for configuration file:
+
+    ```
+    $ sudo mkdir /etc/X11/xorg.conf.d
+    ```
+
+- Copy default configuration file:
+
+    ```
+    $ sudo cp /usr/share/X11/xorg.conf.d/50-synaptics.conf /etc/X11/xorg.conf.d/50-c720-touchpad.conf
+    ```
+
+- Add following configuration:
+
+    ```
+    Section "InputClass" 
+        Identifier      "touchpad peppy cyapa" 
+        MatchIsTouchpad "on" 
+        MatchDevicePath "/dev/input/event*" 
+        MatchProduct    "cyapa" 
+        Option          "FingerLow" "5" 
+        Option          "FingerHigh" "5"
+        Option          "VertEdgeScroll" "0"
+        Option          "VertTwoFingerScroll" "1"
+        Option          "HorizTwoFingerScroll" "1"
+        Option          "AreaRightEdge" "850"
+        Option          "AreaLeftEdge" "50"
+        Option          "TapButton1" "1"
+        Option          "TapButton2" "3"
+        Option          "TapButton3" "2"
+    EndSection
+    ```
 
 Enable special keys
 -------------------
@@ -143,6 +176,23 @@ After a Jessie update, hitting Power key result in a shutdown whatever your XFCE
 HandlePowerKey=ignore
 ```
 
+Configure Swappiness
+--------------------
+
+SSD discs dont like repeated writings and thus you should limit swapping usage as follows:
+
+- Print current swappiness (that should have default value of *60*):
+
+    ```
+    $ cat /proc/sys/vm/swappiness
+    ```
+    
+- Change this value editing file */etc/sysctl.conf* and adding following line:
+
+    ```
+    vm.swappiness=1
+    ```
+
 Disable Bluetooth
 -----------------
 
@@ -169,6 +219,7 @@ Links
 
 Here are links dealing with Linux on Acer C720 :
 
+- [Chromebook to Jessiebook](https://www.circuidipity.com/c720-chromebook-to-jessiebook/).
 - [Howto Linux on Acer C720 Chromebook](http://www.linux.com/learn/tutorials/764181-how-to-install-linux-on-an-acer-c720-chromebook).
 - [Another new Free Software machine: the Acer C720](http://blogs.fsfe.org/the_unconventional/2014/04/20/acer-c720-chromebook-debian-gnu-linux/).
 - [Archlinux on Acer C720](https://wiki.archlinux.org/index.php/Acer_C720_Chromebook).

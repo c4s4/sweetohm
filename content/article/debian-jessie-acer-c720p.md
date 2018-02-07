@@ -2,7 +2,7 @@
 title:      Installation de Debian Jessie sur Acer C720P
 author:     Michel Casabianca
 date:       2014-06-18
-updated:    2018-02-06
+updated:    2018-02-07
 categories: [articles]
 tags:       [debian, linux, acer c720]
 id:         michel-casabianca
@@ -18,7 +18,7 @@ Le Acer C720 est un chromebook sur lequel il est possible d'installer Linux. On 
 ![](debian-jessie-acer-c720p-logo.png)
 
 Flashage du firmware
-====================
+--------------------
 
 Pour flasher le firmware (et booter directement sous Linux) :
 
@@ -36,7 +36,7 @@ J'ai eu droit au message d'erreur NORMAL lors du flashage (sueurs froides garant
 ![Acer C720P](debian-jessie-acer-c720p-ouverture.png)
 
 Installation de Debian
-======================
+----------------------
 
 ![Acer C720P](debian-jessie-acer-c720p-machine.png)
 
@@ -57,16 +57,48 @@ Problèmes recontrés lors de l'installation :
 - La netinst n'a pas fonctionné dans mon cas (impossible d'installer BusyBox).
 - J'ai dû désactiver la sécurité du Wifi pour pouvoir m'y connecter.
 
-Activer le pavé tactile
-=======================
+Configurer le pavé tactile
+--------------------------
 
-Il faut recompiler le kernel. Heureusement d'autres l'ont fait pour nous : on trouve des kernels pour la Jessie avec support du pavé tactile à l'adresse : <http://files.mdosch.de/acer-c720-kernel/>.
+La pavé tactile est maintenant géré par le kernel et on peut le configurer de la manière suivante :
+
+- Créer un répertoire pour le fichier de configuration :
+
+    ```
+    $ sudo mkdir /etc/X11/xorg.conf.d
+    ```
+
+- Y copier le fichier par défaut :
+
+    ```
+    $ sudo cp /usr/share/X11/xorg.conf.d/50-synaptics.conf /etc/X11/xorg.conf.d/50-c720-touchpad.conf
+    ```
+
+- On y ajoutera la configuration suivante :
+
+    ```
+    Section "InputClass" 
+        Identifier      "touchpad peppy cyapa" 
+        MatchIsTouchpad "on" 
+        MatchDevicePath "/dev/input/event*" 
+        MatchProduct    "cyapa" 
+        Option          "FingerLow" "5" 
+        Option          "FingerHigh" "5"
+        Option          "VertEdgeScroll" "0"
+        Option          "VertTwoFingerScroll" "1"
+        Option          "HorizTwoFingerScroll" "1"
+        Option          "AreaRightEdge" "850"
+        Option          "AreaLeftEdge" "50"
+        Option          "TapButton1" "1"
+        Option          "TapButton2" "3"
+        Option          "TapButton3" "2"
+    EndSection
+    ```
 
 Activation des touches spéciales du clavier
-===========================================
+-------------------------------------------
 
-Contrôle du volume par le clavier
----------------------------------
+### Contrôle du volume par le clavier
 
 Sous XFCE, dans **Paramètres / Clavier / Raccourcis d'applications**, définir les raccourcis suivants :
 
@@ -76,8 +108,7 @@ Sous XFCE, dans **Paramètres / Clavier / Raccourcis d'applications**, définir 
 <F10> amixer set Master 5%+
 ```
 
-Contrôle de la luminosité par le clavier
-----------------------------------------
+### Contrôle de la luminosité par le clavier
 
 Installer xbacklight :
 
@@ -92,8 +123,7 @@ Puis définir les raccourcis suivants dans les raccourcis clavier de XFCE :
 <F7> xbacklight +5
 ```
 
-Manipuler les fenêtres avec le clavier
---------------------------------------
+### Manipuler les fenêtres avec le clavier
 
 Dans **Paramètres / Gestionnaire de fenêtres / Clavier** de XFCE, faire les associations suivantes :
 
@@ -105,8 +135,7 @@ Plein écran                 <F4>
 Naviguer fenêtre précédente <F5>
 ```
 
-Configuration Xmodmap
----------------------
+### Configuration Xmodmap
 
 On peut aussi configurer ces touches par une configuration Xmodmap. Placer dans son home le fichier *.xinitrc* suivant :
 
@@ -141,8 +170,7 @@ Pour que la combinaison `Shift-Backspace` effectue un `Delete`, on configurera s
 keycode 22 = BackSpace Delete BackSpace BackSpace
 ```
 
-Gestion de la touche Power sous XFCE
-------------------------------------
+### Gestion de la touche Power sous XFCE
 
 Suite à une mise à jour de la Jessie, une pressions sur la touche Power du clavier (en haut à droite) provoque un arrêt de la machine, même si l'on a sélectionné une autre option sous XFCE.
 
@@ -152,8 +180,25 @@ Pour corriger le problème, éditer le fichier */etc/systemd/logind.conf* pour a
 HandlePowerKey=ignore
 ```
 
+Limiter le swap sur le disque SSD
+---------------------------------
+
+Les disques SSD n'aiment pas les écritures répétées et l'on aura intérêt de limiter l'usage du swap. Pour ce faire :
+
+- Consulter la valeur actuelle avec la commande (qui doit avoir la valeur par défaut de *60*):
+
+    ```
+    $ cat /proc/sys/vm/swappiness
+    ```
+    
+- Changer cette valeur en éditant le fichier /etc/sysctl.conf et en ajoutant la ligne :
+
+    ```
+    vm.swappiness=1
+    ```
+
 Désactiver bluetooth
-====================
+--------------------
 
 Editer la configuration */etc/bluetooth/main.conf* et éditer la ligne `InitialyPowered` pour la remplacer par :
 
@@ -174,10 +219,11 @@ sudo service bluetooth status
 ```
 
 Liens
-=====
+-----
 
 Voici des liens utiles traitant de Linux sur Acer C720 :
 
+- [Chromebook to Jessiebook](https://www.circuidipity.com/c720-chromebook-to-jessiebook/).
 - [Howto Linux on Acer C720 Chromebook](http://www.linux.com/learn/tutorials/764181-how-to-install-linux-on-an-acer-c720-chromebook).
 - [Another new Free Software machine: the Acer C720](http://blogs.fsfe.org/the_unconventional/2014/04/20/acer-c720-chromebook-debian-gnu-linux/).
 - [Archlinux on Acer C720](https://wiki.archlinux.org/index.php/Acer_C720_Chromebook).
@@ -185,7 +231,7 @@ Voici des liens utiles traitant de Linux sur Acer C720 :
 - [Fedora sur Acer C720 (Français)](http://forums.fedora-fr.org/viewtopic.php?id=61252).
 
 Mises à jour
-============
+------------
 
 - **2018-02-06** : Les dernières versions du kernel prennent en charge le pavé tactile. Il n'est donc plus nécessaire d'installer un kernel patché. D'autre part, l'écran tactile est supporté.
 - **2014-10-11** : Ajout d'une configuration Xmodmap pour ajouter la touche Delete.
@@ -194,7 +240,7 @@ Mises à jour
 - **2014-09-11** : Le problème de bouton power a été résolu en modifiant le fichier de configuration */etc/systemd/logind.conf* (voir ci-dessus).
 
 Problèmes non résolus
-=====================
+---------------------
 
 - Suspendre la machine provoque un reboot.
 - Gestion micro et caméra ?

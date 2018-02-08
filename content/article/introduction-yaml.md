@@ -2,6 +2,7 @@
 title:      Introduction à YAML
 author:     Michel Casabianca
 date:       2009-02-27
+updated:    2018-01-08
 categories: [articles]
 tags:       [yaml, python, java]
 id:         introduction-yaml
@@ -10,7 +11,7 @@ lang:       fr
 toc:        true
 ---
 
-Cet article est une introduction à YAML, un langage permettant de représenter des données structurées, comme le ferait XML par exemple, mais de manière plus naturelle et moins verbeuse. On y verra une description de la syntaxe de YAML ainsi que des exemples en Java et Python.
+Cet article est une introduction à YAML, un langage permettant de représenter des données structurées, comme le ferait XML par exemple, mais de manière plus naturelle et moins verbeuse. On y verra une description de la syntaxe de YAML ainsi que des exemples en Java, Python et Go.
 
 <!--more-->
 
@@ -1005,6 +1006,109 @@ Bien sûr, on peut désérialiser cette structure YAML en utilisant la fonction 
 Il y a un peu de magie derrière tout cela : la classe `Personne` s'enregistre en tant que type Python associé au tag YAML `!personne` ce qui permet cette notation élégante.
 
 Il existe un moyen d'associer une expression rationnelle à une classe Python de manière à ce que, par exemple, la notation `3d6` soit associée à l'appel au constructeur `Dice(3, 6)`. Je vous laisse le soin de creuser la question [dans la section adéquate de la documentation de PyYaml](http://pyyaml.org/wiki/PyYAMLDocumentation#Constructorsrepresentersresolvers).
+
+Goyaml
+------
+
+[Goyaml](http://gopkg.in/yaml.v2) est une bibliothèque Go permettant de parser des fichiers YAML pour en injecter le contenu dans des structures définies par l'utilisateur. Cette méthode de parsing est généralisée en Go : elle est identique à celle du XML ou du JSON par exemple.
+
+### Installation
+
+Pour installer la bibliothèque dans son *GOPATH*, on tapera la ligne de commande suivante :
+
+```
+$ go get gopkg.in/yaml.v2
+```
+
+### Définition de la structure
+
+Supposons que nous souhaitions parser le fichier YAML suivant, qui représente un utilisateur :
+
+```yaml
+name: Robert
+age:  25
+```
+
+Je pourrais définir la structure suivante pour représenter cet utilisateur :
+
+```go
+type User struct {
+  Name string
+  Age  int
+}
+```
+
+### Parsing du fichier
+
+Pour parser le fichier, il faut :
+
+- Créer une structure vide.
+- Lire le contenu du fichier YAML.
+- Parser le contenu du fichier en passant l'adresse de la structure vide.
+
+Ainsi pour parser notre fichier d'utilisateur :
+
+```go
+var user User
+source, err := ioutil.ReadFile("user.yml")
+if err != nil {
+  panic(err)
+}
+err = yaml.Unmarshal(source, &user)
+if err != nil {
+  panic(err)
+}
+fmt.Printf("user: %v\n", user)
+```
+
+Cette approche est très simple et répond à la plupart des cas d'usage du parsing YAML.
+
+### Tags de structure
+
+Il est possible de taguer la structure afin de préciser le comportement du parseur. Par exemple, pour indiquer un nom alternatif pour le champ, on ajoutera la tag suivant :
+
+```go
+type User struct {
+  Nom string `yaml:"name"`
+  Age int
+}
+```
+
+On indique ici que le nom du champ est *name* dans le source YAML alors que le nom dans structure laisse supposer que ce doit être *nom*.
+
+La forme générale du tag est la suivante : `yaml:"[<key>][,<flag1>[,<flag2>]]"`, où *key* est le nom du champ et *flag* peut avoir les valeurs suivantes :
+
+- **omitempty** indique que le champ doit être omis si le champ est vide.
+- **flow** sérialise en utilisant le style en ligne (les listes seront alors représentées par `[1, 2, 3]` et les maps par `{foo: 1, bar: 2}` par exemple).
+- **inline** injecte la structure à laquelle il est appliqué de sorte que ses champs sont traités comme s'ils appartenaient à la structure englobante.
+
+### Usage avancé
+
+Il semble impossible de parser une fichier YAML quelconque avec la technique décrite ci-dessus, mais il n'en ai rien. En effet, il est possible d'écrire le code suivant :
+
+```go
+var thing interface{}
+source, err := ioutil.ReadFile("user.yml")
+if err != nil {
+  panic(err)
+}
+err = yaml.Unmarshal(source, &thing)
+if err != nil {
+  panic(err)
+}
+fmt.Printf("Thing: %#v\n", thing)
+```
+
+Ce qui produit la sortie suivante :
+
+```
+$ go run generic.go user.yml 
+Thing: map[interface {}]interface {}{"name":"Robert", "age":25}
+```
+
+Comme `interface{}` désigne un type quelconque, on peut parser ainsi tout fichier YAML. Il faudra ensuite introspecter le résultat du parsing avec le package *reflect*, mais ceci est une autre histoire (bien plus compliquée...).
+
+On pourra voir un exemple de mise en œuvre de cette technique dans [mon projet NeON](http://github.com/c4s4/neon/). A noter que l'usage du package *reflect* est à réserver à des utilisateurs expérimentés du langage Go, sous peine d'en perdre la raison.
 
 Conclusion
 ==========

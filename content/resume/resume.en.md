@@ -8,8 +8,7 @@ email:      casa@sweetohm.net
 lang:       en
 toc:        false
 announce:   |
-    Ma mission en cours se terminant fin janvier, je serai disponible
-    à partir du début du mois de février 2018.
+    My mission ending in january, I will be available at the beginning of February.
 ---
 
 Here is my complete resume. Resumes by technology are available for

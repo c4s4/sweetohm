@@ -21,7 +21,7 @@ environment:
 targets:
 
   init:
-    doc: Create virtual encironment
+    doc: Create virtual environment
     steps:
     - delete: =VENV_DIR
     - $: ['virtualenv', =VENV_DIR]

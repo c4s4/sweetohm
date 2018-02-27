@@ -15,6 +15,8 @@ announce:   |
 
 Here is a summary of my experience in the field of Go. A [full version of my resume is available here] (http://sweetohm.net/resume/resume.en.html).
 
+Une version en Français [est disponible ici](http://sweetohm.net/resume/golang.html).
+
 <!-- more -->
 
 Implementation at Orange

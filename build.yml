@@ -125,7 +125,6 @@ targets:
       - $: 'scp ={CV_DIR}/* ={dest}/../public/'
     - zip:     '*'
       dir:     =CV_DIR
-      exclude: '*.en.*'
       prefix:  'michel-casabianca'
       tofile:  '~/dsk/michel-casabianca.zip'
 

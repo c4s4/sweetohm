@@ -1,4 +1,3 @@
-venv/
-build/
-.idea/
-.ropeproject/
+/venv/
+/build/
+/.vscode/

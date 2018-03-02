@@ -15,6 +15,8 @@ Cet article est une introduction à YAML, un langage permettant de représenter 
 
 <!--more-->
 
+An [english version is available here](http://sweetohm.net/article/introduction-yaml.en.html).
+
 On trouvera une archive ZIP avec cet article au format PDF ainsi que les exemples à l'adresse : [http://www.sweetohm.net/arc/introduction-yaml.zip](http://www.sweetohm.net/arc/introduction-yaml.zip).
 
 Qu'est ce que YAML ?
@@ -909,9 +911,9 @@ Il est possible de déclarer explicitement le type Python à utiliser pour dés�
 ```python
 #!/usr/bin/env python
 # encoding: UTF-8
-    
+
 import yaml
-    
+
 class Personne(object):
 
     def __init__(self, nom, age):
@@ -921,12 +923,12 @@ class Personne(object):
     def __repr__(self):
         return "%s(nom=%r, age=%r)" % \
                (self.__class__.__name__, self.nom, self.age)
-    
-    print yaml.load("""
-    !!python/object:__main__.Personne
-    nom: Robert
-    age: 25
-    """)
+
+print yaml.load("""
+!!python/object:__main__.Personne
+nom: Robert
+age: 25
+""")
 ```
 
 Produit la sortie suivante dans le terminal :
@@ -948,13 +950,12 @@ class Personne(object):
     def __init__(self, nom, age):
         self.nom = nom
         self.age = age
-    
+
     def __repr__(self):
         return "%s(nom=%r, age=%r)" % \
                (self.__class__.__name__, self.nom, self.age)
-    
-    
-    print yaml.dump(Personne('Robert', 25), default_flow_style=False)
+
+print yaml.dump(Personne('Robert', 25), default_flow_style=False)
 ```
 
 Ce code produit la sortie suivante :
@@ -974,20 +975,20 @@ La notation vue ci-dessus permet de désérialiser des structures YAML en instan
 # encoding: UTF-8
 
 import yaml
- 
+
 class Personne(yaml.YAMLObject):
 
     yaml_tag = '!personne'
-    
+
     def __init__(self, nom, age):
         self.nom = nom
         self.age = age
-    
+
     def __repr__(self):
         return "%s(nom=%r, age=%r)" % \
                (self.__class__.__name__, self.nom, self.age)
- 
-    print yaml.dump(Personne('Robert', 25), default_flow_style=False)
+
+print yaml.dump(Personne('Robert', 25), default_flow_style=False)
 ```
 
 Cela produit sur la console :

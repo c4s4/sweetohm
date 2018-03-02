@@ -15,6 +15,8 @@ This article is an introduction to YAML, a language to write structured data, as
 
 <!--more-->
 
+Une [version en français est disponible ici](http://sweetohm.net/article/introduction-yaml.html).
+
 A ZIP archive with source code for examples can be found at: [http://www.sweetohm.net/arc/introduction-yaml.zip](http://www.sweetohm.net/arc/introduction-yaml.zip).
 
 What is YAML?
@@ -26,7 +28,7 @@ Specifically, we could note the list of ingredients for a breakfast as follows:
 
 ```Yaml
 - croissants
-- chocolate
+- chocolate breads
 - ham
 - eggs
 ```
@@ -40,13 +42,13 @@ This is a valid YAML file that represents a list of strings. To be convinced, we
 import sys
 import yaml
 
-print yaml.load (open (sys.argv [1]))
+print yaml.load(open(sys.argv[1]))
 ```
 
 This script will produce the following result:
 
 ```yaml
-['croissants', 'chocolate', 'ham', 'eggs']
+['croissants', 'chocolate breads', 'ham', 'eggs']
 ```
 
 Which means that the result of this parsing is a Python list containing the appropriate strings! The parser is therefore able to render *natural* data structures of the language used for parsing.
@@ -72,7 +74,7 @@ YAML can also recognize associative arrays, so we could note a breakfast order a
 
 ```yaml
 croissants: 30
-chocolate: 30
+chocolate breads: 30
 ham: 0
 eggs: 0
 ```
@@ -80,7 +82,7 @@ eggs: 0
 Which will be loaded in the following way:
 
 ```python
-'chocolate': 30, 'croissants': 30, 'ham': 0, 'eggs': 0}
+'chocolate breads': 30, 'croissants': 30, 'ham': 0, 'eggs': 0}
 ```
 
 By combining the basic data types in YAML-recognized collections, almost any data structure can be represented. On the other hand, the textual representation of these data is very legible and almost natural.
@@ -100,7 +102,7 @@ recipe = {
     'difficulty': 'difficult'
 }
 
-print yaml.dump (recipe)
+print yaml.dump(recipe)
 ```
 
 Which will produce the following output:
@@ -487,10 +489,10 @@ import org.ho.yaml.Yaml;
 
 public class Load {
     
-    public static void main (String [] args)
+    public static void main(String [] args)
         throws Exception {
         String filename = "test/object.yml";
-        if (args.length> 0) filename = args [0];
+        if (args.length>0) filename = args[0];
         System.out.println(Yaml.load(new File(filename)));
     }
 
@@ -523,7 +525,7 @@ import org.ho.yaml.Yaml;
 
 public class Dump {
 
-    public static void main (String [] args)
+    public static void main(String [] args)
         throws Exception {
         List <Object> object = new ArrayList<Object>();
         object.add("One");
@@ -566,9 +568,9 @@ Articles:
     price:    3.5
     quantity: 1
  - !jyaml.Article
-    id:      test567
-    price:   2.0
-    quantity 2
+    id:       test567
+    price:    2.0
+    quantity: 2
 ```
 
 Will it be loaded using the following classes:
@@ -597,7 +599,7 @@ public class Order {
         this.articles = articles;
     }
     
-    public String toString () {
+    public String toString() {
         StringBuffer buffer = new StringBuffer("[Order id='")
             .append (id)
             .append ("', articles='");
@@ -731,7 +733,7 @@ public class Alias ​​{
         throws Exception {
         People[] people = Yaml.loadType(new File("test/alias.yml"),
                                         People[].class);
-        for (int i=0; i<people.length; i ++) {
+        for (int i=0; i<people.length; i++) {
             People individual = people[i];
             System.out.println(individual);
         }
@@ -752,7 +754,7 @@ It is possible to serialize Java objects into a YAML stream as follows:
 YamlEncoder enc = new YamlEncoder(outputStream);
 enc.writeObject(object1);
 enc.writeObject(object2);
-enc.close ();
+enc.close();
 ```
 
 There is a shortcut to serialize a collection of objects in a stream as follows:
@@ -771,9 +773,9 @@ try {
     /* do something useful */
   }
 } catch (EOFException e) {
-  System.out.println ("Finished reading stream.");
+  System.out.println("Finished reading stream.");
 } finally {
-  dec.close ();
+  dec.close();
 }
 ```
 
@@ -909,24 +911,24 @@ It is possible to explicitly declare the Python type to be used to deserialize a
 ```python
 #!/usr/bin/env python
 # encoding: UTF-8
-    
-import yaml
-    
-class Person (object):
 
-    def __init __ (self, name, age):
+import yaml
+
+class Person(object):
+
+    def __init __(self, name, age):
         self.name = name
         self.age = age
 
-    def __repr __ (self):
+    def __repr __(self):
         return "%s(name=%r, age=%r)" % \
-               (self .__class__.__name__, self.name, self.age)
-    
-    print yaml.load ("""
-    !!python/object: __main__.Person
-    name: Robert
-    age: 25
-    """)
+               (self.__class__.__name__, self.name, self.age)
+
+print yaml.load ("""
+!!python/object: __main__.Person
+name: Robert
+age: 25
+""")
 ```
 
 Produces following output on the terminal:
@@ -948,13 +950,12 @@ class Person(object):
     def __init__(self, name, age):
         self.name = name
         self.age = age
-    
+
     def __repr__(self):
         return "%s(name=%r, age=%r)" % \
                (self .__class__.__name__, self.name, self.age)
-    
-    
-    print yaml.dump(Person('Robert', 25), default_flow_style=False)
+
+print yaml.dump(Person('Robert', 25), default_flow_style=False)
 ```
 
 This code produces following output:
@@ -974,20 +975,20 @@ The notation seen above allows to deserialize YAML structures into instances of 
 # encoding: UTF-8
 
 import yaml
- 
+
 class Person (yaml.YAMLObject):
 
     yaml_tag = '!person'
-    
+
     def __init__(self, name, age):
         self.name = name
         self.age = age
-    
+
     def __repr__(self):
         return "%s(name=%r, age=%r)" % \
                (self .__class__.__name__, self.name, self.age)
- 
-    print yaml.dump(Person('Robert', 25), default_flow_style=False)
+
+print yaml.dump(Person('Robert', 25), default_flow_style=False)
 ```
 
 This produces on the console:
@@ -1079,7 +1080,7 @@ The general form of the tag is: `yaml:"[<key>][,<flag1>[,<flag2>]]`, where *key*
 - **flow** serializes using the inline style (lists will then be represented by `[1, 2, 3]` and the maps by `{foo: 1, bar: 2}` for example).
 - **inline** injects the structure to which it is applied so that its fields are treated as if they belonged to the enclosing structure.
 
-### Advanced use
+### Advanced usage
 
 It seems impossible to parse an abitrary YAML file with the technique described above, but it is false. Indeed, it is possible to write following code:
 

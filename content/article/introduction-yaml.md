@@ -4,7 +4,7 @@ author:     Michel Casabianca
 date:       2009-02-27
 updated:    2018-01-08
 categories: [articles]
-tags:       [yaml, python, java]
+tags:       [yaml, python, java, golang]
 id:         introduction-yaml
 email:      casa@sweetohm.net
 lang:       fr
@@ -150,13 +150,11 @@ Le résultat de ce parsing nous amène aux commentaires suivants :
 - Les guillemets simples ne gèrent pas les caractères d'échappement qui sont transcrits de manière littérale.
 - La liste des caractères d'échappement gérés par YAML comporte les valeurs classiques, mais aussi nombre d'autres que l'on pourra trouver [dans la spécification YAML](http://yaml.org/spec/current.html#id2517668).
 
-
 D'autre part, il est possible d'écrire des caractères Unicode à l'aide des notations suivantes :
 
 - `\xNN` : pour écrire des caractères Unicode sur 8 bits, où `NN` est un nombre hexadécimal.
 - `\uNNNN` : pour des caractères Unicode sur 16 bits.
 - `\UNNNNNNNN` : pour des caractères Unicode sur 32 bits.
-
 
 ### Entiers
 
@@ -280,16 +278,16 @@ Cette notation, dite *en flux*, est plus compacte et permet parfois de gagner en
 Appelés Map ou Dictionnaires dans certains langages, ils associent une valeur à une clef :
 
 ```yaml
-croissants: 30
-chocolatines: 30
+croissants: 2
+chocolatines: 1
 jambon: 0
-oeufs: 0
+oeufs: 3
 ```
 
 La notation *en flux* est la suivante :
 
 ```yaml
-{ croissants: 2, chocolatines: 1, jambon: 0, oeufs: 2}
+{ croissants: 2, chocolatines: 1, jambon: 0, oeufs: 3}
 ```
 
 Qui est parsé de la même manière. Cette notation est identique à celle de Python ou Javascript et se rapproche de celle utilisée par Ruby. A noter qu'il est question que Ruby 2 utilise aussi cette notation.
@@ -396,7 +394,6 @@ A noter les deux types supplémentaires :
 
 - L'ensemble : il n'est pas ordonné et ne peut comporter de doublon.
 - Le tableau associatif ordonné : c'est un tableau associatif dont les entrées sont ordonnées.
-
 
 L'utilité des tags pour ces types par défaut est limitée. La vrai puissance des tags réside dans la possibilité de définir ses propres tags pour ses propres types de données.
 
@@ -562,7 +559,7 @@ La première solution consiste à indiquer le type des objets avec des tags YAML
 
 ```yaml
 --- !jyaml.Commande
-id:   test123
+id: test123
 articles:
  - !jyaml.Article
     id:       test456
@@ -605,9 +602,9 @@ public class Commande {
             .append(id)
             .append("', articles='");
         for (int i=0; i<articles.length; i++) {
-        Article article = articles[i];
-        buffer.append(article.toString());
-        if (i<articles.length-1) buffer.append(", ");
+            Article article = articles[i];
+            buffer.append(article.toString());
+            if (i<articles.length-1) buffer.append(", ");
         }
         buffer.append("]");
         return buffer.toString();
@@ -671,7 +668,7 @@ Ces classes respectent la convention JavaBean, à savoir qu'elles disposent d'ac
 Il existe une autre solution pour charger ces objets sans avoir besoin de spécifier explicitement les types. Pour ce faire, il faut utiliser la méthode `loadType()` et lui passer le fichier YAML à charger ainsi que le type de l'objet racine du fichier. Ainsi, dans notre cas, nous pourrions écrire le fichier de commande de la manière suivante :
 
 ```yaml
-id:   test123
+id: test123
 articles:
  - id:       test456
    prix:     3.5
@@ -683,7 +680,7 @@ articles:
 
 Et le charger avec le source suivant :
 
-```python
+```java
 package jyaml;
 
 import java.io.File;
@@ -790,7 +787,7 @@ for(Object object: Yaml.loadStream(input)) {
 
 ### Fichier de configuration
 
-Il est possible de configurer JYaml dans un fichier, qui doit être nommé `jyaml.yml` et se trouver dans le répertoire courant où tourne l'application ou bien à la racine de son CLASSPATH. Voici un exemple d'un tel fichier :
+Il est possible de configurer JYaml dans un fichier, qui doit être nommé `jyaml.yml` et se trouver dans le répertoire courant où tourne l'application ou bien à la racine de son *CLASSPATH*. Voici un exemple d'un tel fichier :
 
 ```yaml
 minimalOutput: true
@@ -826,7 +823,7 @@ Cependant, JYaml semble soufrir de limitations, en particulier pour le parsing d
 PyYAML
 ------
 
-PyYaml est une bibliothèque en Python permettant de gérer les fichiers YAML. On peut le télécharger sur le site [http://pyyaml.org/](http://pyyaml.org/) et l'on trouvera la documentation  [Documentation sur cette page](http://pyyaml.org/wiki/PyYAML).
+PyYaml est une bibliothèque en Python permettant de gérer les fichiers YAML. On peut le télécharger sur le site [http://pyyaml.org/](http://pyyaml.org/) et l'on trouvera la [documentation sur cette page](http://pyyaml.org/wiki/PyYAML).
 
 ### Installation
 
@@ -834,7 +831,7 @@ PyYaml peut utiliser [la LibYaml](http://pyyaml.org/wiki/LibYAML) écrite en C e
 
 ### Utilisation de base
 
-Pour charger un fichier YAML, dont le nom est passé sur la ligne de commande, dans un source Python, on pourra procéder somme suit :
+Pour charger un fichier YAML, dont le nom est passé sur la ligne de commande, on pourra procéder somme suit :
 
 ```python
 #!/usr/bin/env python
@@ -851,8 +848,8 @@ La fonction `load()` prend en paramètre une chaîne d'octets, unicode, un fichi
 Si la chaîne ou le fichier contient plusieurs documents, on peut tous les charger à l'aide de la fonction `yaml.load_all()` qui renvoie un itérateur. On pourra donc écrire :
 
 ```python
-for data in yaml.load_all(documents):
-    print data
+for document in yaml.load_all(documents):
+    print document
 ```
 
 Pour sérialiser un objet Python en YAML, on pourra utiliser la fonction `yaml.dump()` :
@@ -1016,7 +1013,7 @@ Goyaml
 
 Pour installer la bibliothèque dans son *GOPATH*, on tapera la ligne de commande suivante :
 
-```
+```bash
 $ go get gopkg.in/yaml.v2
 ```
 
@@ -1101,7 +1098,7 @@ fmt.Printf("Thing: %#v\n", thing)
 
 Ce qui produit la sortie suivante :
 
-```
+```bash
 $ go run generic.go user.yml 
 Thing: map[interface {}]interface {}{"name":"Robert", "age":25}
 ```
@@ -1118,7 +1115,7 @@ Maintenant que nous avons une bonne idée de ce qu'est YAML, nous pouvons le com
 YAML et JSON
 ------------
 
-Ces deux formats de représentation textuelle de données sont très proches, à tel point qu'à partir de la version *1.2* de la spécification YAML, tout document JSON est un document YAML valide (et peut donc être parsé par un parser YAML conforme à la version *1.2* de la spécification.
+Ces deux formats de représentation textuelle de données sont très proches, à tel point qu'à partir de la version *1.2* de la spécification YAML, tout document JSON est un document YAML valide (et peut donc être parsé par un parser YAML conforme à la version *1.2* de la spécification).
 
 Cependant, YAML bénéficie d'une plus grande lisibilité. D'autre part, il n'est pas lié à un langage de programmation particulier (comme l'est JSON avec JavaScript).
 
@@ -1139,7 +1136,6 @@ Les deux utilisations principales de YAML sont :
 - Les fichiers de configuration. YAML permet des fichiers de configuration typés et d'une syntaxe naturelle. Les fichiers de configuration de Ruby on Rails sont en YAML.
 - La sérialisation de données. Il peut être commode d'échanger des données au format YAML dans la mesure où ce format est indépendant de la plateforme et du langage de programmation. La présence d'alias et d'ancres permet des sérialisations intelligentes.
 
-
 J'espère que cette présentation de YAML vous aura donné l'envie d'utiliser ce format de données dans vos propres applications et de répandre la bonne parole autour de vous !
 
 Ressources
@@ -1156,3 +1152,4 @@ Voici quelques URLs utiles relatives à YAML :
 - [Page d'accueil PyYaml](http://www.pyyaml.org).
 - [Documentation PyYaml](http://pyyaml.org/wiki/PyYAML).
 
+*Enjoy!*

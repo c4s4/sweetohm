@@ -19,16 +19,16 @@ Voici un résumé de mon expérience dans le domaine du XML. Une [version compl�
 
 J'ai découvert XML en 1998 pour développer le générateur du site des Editions O'Reilly. J'ai par le suite beaucoup utilisé XML et XSLT, dans le développement d'applications Java et dans milieu de l'édition d'ouvrages techniques.
 
-Expert XML et Java chez ELS Gestion
------------------------------------
+Expert XML et Java chez ELS Gestion (09/2016 à 01/2018)
+-------------------------------------------------------
 
 J'ai travaillé en freelance pour ELS Gestion en tant qu'expert XML et Java pendant 17 mois (de septembre 2016 à janvier 2018). J'y ai réalisé les développements suivants :
 
 - Transformation de encyclopédies Dalloz de l’ancien format vers la nouvelle DTD (XML et XSLT 2.0).
 - Développement de la nouvelle chaîne de publication XML pour les ouvrages et encyclopédies Dalloz (XSLT 2.0, Java, Golang et Webservice).
 
-Expert Java et XML chez In-Fusio
---------------------------------
+Expert Java et XML chez In-Fusio (07/2000 à 04/2007)
+----------------------------------------------------
 
 J'ai été Ingénieur Expert Java et XML chez In-Fusio pendant sept ans. J'ai eu l'occasion d'y développer nombre d'applications basées sur XML, dont :
 
@@ -36,16 +36,16 @@ J'ai été Ingénieur Expert Java et XML chez In-Fusio pendant sept ans. J'ai eu
 - Programmation d’applications modulaires (système de logs de GameZilla), décrit à la fin de l'article <http://sweetohm.net/article/xml-java.html>.
 - Nombre d'autre applications Java utilisant des APIs SAX, DOM et JDom.
 
-Collaboration avec les Éditions O'Reilly
-----------------------------------------
+Collaboration avec les Éditions O'Reilly (01/1998 à 05/2008)
+------------------------------------------------------------
 
 J'ai utilisé XML et XSLT lorsque je travaillais en freelance pour les Editions O'Reilly.
 
 - Développement du générateur de site web des Éditions O'Reilly, basé sur XML et XSLT. Article décrivant le moteur : <http://sweetohm.net/article/ant-web.html>. La précédente version de mon site web était basée sur ce moteur : <http://sweetohm.net/vintage/>.
 - Coauteur de *XML Précis et Concis* (traduit en Anglais, Allemand et Japonais), dont le chapitre sur XSLT a été repris dans la dernière édition de Webmaster in a Nutshell.
 
-Cycle de conférences XML
-------------------------
+Cycle de conférences XML (depuis 2000)
+--------------------------------------
 
 J'ai présenté des conférences sur des thèmes XML :
 
@@ -67,8 +67,8 @@ J'ai donné des formations sur XML et XSLT, dont les textes sont sur mon site we
 - Introduction à XML : <http://sweetohm.net/article/intro-xml.html>.
 - Introduction à XSLT : <http://sweetohm.net/article/intro-xslt.html>.
 
-Développement XML
------------------
+Développement XML (depuis 1998)
+-------------------------------
 
 J'ai développé par ailleurs nombre d'outils XML :
 
@@ -77,4 +77,3 @@ J'ai développé par ailleurs nombre d'outils XML :
 - FiJI, installeur Java basé sur XML : <http://sweetohm.net/article/fiji.html>.
 - DTD Ant : <http://sweetohm.net/article/ant-dtd.html>.
 - ProjectX de Sun : <http://sweetohm.net/article/projectx.html>.
-

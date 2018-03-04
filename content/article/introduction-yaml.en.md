@@ -1152,5 +1152,7 @@ Here are some useful URLs for YAML:
 - [JYaml API References](http://jyaml.sourceforge.net/javadoc/index.html).
 - [PyYaml Homepage](http://www.pyyaml.org).
 - [PyYaml Documentation](http://pyyaml.org/wiki/PyYAML).
+- [GoYaml Homepage](http://gopkg.in/yaml.v2).
+- [GoYaml Documentation](http://godoc.org/gopkg.in/yaml.v2).
 
 *Enjoy!*

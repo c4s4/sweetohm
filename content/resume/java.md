@@ -19,26 +19,26 @@ Voici un résumé de mon expérience dans le domaine du Java. Une [version compl
 
 J'ai commencé mon activité de freelance avec des contrats Java en 1996. Je pratique depuis régulièrement ce langage avec enthousiasme, mais ayant connu toutes les errances de l'écosystème (EJB, fichiers de configuration XML) et ayant pratiqué d'autres langages, j'en connais aussi les limites. J'ai eu l'occasion de pratiquer la plupart des principaux frameworks (Spring, Hibernate et la plupart des frameworks web).
 
-Expert XML et Java chez ELS Gestion (17 mois)
----------------------------------------------
+Expert XML et Java chez ELS Gestion (09/2016 à 01/2018)
+-------------------------------------------------------
 
 J'y ai sécurisé des applications Java, par application de bonnes pratiques, comme la gestion des exceptions.
 
-Expert Java chez SQLI (9 mois)
-------------------------------
+Expert Java chez SQLI (10/2015 à 09/2016)
+-----------------------------------------
 
 Au sein du pôle d'expertise Java, j'ai travaillé comme référant technique sur un projet de batch de calcul avec Spring Batch. J'y ai aussi effectué de nombreuses entrées en maintenance, avec revue de code Java, mise en place de métriques de qualité de code et plan de sécurisation.
 
-Expert Java chez OAB (7 ans)
-----------------------------
+Expert Java chez OAB (04/2008 à 10/2015)
+----------------------------------------
 
 J'y ai travaillé sur des projets Java pour l'essentiel :
 
 - Projet de vidéo à la demande Vodoo (2 années) : essentiellement une application web en Java.
 - Passage à la norme bancaire PCIDSS d'applications bancaires web Java (2 années).
 
-Expert Java et XML chez In-Fusion (7 ans)
------------------------------------------
+Expert Java et XML chez In-Fusion (07/2000 à 04/2007)
+-----------------------------------------------------
 
 J'y ai travaillé pendant 7 années sur des projets Java backend pour l'essentiel, mettant en œuvre nombre de frameworks Java, tels que EJB, Servlets, JSP, Struts et JMX, mais aussi des technologies Java, comme des Security Managers et Class Loaders.
 
@@ -53,8 +53,8 @@ Par ailleurs, j'ai été architecte logiciel chez In-Fusio :
 - Mise en place d'une intégration continue.
 - Mise en place de webservices pour remplacer les EJBs.
 
-Collaboration avec les Éditions O'Reilly
-----------------------------------------
+Collaboration avec les Éditions O'Reilly (01/1998 à 05/2008)
+------------------------------------------------------------
 
 J'ai travaillé en freelance pour les Editions O'Reilly, avec du travail de traduction, de relecture technique et d'écriture d'ouvrage Java pour l'essentiel.
 
@@ -62,8 +62,8 @@ J'ai travaillé en freelance pour les Editions O'Reilly, avec du travail de trad
 - Relecture technique de *Java Examples in a Nutshell*, *Ant précis et concis*, *Java et SOAP* et *Java plus rapide, plus léger*.
 - Écriture d’articles Java et brèves sur leur site.
 
-Conférences sur des thèmes Java
--------------------------------
+Conférences sur des thèmes Java (depuis 1998)
+---------------------------------------------
 
 J'ai eu l'occasion de présenter nombre de conférences sur des thèmatiques Java :
 

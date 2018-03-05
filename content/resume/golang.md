@@ -19,8 +19,8 @@ English version [is available here](http://sweetohm.net/resume/golang.en.html).
 
 <!--more-->
 
-Mise en œuvre chez Orange (04/2008 à 10/2015)
----------------------------------------------
+Mise en œuvre chez Orange *(2008-04 à 2015-10)*
+-----------------------------------------------
 
 J'ai découvert le Go début 2014 et l'ai rapidement mis en œuvre au sein d'Orange pour la réécriture d'un serveur SMS haute-performance. Ce serveur avait été implémenté en Java, avec NIO, et était depuis deux années en débogage pour le faire passer en production.
 
@@ -28,13 +28,13 @@ Devant les difficultés rencontrées pour corriger le code existant, j'ai propos
 
 Ce travail a donné lieu à une [conférence à BDX.IO](http://sweetohm.net/slides/go-retour-experience/) et aux DevDays Orange en 2014.
 
-Outils pour les Éditions Dalloz (09/2016 à 01/2018)
----------------------------------------------------
+Outils pour les Éditions Dalloz *(2016-09 à 2018-01)*
+-----------------------------------------------------
 
 Au cours de l'année 2017, j'ai développé la chaîne de publication des ouvrages et encyclopédies Dalloz. En cette occasion, j'ai codé nombre d'outils en Go. En particulier, j'ai développé en Go et mis en œuvre un [outil de build appelé Néon](http://github.com/c4s4/neon) ainsi qu'un webservice REST pour la publication des ouvrages.
 
-Activités personnelles (depuis 2014)
-------------------------------------
+Activités personnelles *(depuis 2014)*
+--------------------------------------
 
 Depuis que j'ai découvert le langage Go, il est devenu mon langage de prédilection pour mes projets personnels.
 

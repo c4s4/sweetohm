@@ -19,8 +19,8 @@ Une version en Français [est disponible ici](http://sweetohm.net/resume/golang.
 
 <!-- more -->
 
-Implementation at Orange (2008-04 to 2015-10)
----------------------------------------------
+Implementation at Orange *(2008-04 to 2015-10)*
+-----------------------------------------------
 
 I discovered Go in early 2014 and quickly implemented it within Orange for the rewrite of a high-performance SMS server. This server had been implemented in Java, with NIO, and had been debugging for two years to make it go into production.
 
@@ -28,13 +28,13 @@ Faced with the difficulties encountered in correcting the existing code, I propo
 
 This work resulted in a [talk at BDX.IO (in french)] (http://sweetohm.net/slides/go-retour-experience/) and the Orange DevDays in 2014.
 
-Tools for Dalloz Publishing (2016-09 to 2018-01)
-------------------------------------------------
+Tools for Dalloz Publishing *(2016-09 to 2018-01)*
+--------------------------------------------------
 
 During the year 2017, I developed the publishing chain of Dalloz books and encyclopedias. On this occasion, I coded many tools in Go. In particular, I developed a [build tool called Neon] (http://github.com/c4s4/neon), a REST webservice for books publication and many publishing tools.
 
-Personal activities (from 2014)
--------------------------------
+Personal activities *(since 2014)*
+----------------------------------
 
 Since I discovered the Go programming language, it has become my favorite for personal projects.
 

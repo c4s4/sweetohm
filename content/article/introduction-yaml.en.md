@@ -177,7 +177,7 @@ Which is parsed in the following way:
  'decimal': 12345, 'sexagesimal': 12345}
 ```
 
-Thus most common notations of programming languages ​​(such as octal or hexadecimal) are handled. Note that all these notations will be recognized as identical by a parser YAML and consequently will be equivalent like key of an associative array for example.
+Thus most common notations of programming languages ​​(such as octal or hexadecimal) are handled. Note that all these notations will be recognized as identical by a YAML parser and consequently will be equivalent like key of an associative array for example.
 
 ### Floating point numbers
 
@@ -1042,9 +1042,9 @@ To parse the file, you must:
 
 - Create an empty structure.
 - Read the contents of the YAML file.
-- Parser the contents of the file by passing the address of the empty structure.
+- Parse the contents of the file by passing the address of the empty structure.
 
-So to parser our user file:
+So to parse our user file:
 
 ```go
 var user User

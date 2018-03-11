@@ -3,7 +3,7 @@
 default: site
 
 extends:
-- c4s4/build/buildir.yml
+- c4s4/build/python.yml
 
 properties:
   VENV_DIR:    'venv'
@@ -22,17 +22,19 @@ environment:
 
 targets:
 
-  init:
-    doc: Create virtual environment
+  install:
+    doc: Create virtual environment and install pandocfilter
+    depends: init
     steps:
-    - delete: =VENV_DIR
-    - $: ['virtualenv', =VENV_DIR]
     - 'debian = split(read("/etc/debian_version"), ".")[0]'
+    - if: 'debian == "8" && version != "2"'
+      then:
+      - throw: 'Must install with Python 2 on Debian 8'
     - if: PANDOC_FILTERS[debian] == nil
       then:
       - throw: 'No pandocfilters version defined for Debian ={debian}'
-    - 'version = PANDOC_FILTERS[debian]'
-    - $: ['={VENV_DIR}/bin/pip', 'install', 'pandocfilters==={version}']
+    - 'filter = PANDOC_FILTERS[debian]'
+    - $: ['={VENV_DIR}/bin/pip', 'install', 'pandocfilters==={filter}']
 
   pdf:
     doc: Generate PDF files

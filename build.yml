@@ -4,12 +4,14 @@ default: site
 
 extends:
 - c4s4/build/python.yml
+- c4s4/build/release.yml
 
 properties:
   VENV_DIR:    'venv'
   ARTICLE_DIR: 'content/article'
   RESUME_DIR:  'content/resume'
   DESTINATION: '/home/web/sweetohm'
+  VERSION:     '={replace(replace(now(), " ", "="), ":", "-")}'
   PANDOC_FILTERS:
     '8': '1.2.4'
     '9': '1.4.2'
@@ -131,39 +133,3 @@ targets:
       dir:     =CV_DIR
       prefix:  'michel-casabianca'
       tofile:  '~/dsk/michel-casabianca.zip'
-
-  release:
-    doc: Perform a release
-    steps:
-    # check that there are no uncommitted changes
-    - try:
-      - $: ['git', 'diff', '--quiet', '--exit-code', 'HEAD']
-      - print: 'There are no uncommitted changes'
-      catch:
-      - throw: 'There are uncommitted changes'
-    # check that we are on develop branch
-    - $: ['git', 'rev-parse', '--abbrev-ref', 'HEAD']
-      =: 'branch'
-    - if: 'branch != "develop"'
-      then:
-      - throw: 'We are not on branch develop'
-      else:
-      - print: 'We are on branch develop'
-    # generate release tag and message
-    - 'strings = import("strings")'
-    - 'tag = strings.Replace(now(), " ", "=", -1)'
-    - 'tag = strings.Replace(tag, ":", "-", -1)'
-    - 'message = "Release on "+now()'
-    # merge develop on master, tag release and return on develop
-    - try:
-      - $: ['git', 'checkout', 'master']
-      - $: ['git', 'pull']
-      - $: ['git', 'merge', '--no-ff', 'develop', '-m', =message]
-      - $: ['git', 'push']
-      - $: ['git', 'tag', '-a', =tag, '-m', =message]
-      - $: ['git', 'push', 'origin', =tag]
-      catch:
-      - throw: 'performing release'
-      finally:
-      # whatever happens, when return on develop branch
-      - $: ['git', 'checkout', 'develop']

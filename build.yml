@@ -7,7 +7,6 @@ extends:
 - c4s4/build/release.yml
 
 properties:
-  VENV_DIR:    'venv'
   ARTICLE_DIR: 'content/article'
   RESUME_DIR:  'content/resume'
   DESTINATION: '/home/web/sweetohm'

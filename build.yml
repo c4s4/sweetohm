@@ -98,10 +98,10 @@ targets:
     steps:
     - print: 'Update at ={now()}'
     - $: ['git', 'fetch']
-    - $: ['git', 'rev-parse', 'origin/master']
-      =:  'master'
-    - $: ['git', 'rev-parse', 'HEAD']
-      =:  'local'
+    - $:  ['git', 'rev-parse', 'origin/master']
+      3=: 'master'
+    - $:  ['git', 'rev-parse', 'HEAD']
+      3=: 'local'
     - if: 'local != master'
       then:
       - $: ['git', 'pull']

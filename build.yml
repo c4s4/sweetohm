@@ -49,7 +49,7 @@ targets:
         do:
         - 'md = joinpath(dir, file)'
         - 'pdf = joinpath(BUILD_DIR, "pdf", file[0:len(file)-3]+".pdf")'
-        - if: 'older(md, pdf)'
+        - if: 'newer(md, pdf)'
           then:
           - print: 'Generating "={pdf}"'
           - $: ['md2pdf', '-i', =dir, '-o', =pdf, =md]
@@ -63,7 +63,7 @@ targets:
       do:
       - 'md = joinpath(ARTICLE_DIR, file)'
       - 'epub = joinpath(BUILD_DIR, "epub", file[0:len(file)-3]+".epub")'
-      - if: 'older(md, epub)'
+      - if: 'newer(md, epub)'
         then:
         - print: 'Generating "={epub}"'
         - $: ['pandoc', '-t', 'epub', '-o', =epub, '--filter', './image_dir.py', =md]
@@ -77,7 +77,7 @@ targets:
       do:
       - 'md = joinpath(RESUME_DIR, file)'
       - 'docx = joinpath(BUILD_DIR, "docx", file[0:len(file)-3]+".docx")'
-      - if: 'older(md, docx)'
+      - if: 'newer(md, docx)'
         then:
         - print: 'Generating "={docx}"'
         - $: ['pandoc', '-t', 'docx', '-o', =docx, '--filter', './image_dir.py', =md]

@@ -8,9 +8,6 @@ id:         python
 email:      casa@sweetohm.net
 lang:       fr
 toc:        false
-announce:   |
-    Ma mission en cours se terminant fin janvier, je serai disponible
-    à partir du début du mois de février 2018.
 ---
 
 Voici un résumé de mon expérience dans le domaine du Python. Une [version complète de mon CV est disponible ici](http://sweetohm.net/resume/resume.html).

@@ -8,9 +8,6 @@ id:         golang
 email:      casa@sweetohm.net
 lang:       en
 toc:        false
-announce:   |
-    My mission ending in january, I will be available at the beginning
-    of February.
 ---
 
 Here is a summary of my experience in the field of Go. A [full version of my resume is available here] (http://sweetohm.net/resume/resume.en.html).

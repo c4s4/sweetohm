@@ -8,9 +8,6 @@ id:         resume
 #email:      casa@sweetohm.net
 lang:       fr
 toc:        false
-announce:   |
-    Ma mission en cours se terminant fin janvier, je serai disponible
-    à partir du début du mois de février 2018.
 ---
 
 Voici mon CV complet. Des CVs par techno sont disponibles pour

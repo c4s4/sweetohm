@@ -10,6 +10,8 @@ lang:       fr
 toc:        false
 ---
 
+Sur Github: <https://github.com/c4s4/db_migration>
+
 Cet outil permet de gérer les migrations d'une base de données. On doit écrire
 les scripts de migration et les disposer dans des répertoires par version et par
 plate-forme. Par exemple, pour migrer la PRP vers la version 1.2.3, on placera 

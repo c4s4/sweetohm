@@ -25,6 +25,8 @@ Un cron déclenche un build toutes les 5 minutes. Ce build réalise les étapes 
 
 La génération du site avec Hugo met moins d'une seconde !
 
+Le projet comporte deux branches : *develop* sur laquelle je développe et *master* qui est l'état du site publié. Lorsque tout est pret, je lance la release qui merge *develop* sur *master*. Le repository qui build le site est donc sur la branche *master*.
+
 Le build du site est réalisé avec [mon outil de build NeON](http://github.com/c4c4/neon).
 
 *Enjoy!*

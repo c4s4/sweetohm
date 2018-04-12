@@ -14,6 +14,8 @@ Sur Github: <https://github.com/c4s4/md2pdf>
 
 Md2Pdf est un outil pour convertir des documents [Markdown](https://en.wikipedia.org/wiki/Markdown) en PDF, sans passer par LaTeX.
 
+<!--more-->
+
 Installation
 ------------
 

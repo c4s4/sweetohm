@@ -14,6 +14,8 @@ Sur Github: <https://github.com/c4s4/continuum>
 
 Ce projet constient les sources de mon site web. Il est généré à partir de sources [au format Markdown](https://fr.wikipedia.org/wiki/Markdown) avec le [générateur de site statique Hugo](https://gohugo.io/). Le site est responsive grâce à la [bibliothèque HTML, CSS et JS Bootstrap](https://getbootstrap.com/).
 
+<!--more-->
+
 Un cron déclenche un build toutes les 5 minutes. Ce build réalise les étapes suivantes :
 
 - Il examine le repository local avec le distant.

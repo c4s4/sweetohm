@@ -14,6 +14,8 @@ Sur Github: <https://github.com/c4s4/cheeseshop>
 
 CheeseShop est un repository de packages Python, soit une version locale du célèbre <http://pypi.python.org>. Ceci est utile pour les utilisateurs en entreprise qui ont besoin de partager des bibliothèques Python privées entre développeurs.
 
+<!--more-->
+
 Pour dire à PIP où se trouve votre CheeseShop privé, vous devez éditer votre fichier *~/.pip/pip.conf* :
 
 ```python

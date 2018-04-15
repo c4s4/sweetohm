@@ -4,7 +4,7 @@ author:     Michel Casabianca
 date:       2014-11-05
 categories: [projets]
 tags:       [java, python, golang, lua, rust]
-id:         babel
+id:         projet-babel
 email:      michel.casabianca@gmail.com
 lang:       fr
 toc:        yes

@@ -4,7 +4,7 @@ author:     Michel Casabianca
 date:       2014-10-29
 categories: [projets]
 tags:       [golang]
-id:         gointerfaces
+id:         projet-gointerfaces
 email:      michel.casabianca@gmail.com
 lang:       fr
 toc:        no

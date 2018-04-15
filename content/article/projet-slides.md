@@ -3,7 +3,7 @@ title:      Template de Slides
 date:       2015-11-11
 author:     Michel Casabianca
 email:      casa@sweetohm.net
-id:         slides-template
+id:         projet-slides
 categories: [projets]
 tags:       [markdown]
 lang:       fr

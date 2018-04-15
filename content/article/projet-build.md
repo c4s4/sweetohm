@@ -14,6 +14,8 @@ Sur Github: <https://github.com/c4s4/build>
 
 Ce projet contient mes build files parent pour NeON.
 
+<!--more-->
+
 Installation
 ------------
 

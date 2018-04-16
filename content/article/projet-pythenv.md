@@ -4,7 +4,7 @@ date:       2015-09-29
 updated:    2016-01-20
 author:     Michel Casabianca
 email:      casa@sweetohm.net
-id:         pythenv
+id:         projet-pythenv
 categories: [projets]
 tags:       [python]
 lang:       fr

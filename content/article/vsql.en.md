@@ -2,7 +2,7 @@
 title:      VisualSQL 0.5
 author:     Michel CASABIANCA
 date:       2001-10-15
-id:         vsql.doc.en
+id:         vsql.en
 email:      casa@sweetohm.net
 lang:       en
 toc:        yes

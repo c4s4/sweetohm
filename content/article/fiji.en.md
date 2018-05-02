@@ -2,7 +2,7 @@
 title:      FiJI
 author:     Michel CASABIANCA
 date:       2003-01-12
-id:         fiji.doc.en
+id:         fiji.en
 email:      casa@sweetohm.net
 lang:       en
 toc:        yes

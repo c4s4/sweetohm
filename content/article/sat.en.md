@@ -2,7 +2,7 @@
 title:      Sweet Ant Tools 1.0
 author:     Michel CASABIANCA
 date:       2003-07-14
-id:         sat.doc.en
+id:         sat.en
 email:      casa@sweetohm.net
 lang:       en
 toc:        yes

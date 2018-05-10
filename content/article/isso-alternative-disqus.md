@@ -22,7 +22,7 @@ Pour installer Isso, utiliser Pip comme suit :
 $ pip install isso
 ```
 
-ON pourra alors démarrer Isso avec la commande :
+On pourra alors démarrer Isso avec la commande :
 
 ```
 $ isso -c /etc/isso.cfg
@@ -187,7 +187,7 @@ On pourra alors démarrer le service isso avec la commande :
 $ sudo systemctl start isso
 ```
 
-On m'arrêtera avec :
+On l'arrêtera avec :
 
 ```
 $ sudo systemctl stop isso

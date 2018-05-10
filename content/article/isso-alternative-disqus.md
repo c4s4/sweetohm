@@ -14,6 +14,8 @@ Suite à des [déboires avec Disqus](/blog/171.html), je me suis mis en quête d
 
 <!--more-->
 
+![Isso Pokemon](isso-alternative-disqus.png)
+
 Isso est écrit en [Python](http://python.org), il vous faut donc une machine virtuelle Python. Il vous faudra aussi disposer de Pip, distribué avec les dernières versions de Python.
 
 Pour installer Isso, utiliser Pip comme suit :

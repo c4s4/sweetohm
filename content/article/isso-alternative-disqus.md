@@ -1,12 +1,13 @@
 ---
 title:      Isso une alternative à Disqus
 author:     Michel Casabianca
-email:      casa@sweetohm.net
-id:         isso-alternative-disqus
 date:       2018-05-10
-categories: [disqus, linux]
+categories: [articles]
+tags:       [python, disqus]
+id:         isso-alternative-disqus
+email:      casa@sweetohm.net
 lang:       fr
-toc:        
+toc:        false
 ---
 
 Suite à des [déboires avec Disqus](/blog/171.html), je me suis mis en quête d'une alternative et je suis tombé sur [Isso](https://github.com/posativ/isso). Cet article détaille son installation sur une Debian.

@@ -4,7 +4,6 @@ default: site
 
 extends:
 - c4s4/build/python.yml
-- c4s4/build/release.yml
 
 properties:
   ARTICLE_DIR: 'content/article'
@@ -19,7 +18,7 @@ properties:
   #- 'casa@sweetohm.org:/home/web/public'
 
 environment:
-  PATH:       '={VENV_DIR}/bin:${PATH}'
+  PATH: '={VENV_DIR}/bin:${PATH}'
 
 targets:
 

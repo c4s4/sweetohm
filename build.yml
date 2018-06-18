@@ -131,3 +131,9 @@ targets:
       dir:     =CV_DIR
       prefix:  'michel-casabianca'
       tofile:  '~/dsk/michel-casabianca.zip'
+
+  release-info:
+    doc: Set release information
+    steps:
+    - 'release_version = replace(replace(now(), " ", "="), ":", "-")'
+    - 'release_message = "Released on "+now()'

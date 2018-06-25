@@ -200,7 +200,7 @@ Les disques SSD n'aiment pas les écritures répétées et l'on aura intérêt d
 Désactiver bluetooth
 --------------------
 
-Editer la configuration */etc/bluetooth/main.conf* et éditer la ligne `InitialyPowered` pour la remplacer par :
+Éditer la configuration */etc/bluetooth/main.conf* et éditer la ligne `InitialyPowered` pour la remplacer par :
 
 ```
 InitiallyPowered = false
@@ -217,6 +217,19 @@ On pourra vérifier que ce service n'est pas démarré avec la commande :
 ```bash
 sudo service bluetooth status
 ```
+
+Note importante
+---------------
+
+L'horloge interne étant alimentée par la batterie (et non sa propre pile comme sur la plupart des ordinateurs), si cette dernière est complètement vide, l'horloge est réinitialisée avec une valeur aléatoire au prochain redémarrage. Il peut alors arriver que la valeur soit trop loin dans le passé ou le futur pour permettre la connexion Wifi.
+
+Vous devez alors régler l'heure manuellement avec la commande suivante :
+
+```bash
+$ sudo date --set 2018-06-25T11:00:00
+```
+
+Il faut garder cela en tête si vous avez des problèmes de connexion Wifi au démarrage, cela vous évitera de vous arracher les cheveux !
 
 Liens
 -----

@@ -214,6 +214,19 @@ You can check that bluetooth was disabled typing:
 sudo service bluetooth status
 ```
 
+Important Note
+--------------
+
+The internal clock is powered by the main battery (and not by its own battery as usual) so that if your battery is completely discharged, the clock will be set with a random value at next boot. If this value is too far in the past or the future, it might prevent Wifi connection.
+
+You must then set time manually with following command line:
+
+```bash
+$ sudo date --set 2018-06-25T11:00:00
+```
+
+You should keep that in mind when you can't connect to Wifi on startup.
+
 Links
 -----
 

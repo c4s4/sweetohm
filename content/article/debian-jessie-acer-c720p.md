@@ -2,7 +2,7 @@
 title:      Installation de Debian Jessie sur Acer C720P
 author:     Michel Casabianca
 date:       2014-06-18
-updated:    2018-02-07
+updated:    2018-06-25
 categories: [articles]
 tags:       [debian, linux, acer c720]
 id:         michel-casabianca
@@ -246,6 +246,7 @@ Voici des liens utiles traitant de Linux sur Acer C720 :
 Mises à jour
 ------------
 
+- **2018-06-25** : Ajout d'une note sur l'horloge interne et la batterie.
 - **2018-02-06** : Les dernières versions du kernel prennent en charge le pavé tactile. Il n'est donc plus nécessaire d'installer un kernel patché. D'autre part, l'écran tactile est supporté.
 - **2014-10-11** : Ajout d'une configuration Xmodmap pour ajouter la touche Delete.
 - **2014-06-25** : Depuis la dernière mise à jour du système, lorsque je presse le bouton *Power* de la machine, elle affiche le menu, comme avant la mise à jour, mais part en shutdown immédiatement. J'enquête...

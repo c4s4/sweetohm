@@ -53,7 +53,13 @@ Specific Skills
 Professional Experience
 -----------------------
 
-### Since 2015: Freelance Developer
+### Since march 2018 : Lead Python Developer at mieuxplacer.com
+
+I am Lead Python Develop at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend (a REST API implemented with [Django Rest Framework](http://www.django-rest-framework.org/)).
+
+I have implemented software development good practices, such as measuring test code coverage (with [codecov.io](http://codecov.io)), implementing automated integration tests, automatic warning detection on Git commits (with [pylint](https://www.pylint.org/)).
+
+### 2015-2018 : Freelance Developer
 
 At the end of 2015, I left the Orange group to work as a Freelance:
 

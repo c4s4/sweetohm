@@ -53,8 +53,15 @@ Compétences Spécifiques
 Expérience Professionnelle
 ==========================
 
-Depuis 2015 : Développeur Freelance
------------------------------------
+Depuis mars 2018 : Lead Developer Python chez mieuxplacer.com
+-------------------------------------------------------------
+
+Je suis Lead Python Developer chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django (API rest implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/)).
+
+J'ai mis en œuvre les bonnes pratiques de développement logiciel, telles que la mesure de la couverture de test (avec [codecov.io](http://codecov.io)), la mise en place de tests d'intégration automatisés, la détection automatique des warnings sur les commits Git (avec [pylint](https://www.pylint.org/)).
+
+2015-2018 : Développeur Freelance
+---------------------------------
 
 Fin 2015, j'ai quitté le groupe Orange pour repasser en Freelance :
 

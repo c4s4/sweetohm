@@ -16,6 +16,13 @@ Voici un résumé de mon expérience dans le domaine du Python. Une [version com
 
 J'ai commencé à utiliser le langage Python en 1998 et je l'ai depuis utilisé comme mon langage de script de prédilection. Je l'ai aussi mis en œuvre avec le framework Django pour développer des applications web.
 
+Lead Python Developer chez Mieuxplacer.com *(depuis 2018-03)*
+-------------------------------------------------------------
+
+Je suis Lead Python Developer chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django (API rest implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/)).
+
+J'ai mis en œuvre les bonnes pratiques de développement logiciel, telles que la mesure de la couverture de test (avec [codecov.io](http://codecov.io)), la mise en place de tests d'intégration automatisés, la détection automatique des warnings sur les commits Git (avec [pylint](https://www.pylint.org/)).
+
 Ingénieur Expert chez OAB *(2008-04 à 2015-10)*
 -----------------------------------------------
 

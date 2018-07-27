@@ -15,7 +15,7 @@ Here is my complete resume. Resumes by technology are available for
 [Java](http://sweetohm.net/resume/java.html) and
 [XML/XSLT](http://sweetohm.net/resume/xml.html).
 
-I am a pragmatic programmer that rejects any dogma and don't consider failure as an alternative. My experience, both technical and human, secures projets I am working on.
+I am a pragmatic programmer that rejects any dogma and doesn't consider failure as an alternative. My experience, technical and human, allows me to secure projects I am working on.
 
 <!--more-->
 

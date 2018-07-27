@@ -33,9 +33,8 @@ http://linkedin.com/in/casabianca
 Mastered Technologies
 ---------------------
 
-- Programming Languages: Java, Python, Go, Ruby, Shell, PHP, C et C++, Lua, Lisp and some dead languages (Pascal, Assembler X86, Basic, LSE, HP41).
-- Java Stack: Spring, Hibernate, Maven, Tomcat and main Java web frameworks.
-- Web Technologies: JavaScript (JQuery), Servlets, JSP (JSTL), Django, Flask, Ruby on Rails, Sinatra, Web Services (XML-RPC et Soap), Rest.
+- Programming Languages: Python, Go, Java, Ruby, Shell, PHP, C and C++, Lua, Lisp and some dead languages (Pascal, Assembler X86, Basic, LSE, HP41).
+- Web Technologies: Django, Flask, Web Services (Rest, XML-RPC and Soap), Ruby on Rails, Sinatra, JavaScript (JQuery), Servlets, JSP (JSTL).
 - Databases: SQL on MySQL, Oracle, PostgresQL and SQLite.
 - Methodologies: Object Oriented Programming, Patterns, Extreme Programming, Agile Development and Open Source.
 - Documentation: Markdown and Rest, XML (DTDs, XSLT, XPath, Xpointer and SAX, DOM and JDOM APIs), LaTeX, SGML (HTML and Linux Doc).
@@ -44,7 +43,7 @@ Mastered Technologies
 Specific Skills
 ---------------
 
-- Software Development: software development expertise on Unix servers.
+- Software Development: backend software development expertise on Unix servers.
 - Software Architecture: expertise in software architecture design.
 - Technological Watch: good skills to evaluate and implement new technologies.
 - Training and Pedagogy: trained as teacher, speaker and trainer.

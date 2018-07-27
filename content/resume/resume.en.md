@@ -1,7 +1,7 @@
 ---
 title:      "Resume in English"
 #author:     Michel Casabianca
-date:       2017-12-17
+date:       2018-07-27
 tags:       [cv, resume, michel casabianca]
 id:         resume.en
 email:      casa@sweetohm.net

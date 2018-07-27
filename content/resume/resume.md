@@ -16,7 +16,7 @@ Voici mon CV complet. Des CVs par techno sont disponibles pour
 [Python](http://sweetohm.net/resume/python.html)
 et [XML/XSLT](http://sweetohm.net/resume/xml.html).
 
-Je suis un développeur pragmatique qui rejette tout dogmatisme et n'envisage pas l'échec comme une alternative. Mon expérience, tant sur le plan technique qu'humain, me permet de sécuriser les projets sur lesquels je travaille.
+Je suis un développeur pragmatique qui rejette tout dogmatisme et n'envisage pas l'échec comme une option. Mon expérience, tant sur le plan technique qu'humain, me permet de sécuriser les projets sur lesquels je travaille.
 
 <!--more-->
 

@@ -15,7 +15,7 @@ Here is my complete resume. Resumes by technology are available for
 [Java](http://sweetohm.net/resume/java.html) and
 [XML/XSLT](http://sweetohm.net/resume/xml.html).
 
-I am a pragmatic programmer that rejects any dogma and doesn't consider failure as an alternative. My experience, technical and human, allows me to secure projects I am working on.
+I am a pragmatic programmer that rejects any dogma and doesn't consider failure as an option. My experience, technical and human, allows me to secure projects I am working on.
 
 <!--more-->
 
@@ -64,10 +64,10 @@ I have implemented software development good practices, such as measuring test c
 
 At the end of 2015, I left the Orange group to work as a Freelance:
 
-- Since September 2016 I am XML and Java expert at Editons Lefebvre Sarrut. During this mission, I have conducted following projects:
+- From September 2016 to January 2018 (17 months), I have been XML and Java expert at Editons Lefebvre Sarrut. During this mission, I have conducted following projects:
   - Transformation from old Dalloz encyclopedia format to the new DTD (XML and XSLT 2.0).
   - Development of the new XML publication line for Dalloz books and encyclopedias (Java, Golang and XSLT 2.0).
-- From December 2015 to August 2016 (9 months), I have been Java Expert at SQLI in Pessac. I have been technical referent on a computation batch project (proofs of concept, Spring Batch adoption, database migration scripts, package generation, continuous integration, etc). I have also work on transverse projects, such as reception of maintenance projects (code and database audits, securisation cost estimates), Python training and other missions.
+- From December 2015 to August 2016 (9 months), I have been Java Expert at SQLI in Pessac. I have been technical referent on a computation batch project (proofs of concept, Spring Batch adoption, database migration scripts, package generation, continuous integration, etc). I have also work on transverse projects, such as reception of maintenance projects (code and database audits, securing costs estimates), Python training and other missions.
 
 ### 2008-2015: Expert Engineer at Orange Applications for Business
 

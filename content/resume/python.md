@@ -1,7 +1,7 @@
 ---
 title:      "Expérience Python"
 author:     Michel Casabianca
-date:       2018-01-22
+date:       2018-07-27
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         python

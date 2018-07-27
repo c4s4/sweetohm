@@ -18,6 +18,6 @@ params:
     - projets
     - jeux
     - archives
-    disqus:
-        shortname: sweetohm
-        url:       http://sweetohm.net/html
+    # disqus:
+    #     shortname: sweetohm
+    #     url:       http://sweetohm.net/html

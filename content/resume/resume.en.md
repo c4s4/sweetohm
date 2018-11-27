@@ -56,9 +56,17 @@ Professional Experience
 
 ### Since march 2018 : Lead Python Developer at mieuxplacer.com
 
-I am Lead Python Develop at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend (a REST API implemented with [Django Rest Framework](http://www.django-rest-framework.org/)).
+I am Lead Python Develop at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend :
 
-I have implemented software development good practices, such as measuring test code coverage (with [codecov.io](http://codecov.io)), implementing automated integration tests, automatic warning detection on Git commits (with [pylint](https://www.pylint.org/)).
+- Migration of the REST API from [Django Rest Framework](http://www.django-rest-framework.org/) to a [custome framework](https://github.com/c4s4/django-rest).
+- Synchronization tool between backend and Zoho CRM (with REST calls).
+- Implemention of software development good practices:
+  - Measurement of test code coverage (with [codecov.io](http://codecov.io).
+  - Implementing of automated integration tests.
+  - Automated Pylint validation on Git commits.
+  - Great scale refactoring of code and data models.
+
+Build of Debian machines on AWS.
 
 ### 2015-2018 : Freelance Developer
 

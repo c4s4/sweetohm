@@ -56,9 +56,17 @@ Expérience Professionnelle
 
 ### Depuis mars 2018 : Lead Developer Python chez mieuxplacer.com
 
-Je suis Lead Python Developer chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django (API rest implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/)).
+Je suis Lead Python Developer chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
 
-J'ai mis en œuvre les bonnes pratiques de développement logiciel, telles que la mesure de la couverture de test (avec [codecov.io](http://codecov.io)), la mise en place de tests d'intégration automatisés, la détection automatique des warnings sur les commits Git (avec [pylint](https://www.pylint.org/)).
+- Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
+- Outil de synchronisation du backend avec le CRM Zoho (par appels REST).
+- Mise en œuvre les bonnes pratiques de développement logiciel :
+  - Mesure de la couverture de test (avec [codecov.io](http://codecov.io)).
+  - Mise en place de tests d'intégration automatisés.
+  - Validation Pylint du code lors des commits Git.
+  - Refactoring à grande échelle de code et de modèles de données.
+
+Montage de machines Debian sur AWS.
 
 ### 2015-2018 : Développeur Freelance
 

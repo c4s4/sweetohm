@@ -60,11 +60,11 @@ Je suis Lead Python Developer chez [mieuxplacer.com](http://mieuxplacer.com) dep
 
 - Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
 - Outil de synchronisation du backend avec le CRM Zoho (par appels REST).
-- Mise en œuvre les bonnes pratiques de développement logiciel :
+- Mise en œuvre des bonnes pratiques de développement logiciel :
   - Mesure de la couverture de test (avec [codecov.io](http://codecov.io)).
   - Mise en place de tests d'intégration automatisés.
-  - Validation Pylint du code lors des commits Git.
-  - Refactoring à grande échelle de code et de modèles de données.
+  - Validation Pylint du code automatisée lors des commits Git.
+  - Refactoring à grande échelle du code et des modèles de données.
 
 Montage de machines Debian sur AWS.
 

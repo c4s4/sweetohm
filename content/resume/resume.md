@@ -181,6 +181,8 @@ D'autre part, j'interviens régulièrement dans des conférences sur des sujets 
 - Conférence *Michel développeur à 50 ans* à BDX.io (keynote) en octobre 2016.
 - Conférence *Migration BDD* à BDX.io en octobre 2016.
 - Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* à BDX.io en novembre 2017.
+- Conférence *L'outil de build NeON* aux RMLL Strasbourg en juillet 2018.
+- Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* aux RMLL Strasbourg en juillet 2018.
 
 Pour finir, quelques activités personnelles dans le domaine de l'informatique :
 

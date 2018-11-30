@@ -177,6 +177,8 @@ I have been speakers at following lectures:
 - *Michel, 50 years old developer* (keynote) at BDX.io in October 2016.
 - *Database Migration* at BDX.io in October 2016.
 - *Quantum Computer: Myth or Reality?* at BDX.io in November 2017.
+- *NeON build tool* at RMLL Strasbourg in July 2018.
+- *Quantum Computer: Myth or Reality?* at RMLL Strasbourg in July 2018.
 
 Few activities related to computer science:
 

@@ -1,9 +1,7 @@
 # NeON Build File (http://github.com/c4s4/neon)
 
 default: site
-
-extends:
-- c4s4/build/python.yml
+extends: [python, git, changelog]
 
 properties:
   ARTICLE_DIR: 'content/article'

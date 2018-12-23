@@ -225,7 +225,7 @@ func main() {
         panic("Not OK!")
     }
     value := list[0].String
-    fmt.Printf("Value: %#v\n", value)                                           
+    fmt.Printf("Value: %#v\n", value)
 }
 ```
 

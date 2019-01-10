@@ -130,8 +130,7 @@ targets:
       prefix:  'michel-casabianca'
       tofile:  '~/dsk/michel-casabianca.zip'
 
-  release-info:
+  version:
     doc: Set release information
     steps:
-    - 'release_version = replace(replace(now(), " ", "="), ":", "-")'
-    - 'release_message = "Released on "+now()'
+    - 'VERSION = replace(replace(now(), " ", "="), ":", "-")'

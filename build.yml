@@ -1,7 +1,7 @@
 # NeON Build File (http://github.com/c4s4/neon)
 
 default: site
-extends: [python, changelog]
+extends: [python, git]
 
 properties:
   ARTICLE_DIR: 'content/article'
@@ -130,8 +130,7 @@ targets:
       prefix:  'michel-casabianca'
       tofile:  '~/dsk/michel-casabianca.zip'
 
-  release-info:
+  version:
     doc: Set release information
     steps:
-    - 'release_version = replace(replace(now(), " ", "="), ":", "-")'
-    - 'release_message = "Released on "+now()'
+    - 'VERSION = replace(replace(now(), " ", "="), ":", "-")'

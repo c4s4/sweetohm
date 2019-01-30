@@ -54,9 +54,9 @@ Compétences Spécifiques
 Expérience Professionnelle
 --------------------------
 
-### Depuis mars 2018 : Lead Developer Python chez mieuxplacer.com
+### Depuis mars 2018 : Lead Developer Backend chez mieuxplacer.com
 
-Je suis Lead Python Developer chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
+Je suis Lead Python Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
 
 - Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
 - Outil de synchronisation du backend avec le CRM Zoho (par appels REST).
@@ -183,6 +183,7 @@ D'autre part, j'interviens régulièrement dans des conférences sur des sujets 
 - Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* à BDX.io en novembre 2017.
 - Conférence *L'outil de build NeON* aux RMLL Strasbourg en juillet 2018.
 - Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* aux RMLL Strasbourg en juillet 2018.
+- Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* à l'Université Bordeaux Montaigne en janvier 2019.
 
 Pour finir, quelques activités personnelles dans le domaine de l'informatique :
 

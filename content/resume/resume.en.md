@@ -56,7 +56,7 @@ Professional Experience
 
 ### Since march 2018 : Lead Python Developer at mieuxplacer.com
 
-I am Lead Python Develop at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend:
+I am Lead Backend Developer at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend:
 
 - Migration of the REST API from [Django Rest Framework](http://www.django-rest-framework.org/) to a [custom framework](https://github.com/c4s4/django-rest).
 - Synchronization tool between backend and Zoho CRM (with REST calls).
@@ -179,6 +179,7 @@ I have been speakers at following lectures:
 - *Quantum Computer: Myth or Reality?* at BDX.io in November 2017.
 - *NeON build tool* at RMLL Strasbourg in July 2018.
 - *Quantum Computer: Myth or Reality?* at RMLL Strasbourg in July 2018.
+- *Quantum Computer: Myth or Reality?* at Universite Bordeaux Montaigne in January 2019.
 
 Few activities related to computer science:
 

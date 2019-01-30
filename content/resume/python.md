@@ -16,15 +16,19 @@ Voici un résumé de mon expérience dans le domaine du Python. Une [version com
 
 J'ai commencé à utiliser le langage Python en 1998 et je l'ai depuis utilisé comme mon langage de script de prédilection. Je l'ai aussi mis en œuvre avec le framework Django pour développer des applications web.
 
-Lead Python Developer chez Mieuxplacer.com *(depuis 2018-03)*
--------------------------------------------------------------
+# Lead Python Developer chez Mieuxplacer.com *(depuis 2018-03)*
 
-Je suis Lead Python Developer chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django (API rest implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/)).
+Je suis Lead Python Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
 
-J'ai mis en œuvre les bonnes pratiques de développement logiciel, telles que la mesure de la couverture de test (avec [codecov.io](http://codecov.io)), la mise en place de tests d'intégration automatisés, la détection automatique des warnings sur les commits Git (avec [pylint](https://www.pylint.org/)).
+- Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
+- Outil de synchronisation du backend avec le CRM Zoho (par appels REST).
+- Mise en œuvre des bonnes pratiques de développement logiciel :
+  - Mesure de la couverture de test (avec [codecov.io](http://codecov.io)).
+  - Mise en place de tests d'intégration automatisés.
+  - Validation Pylint du code automatisée lors des commits Git.
+  - Refactoring à grande échelle du code et des modèles de données.
 
-Ingénieur Expert chez OAB *(2008-04 à 2015-10)*
------------------------------------------------
+# Ingénieur Expert chez OAB *(2008-04 à 2015-10)*
 
 Après une expérience malheureuse avec Talend, j'ai mis en place des batchs de calcul en Python, qui servaient pour l'essentiel à exécuter des requêtes SQL. A cette occasion j'ai développé un framework de batch de calcul en Python.
 
@@ -42,15 +46,13 @@ A l'occasion de ces missions, j'ai été amené à développer des outils utilis
 - mysql_commando : driver MySQL pur Python.
 - CheeseShop : repository de packages Python.
 
-Expert Java XML chez In-Fusio *(2000-07 à 2007-04)*
----------------------------------------------------
+# Expert Java XML chez In-Fusio *(2000-07 à 2007-04)*
 
 J'ai commencé à mettre en œuvre Python chez In-Fusio pour développer un serveur de binaires téléchargés par les téléphones mobiles. Je l'ai aussi utilisé pour développer un outil d'intégration continue maison (nous étions en 2004).
 
 C'est à l'occasion de ces développements que je me suis rendu compte que Python permet un développement plus rapide que Java et que ses performances peuvent être bien meilleures dans certains domaines.
 
-Activités personnelles *(depuis 1998)*
---------------------------------------
+# Activités personnelles *(depuis 1998)*
 
 J'ai eu l'occasion de donner des conférences en relation avec Python :
 

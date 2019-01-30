@@ -16,9 +16,9 @@ Voici un résumé de mon expérience dans le domaine du Python. Une [version com
 
 J'ai commencé à utiliser le langage Python en 1998 et je l'ai depuis utilisé comme mon langage de script de prédilection. Je l'ai aussi mis en œuvre avec le framework Django pour développer des applications web.
 
-# Lead Python Developer chez Mieuxplacer.com *(depuis 2018-03)*
+# Lead Developer Backend chez Mieuxplacer.com *(depuis 2018-03)*
 
-Je suis Lead Python Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
+Je suis Lead Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
 
 - Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
 - Outil de synchronisation du backend avec le CRM Zoho (par appels REST).

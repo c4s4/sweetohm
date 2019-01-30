@@ -53,7 +53,7 @@ http://linkedin.com/in/casabianca
 
 ## Depuis mars 2018 : Lead Developer Backend chez mieuxplacer.com
 
-Je suis Lead Python Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
+Je suis Lead Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
 
 - Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
 - Outil de synchronisation du backend avec le CRM Zoho (par appels REST).

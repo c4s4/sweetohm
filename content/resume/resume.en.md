@@ -32,8 +32,7 @@ https://github.com/c4s4
 http://linkedin.com/in/casabianca
 ```
 
-Mastered Technologies
----------------------
+# Mastered Technologies
 
 - Programming Languages: Python, Go, Java, Ruby, Shell, PHP, C and C++, Lua, Lisp and some dead languages (Pascal, Assembler X86, Basic, LSE, HP41).
 - Web Technologies: Django, Flask, Web Services (Rest, XML-RPC and Soap), Ruby on Rails, Sinatra, JavaScript (JQuery), Servlets, JSP (JSTL).
@@ -42,8 +41,7 @@ Mastered Technologies
 - Documentation: Markdown and Rest, XML (DTDs, XSLT, XPath, Xpointer and SAX, DOM and JDOM APIs), LaTeX, SGML (HTML and Linux Doc).
 - Operating Systems: Unix (Linux, Solaris and MacOSX) and Windows.
 
-Specific Skills
----------------
+# Specific Skills
 
 - Software Development: backend software development expertise on Unix servers.
 - Software Architecture: expertise in software architecture design.
@@ -51,10 +49,9 @@ Specific Skills
 - Training and Pedagogy: trained as teacher, speaker and trainer.
 - Technical Documentation and Translation: experience in technical edition.
 
-Professional Experience
------------------------
+# Professional Experience
 
-### Since march 2018 : Lead Python Developer at mieuxplacer.com
+## Since march 2018 : Lead Backend Developer at mieuxplacer.com
 
 I am Lead Backend Developer at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend:
 
@@ -68,7 +65,7 @@ I am Lead Backend Developer at [mieuxplacer.com](http://mieuxplacer.com) since m
 
 Build of Debian machines on AWS.
 
-### 2015-2018 : Freelance Developer
+## 2015-2018 : Freelance Developer
 
 At the end of 2015, I left the Orange group to work as a Freelance:
 
@@ -77,7 +74,7 @@ At the end of 2015, I left the Orange group to work as a Freelance:
   - Development of the new XML publication line for Dalloz books and encyclopedias (Java, Golang and XSLT 2.0).
 - From December 2015 to August 2016 (9 months), I have been Java Expert at SQLI in Pessac. I have been technical referent on a computation batch project (proofs of concept, Spring Batch adoption, database migration scripts, package generation, continuous integration, etc). I have also work on transverse projects, such as reception of maintenance projects (code and database audits, securing costs estimates), Python training and other missions.
 
-### 2008-2015: Expert Engineer at Orange Applications for Business
+## 2008-2015: Expert Engineer at Orange Applications for Business
 
 In the Vodoo team (2008-2009) I worked on the video on demand project in a large team located in Bordeaux, Paris and Lille. I developed software in Java (on servers) and JavaScript (on set-top boxes).
 
@@ -101,7 +98,7 @@ While working for Orange, I have developed tools that were released under Open S
 
 During these years I also organized many workshops and training sessions on Python, Django, YAML and Go.
 
-### 2007-2008: Freelance Developer
+## 2007-2008: Freelance Developer
 
 After I left In-Fusio, I worked for one and a half years as freelance developer, on following missions:
 
@@ -109,7 +106,7 @@ After I left In-Fusio, I worked for one and a half years as freelance developer,
 - Unedic (4 months): I developed an interface to connect to LDAP server for configuration purpose.
 - CVF (9 months): Java expertise mission (see above).
 
-### 2000-2007: Java and XML Expert at In-Fusio
+## 2000-2007: Java and XML Expert at In-Fusio
 
 In R&D department at In-fusio, a company in Bordeaux that developed games and JVM to run them on mobile phones (ExEn and EGE) and server software to download games. The Gamezilla platform has been managing interactions with players, downloads and SMS, for six years with an availability of more than 99%. There has been more than 20 million players that have done more than 30 million downloads and send more than 220 million interactions in 45 countries.
 
@@ -123,7 +120,7 @@ I have organized internal training on Java, Object Oriented Programming, XML and
 
 I was also project manager for six months for Gamezilla team (with 6 developers).
 
-### 1996-2000: Author, Speaker and Freelance Developer
+## 1996-2000: Author, Speaker and Freelance Developer
 
 I worked for Editions O'Reilly (French branch of O'Reilly in France):
 
@@ -146,12 +143,11 @@ Java development for Editions O’Reilly and SdV Plurimédia:
 
 Author and translator of XML articles for Quelm.
 
-### 1993-1996 : Physics and Chemistry Teacher
+## 1993-1996 : Physics and Chemistry Teacher
 
 I have been Physics and Chemistry teacher for 7 years at Lycée technique Le Corbusier at Strasbourg.
 
-Personal Activities
--------------------
+# Personal Activities
 
 Fond of computer science, I have developed many Open Source projects, that you may find on my Github account <http://github.com/c4s4>. You might notice:
 
@@ -189,14 +185,12 @@ Few activities related to computer science:
 - Organization of a conference series about Java and a programming contest at Journées Européennes du Multimédia at Strasbourg in 1998.
 - Program as a hobby since 1980 (4th at 4ème Championnats International de Programmation d'Othello at Sicob in 1983).
 
-Education
----------
+# Education
 
 - Licence es Sciences Physiques, Capes de Sciences Physiques et Chimie at Université Louis Pasteur at Strasbourg.
 - Training *Développement d’applications avec serveur BEA Weblogic* by BEA.
 - English training for 5 years with CEL Bordeaux (level 5A on 6).
 
-Personal Details
-----------------
+# Personal Details
 
 Born in 1966, father of two daughters.

@@ -32,8 +32,7 @@ https://github.com/c4s4
 http://linkedin.com/in/casabianca
 ```
 
-Technologie Maîtrisées
-----------------------
+# Technologie Maîtrisées
 
 - Langages de Programmation : Python, Go, Java, Ruby, Shell, PHP, C et C++, Lua, Lisp ainsi que quelques langues mortes (Pascal, Assembleur X86, Basic, LSE, HP41).
 - Technologies Web : Django, Flask, Web Services (REST, XML-RPC et Soap), Ruby on Rails, Sinatra, JavaScript (JQuery), Servlets, JSP (JSTL).
@@ -42,8 +41,7 @@ Technologie Maîtrisées
 - Documentation : Markdown et Rest, XML (écriture de DTDs, XSLT 1.0 et 2.0, XPath, Xpointer et APIs SAX, DOM et JDOM), LaTeX, SGML (HTML et Linux Doc).
 - Systèmes d'exploitation : Unix (Linux, Solaris et MacOSX) et Windows.
 
-Compétences Spécifiques
------------------------
+# Compétences Spécifiques
 
 - Développement Logiciel : expertise en développement logiciel backend sur serveur Unix.
 - Architecture Logicielle : capacité à concevoir et optimiser une plate-forme logicielle.
@@ -51,10 +49,9 @@ Compétences Spécifiques
 - Formation et Pédagogie : expérience en tant qu’enseignant, conférencier et formateur.
 - Documentation Technique et Traduction : expérience dans le domaine de l’édition technique.
 
-Expérience Professionnelle
---------------------------
+# Expérience Professionnelle
 
-### Depuis mars 2018 : Lead Developer Backend chez mieuxplacer.com
+## Depuis mars 2018 : Lead Developer Backend chez mieuxplacer.com
 
 Je suis Lead Python Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
 
@@ -68,7 +65,7 @@ Je suis Lead Python Developer Backend chez [mieuxplacer.com](http://mieuxplacer.
 
 Montage de machines Debian sur AWS.
 
-### 2015-2018 : Développeur Freelance
+## 2015-2018 : Développeur Freelance
 
 Fin 2015, j'ai quitté le groupe Orange pour repasser en Freelance :
 
@@ -77,7 +74,7 @@ Fin 2015, j'ai quitté le groupe Orange pour repasser en Freelance :
   - Développement de la nouvelle chaîne de publication XML pour les ouvrages et encyclopédies Dalloz (XSLT 2.0, Java, Golang et Webservice).
 - De décembre 2015 à août 2016 (soit 9 mois), j'ai été expert Java chez SQLI à Pessac. J'ai travaillé comme référant technique sur un projet de batch de calcul (écriture de POCs, mise en place de Spring Batch, de scripts de migration de base de données, génération des livrables, intégration continue, etc). J'ai aussi effectué des missions transverses, comme des Entrées en Maintenace (audit de code, de base de données et estimations de plans de sécurisation), de la formation Python et autres missions ponctuelles.
 
-### 2008-2015 : Ingénieur Expert chez Orange Applications for Business
+## 2008-2015 : Ingénieur Expert chez Orange Applications for Business
 
 Au sein de l'équipe Vodoo (2008-2009), j'ai travaillé sur un projet de vidéo à la demande au sein d'une vaste équipe localisée à Bordeaux, Paris et Lille. Travail sur du logiciel Java (côté serveur) et JavaScript (côté box TV).
 
@@ -103,7 +100,7 @@ A l'occasion de ces missions, j'ai été amené à développer des outils utilis
 
 Pour finir, j'ai eu l'occasion d'animer au sein d'OAB de nombreux ateliers et formations sur des thèmes techniques tels que Python, Django, YAML, Go et Raspberry Pi.
 
-### 2007-2008 : Développeur indépendant
+## 2007-2008 : Développeur indépendant
 
 Après mon départ d'In-Fusio, suite à un plan social, je me suis mis à mon compte en tant que développeur indépendant. A cette occasion, j'ai mené à bien les missions suivantes :
 
@@ -111,7 +108,7 @@ Après mon départ d'In-Fusio, suite à un plan social, je me suis mis à mon co
 - Unedic (4 mois) : développement d'une interface de connexion à LDAP pour configuration.
 - CVF (9 mois) : mission d'expertise Java (développée dans la section ci-dessus).
 
-### 2000-2007 : Expert Java et XML chez In-Fusio
+## 2000-2007 : Expert Java et XML chez In-Fusio
 
 Dans le département R&D chez In-Fusio, société Bordelaise de services de jeu sur téléphone mobile ayant développé des technologies côté téléphone (ExEn et EGE) et côté serveur (Gamezilla). La plateforme Gamezilla gère les interactions avec les joueurs, téléchargements et SMS, depuis 2001 avec une disponibilité supérieure à 99 %. Gamezilla a géré plus de 20 millions de joueurs ayant effectué 30 millions de téléchargements et 220 millions d’interactions dans 45 pays.
 
@@ -125,7 +122,7 @@ Formations en interne données aux membres des équipes sur les bases de Java et
 
 Chef de projet en intérim pendant 6 mois pour l’équipe GameZilla (6 développeurs).
 
-### 1996-2000 : Auteur, Conférencier et développeur Indépendant
+## 1996-2000 : Auteur, Conférencier et développeur Indépendant
 
 Travaux d'édition pour les Éditions O'Reilly :
 
@@ -148,12 +145,11 @@ Développement Java pour les Éditions O’Reilly et SdV Plurimédia :
 
 Écriture et traduction d'articles sur XML pour Quelm.
 
-### 1993-1996 : Enseignant Sciences Physiques et Chimie
+## 1993-1996 : Enseignant Sciences Physiques et Chimie
 
 Enseignement des Sciences Physiques et Chimie au lycée technique Le Corbusier à Strasbourg.
 
-Activités Personnelles
-----------------------
+# Activités Personnelles
 
 Passionné d'informatique, je développe de nombreux projets sous licence Open Source, que l'on peut trouver sur mon compte <https://github.com/c4s4>. En particulier :
 
@@ -193,14 +189,12 @@ Pour finir, quelques activités personnelles dans le domaine de l'informatique :
 - Organisation d'un cycle de conférences et d'un concours de programmation Java aux Journées Européennes du Multimédia à Strasbourg en 1998.
 - Pratique de la programmation en tant que hobby depuis 1980 (4eme place aux 4ème Championnats International de Programmation d'Othello au Sicob en 1983).
 
-Formation
----------
+# Formation
 
 - Licence es Sciences Physiques, Capes de Sciences Physiques et Chimie à l’Université Louis Pasteur à Strasbourg.
 - Formation *Développement d’applications avec serveur BEA Weblogic* par BEA.
 - Formation d’anglais durant 5 ans avec le CEL Bordeaux (niveau 5A sur 6).
 
-État Civil
-----------
+# État Civil
 
 Né en 1966, père de deux filles.

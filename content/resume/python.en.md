@@ -16,15 +16,19 @@ Here is a Python dedicated version of my resume. A [complete version is availabl
 
 I started using Python in 1998 and have been using it as my preferred scripting language since then. I have also been using it with Django web framework for web development.
 
-Lead Python Developer at Mieuxplacer.com *(since 2018-03)*
-----------------------------------------------------------
+# Lead Backend Developer at Mieuxplacer.com *(since 2018-03)*
 
-I am lead Python developer at [mieuxplacer.com](http://mieuxplacer.com) since March 2018. I am developing and maintaining a Python/Django backend (a REST API using [Django Rest](http://www.django-rest-framework.org/) framework).
+I am Lead Backend Developer at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend:
 
-I have implemented good software development practices, such as test coverage measurement (with [codecov.io](http://codecov.io)), automated integration tests, automatic warnings detection on Git commits (with [pylint](https://www.pylint.org/)).
+- Migration of the REST API from [Django Rest Framework](http://www.django-rest-framework.org/) to a [custom framework](https://github.com/c4s4/django-rest).
+- Synchronization tool between backend and Zoho CRM (with REST calls).
+- Implementation of software development good practices:
+  - Measurement of test code coverage (with [codecov.io](http://codecov.io)).
+  - Implementation of automated integration tests.
+  - Automation of code validation with Pylint on Git commits.
+  - Great scale refactoring of code and data models.
 
-Expert Engineer at OAB *(2008-04 to 2015-10)*
----------------------------------------------
+# Expert Engineer at OAB *(2008-04 to 2015-10)*
 
 OAB is a subsidiary company of Orange, the French historic telecommunications company.
 
@@ -44,8 +48,7 @@ While working for OAB, I have developed following tools released under Open Sour
 - [mysql_commando](https://github.com/c4s4/mysql_commando): MySQL driver for Python.
 - [CheeseShop](https://github.com/c4s4/cheeseshop): Python package repository.
 
-Java and XML Expert at In-Fusio *(2000-07 to 2007-04)*
-------------------------------------------------------
+# Java and XML Expert at In-Fusio *(2000-07 to 2007-04)*
 
 In-Fusio was a mobile gaming company that developed its own Java Virtual Machine to download and run games on mobile phones.
 
@@ -53,8 +56,7 @@ I have started to use Python at In-Fusio to develop a server to deliver binaries
 
 At these occasions, I realized that Python was much faster than Java regarding development, and that its runtime performance were sometimes better that Java.
 
-Personal activities *(since 1998)*
-----------------------------------
+# Personal activities *(since 1998)*
 
 I have given Python related talks:
 

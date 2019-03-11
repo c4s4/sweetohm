@@ -1,5 +1,5 @@
 ---
-title:      Planches de Cartes Savage Worlds
+title:      Cartes Savage Worlds
 author:     Michel Casabianca
 email:      michel.casabianca@gmail.com
 id:         sawo-cards

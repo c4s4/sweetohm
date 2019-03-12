@@ -13,6 +13,8 @@ Ayant lu avec beaucoup d'intérêt le livre [Lazy Dungeon Master](http://slyflou
 
 <!--more-->
 
+![](titre.png)
+
 Pour résumer, *Lazy Dungeon Master* recommande de préparer ses parties en écrivant des fiches pour les personnages et adversaires, les lieux, les intrigues et les trésors. Il suggère des fiches bristol de couleurs différentes selon le type (par exemple bleues pour les lieux, jaunes pour les trésors, vertes pour les intrigues, etc).
 
 ## Cartes Savage Worlds
@@ -61,7 +63,7 @@ En pratique, les cartes les plus utilisées sont *intrigue*, *PNJ*, *Extras*, *J
 
 On peut remplir à la main les planches imprimées ou bien remplir les cartes, sur l'image de la planche, avant de les imprimer.
 
-## A l'usage
+## Pourquoi des cartes ?
 
 J'expérimente l'usage de ces cartes depuis quelques parties et elles s'avèrent très pratiques :
 

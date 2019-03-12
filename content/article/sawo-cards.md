@@ -13,7 +13,7 @@ Ayant lu avec beaucoup d'intérêt le livre [Lazy Dungeon Master](http://slyflou
 
 <!--more-->
 
-![](titre.png)
+![](sawo-cards-titre.png)
 
 Pour résumer, *Lazy Dungeon Master* recommande de préparer ses parties en écrivant des fiches pour les personnages et adversaires, les lieux, les intrigues et les trésors. Il suggère des fiches bristol de couleurs différentes selon le type (par exemple bleues pour les lieux, jaunes pour les trésors, vertes pour les intrigues, etc).
 

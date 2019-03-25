@@ -63,6 +63,8 @@ En pratique, les cartes les plus utilisées sont *intrigue*, *PNJ*, *Extras*, *J
 
 On peut remplir à la main les planches imprimées ou bien remplir les cartes, sur l'image de la planche, avant de les imprimer.
 
+**Note :** Les cartes mises à jour pour [l'édition aventure](https://www.kickstarter.com/projects/545820095/savage-worlds-adventure-edition) de Savage Worlds ont un nom qui se termine par **-av**. Par conséquent la fiche de personnage pour la dernière édition de Savage Worlds s'appelle *perso-av*.
+
 ## Pourquoi des cartes ?
 
 J'expérimente l'usage de ces cartes depuis quelques parties et elles s'avèrent très pratiques :

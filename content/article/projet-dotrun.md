@@ -26,7 +26,7 @@ Placer le binaire, pour votre plateforme, du répertoire *bin* de l'archive quel
 Pour lancer la commande *foo* dans l'environnement défini dans le fichier *.env* du répertoire courant, taper la commande :
 
 ```bash
-$ dotrun foo
+$ dotrun foo args...
 ```
 
 Le fichier *.env* peut définir un environnement de la manière suivante :
@@ -41,7 +41,7 @@ La commande *foo* pourra alors accéder aux variables d'environnement définies 
 On peut aussi spécifier un autre fichier d'environnement avec l'option *-env* :
 
 ```bash
-$ dotrun -env /etc/foo.env foo
+$ dotrun -env /etc/foo.env foo args...
 ```
 
 De cette manière, *dotrun* ne chargera pas l'environnement depuis le fichier *.env* du répertoire courant, mais depuis le fichier indiqué.

@@ -23,7 +23,7 @@ Placer le binaire, pour votre plateforme, du répertoire *bin* de l'archive quel
 
 ## Usage
 
-Pour lancer la commande *foo* dans l'environnement défini dans le fichier *.env* du répertoire courant, taper la commande :
+Pour lancer la commande *foo* (avec ses arguments) dans l'environnement défini dans le fichier *.env* du répertoire courant, taper la commande :
 
 ```bash
 $ dotrun foo args...

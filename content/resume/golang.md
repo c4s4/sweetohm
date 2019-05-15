@@ -28,7 +28,7 @@ Ce travail a donné lieu à une [conférence à BDX.IO](http://sweetohm.net/slid
 
 Au cours de l'année 2017, j'ai développé la chaîne de publication des ouvrages et encyclopédies Dalloz. En cette occasion, j'ai codé nombre d'outils en Go. En particulier, j'ai développé en Go et mis en œuvre un [outil de build appelé Néon](http://github.com/c4s4/neon) ainsi qu'un webservice REST pour la publication des ouvrages.
 
-# Outils pour MieuxPlacer.com *(2018-03 à maintenant)
+# Outils pour MieuxPlacer.com *(2018-03 à maintenant)*
 
 Chez <http://mieuxplacer.com>, j'ai mis en œuvre Go pour écrire des scripts d'appel à des webservices et des batchs de récupération de données économiques (requêtes SQL et appels REST). Par ailleurs j'ai assuré un atelier Go et TDD.
 

@@ -41,4 +41,6 @@ Ainsi, j'ai un [compte Github](http://github.com/c4s4) assez [actif dans le doma
 - [Gointerfaces](https://github.com/c4s4/gointerfaces) est un programme qui télécharge les sources de Go et en extrait la liste de toutes les interfaces définies dans le langage. On peut voir le [résultat de cette extraction sur mon site](http://sweetohm.net/article/go-interfaces.html).
 - [Goactivate](https://github.com/c4s4/goactivate) est un script de définition de l'environnement Go comparable à la commande *activate* du *virtualenv* Python.
 - [Néon](https://github.com/c4s4/neon) est un outil de build multi-plateforme et multi-langage.
+- [Single](https://github.com/c4s4/single) est un outil qui permet de s'assurer qu'une seule instance d'une application tourne sur un serveur.
+- [Dotrun](https://github.com/c4s4/dotrun) permet de lancer une commande dans un environnement chargé d'un fichier dotenv.
 - Il y a sur mon compte Github de [nombreux autres outils écrits en Go](https://github.com/c4s4?utf8=%E2%9C%93&tab=repositories&q=&type=&language=go).

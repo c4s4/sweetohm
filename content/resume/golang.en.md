@@ -28,6 +28,10 @@ This work resulted in a [talk at BDX.IO (in french)] (http://sweetohm.net/slides
 
 During the year 2017, I developed the publishing chain of Dalloz books and encyclopedias. On this occasion, I coded many tools in Go. In particular, I developed a [build tool called Neon] (http://github.com/c4s4/neon), a REST webservice for books publication and many publishing tools.
 
+# Tools for MieuxPlacer.com *(2018-03 to now)
+
+At <http://mieuxplacer.com>, I have used Go to write scripts to call webservices and batches to updates economic data. I also have organized a Go and TDD workshop.
+
 # Personal activities *(since 2014)*
 
 Since I discovered the Go programming language, it has become my favorite for personal projects.

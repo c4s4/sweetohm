@@ -9,7 +9,9 @@ lang:       fr
 toc:        
 ---
 
-Pour qu'une partie de Savage Worlds se déroule dans de bonnes conditions, mieux vaut que le maître de jeu prévoie le matériel pour sa partie bien en amont. Dans cet article, je détaille la liste de matériel que j'amène à chaque partie.
+Comme le médecin se doit d'avoir dans sa trousse tout le matériel pour pratiquer son art dans de bonnes conditions, le maître de jeu se gardera d'improviser la préparation de son matériel de campagne.
+
+Dans cet article, je détaille la liste du matériel que j'amène à chaque partie.
 
 <!--more-->
 

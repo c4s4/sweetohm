@@ -28,6 +28,10 @@ Ce travail a donné lieu à une [conférence à BDX.IO](http://sweetohm.net/slid
 
 Au cours de l'année 2017, j'ai développé la chaîne de publication des ouvrages et encyclopédies Dalloz. En cette occasion, j'ai codé nombre d'outils en Go. En particulier, j'ai développé en Go et mis en œuvre un [outil de build appelé Néon](http://github.com/c4s4/neon) ainsi qu'un webservice REST pour la publication des ouvrages.
 
+# Outils pour MieuxPlacer.com *(2018-03 à maintenant)*
+
+Chez <http://mieuxplacer.com>, j'ai mis en œuvre Go pour écrire des scripts d'appel à des webservices et des batchs de récupération de données économiques (requêtes SQL et appels REST). Par ailleurs j'ai assuré un atelier Go et TDD.
+
 # Activités personnelles *(depuis 2014)*
 
 Depuis que j'ai découvert le langage Go, il est devenu mon langage de prédilection pour mes projets personnels.
@@ -37,4 +41,6 @@ Ainsi, j'ai un [compte Github](http://github.com/c4s4) assez [actif dans le doma
 - [Gointerfaces](https://github.com/c4s4/gointerfaces) est un programme qui télécharge les sources de Go et en extrait la liste de toutes les interfaces définies dans le langage. On peut voir le [résultat de cette extraction sur mon site](http://sweetohm.net/article/go-interfaces.html).
 - [Goactivate](https://github.com/c4s4/goactivate) est un script de définition de l'environnement Go comparable à la commande *activate* du *virtualenv* Python.
 - [Néon](https://github.com/c4s4/neon) est un outil de build multi-plateforme et multi-langage.
+- [Single](https://github.com/c4s4/single) est un outil qui permet de s'assurer qu'une seule instance d'une application tourne sur un serveur.
+- [Dotrun](https://github.com/c4s4/dotrun) permet de lancer une commande dans un environnement chargé d'un fichier dotenv.
 - Il y a sur mon compte Github de [nombreux autres outils écrits en Go](https://github.com/c4s4?utf8=%E2%9C%93&tab=repositories&q=&type=&language=go).

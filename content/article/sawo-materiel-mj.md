@@ -89,6 +89,12 @@ On en trouve des [lots de toutes les couleurs](https://www.ebay.com/itm/100-Mult
 
 Je range les feuilles de personnages (vierges, pour les prétirés ou les joueurs qui préfèrent me les confier) dans une [pochette à pression au format A5](https://www.amazon.fr/gp/product/B019LZWS5E/ref=ppx_yo_dt_b_asin_title_o06_s00). C'est la pochette qu'il ne faut **jamais** sortir du sac sous peine de jouer sans les feuilles de personnage à la prochaine séance.
 
+## Aides de jeu
+
+Il peut être utile aux joueurs de disposer d'aides de jeu. Pour ma part, j'ai imprimé la liste des options de combat (que l'on trouve dans l'écran du MJ de Beasts & Barbarians) sur feuille bristol A4. Je leur fourni aussi la liste des Compétences avec leur Attribut associé, c'est utile lors de la création des personnages, de leur progression et en cours de partie.
+
+Depuis que j'ai vu [le mémo pour les joueurs de Fenris](http://savage.torgan.net/2013/11/m%C3%A9mo-pour-joueurs.html), j'envisage de leur imprimer aussi sur feuille A4 bristol.
+
 ## Scénario
 
 J'imprime mes scénarios sous forme de planches de cartes que je range dans des boites en plastique. Pour plus d'information sur ces cartes, voir mon précédent article sur les [Cartes pour Savage Worlds](/article/sawo-cards.html).

@@ -77,7 +77,7 @@ Pour représenter les personnages et les adversaires sur la carte lors des comba
 
 Pour le maître de jeu, une solution commode est d'utiliser des figurines en carton. Elles sont beaucoup moins chères et faciles à transporter. On en trouve des boîtes entières pour certains univers (comme la [fantasy par exemple](http://www.black-book-editions.fr/produit.php?id=1762)).
 
-Il est aussi possible de trouver [des planches à imprimer soi-même](https://www.peginc.com/?post_type=product&s=figures+flat). Peginc en propose pour certains de ses settings, pour les personnages prétirés et les adversaires. C'est relativement économique mais demande un peu de préparation : il faut imprimer et coller sur du carton. Il faut aussi disposer de pieds sur lesquels les poser.
+Il est aussi possible de trouver [des planches à imprimer soi-même](https://www.peginc.com/?post_type=product&s=figures+flat). Pinnacle en propose pour certains de ses settings, pour les personnages prétirés et les adversaires. C'est relativement économique mais demande un peu de préparation : il faut imprimer et coller sur du carton. Il faut aussi disposer de pieds sur lesquels les poser.
 
 En ce qui me concerne, j'ai commençé comme beaucoup avec des figurines en plomb, puis je suis passé aux figurines en carton pour des questions pratiques. Maintenant je préfère utiliser des Meeples : ce sont des pions de forme humaine du jeu Carcassonne.
 

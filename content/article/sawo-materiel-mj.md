@@ -85,6 +85,10 @@ En ce qui me concerne, j'ai commençé comme beaucoup avec des figurines en plom
 
 On en trouve des [lots de toutes les couleurs](https://www.ebay.com/itm/100-Multi-Color-Wooden-Meeples-Standard-Size-16Mm-FREE-SHIPPING/173920419328). Je demande à chaque joueur de choisir une couleur en début de partie et je réserve le gris et le noir pour les adversaires et l'or pour le boss. D'autre part, la manière dont on pose un Meeple permet représenter son état (couché pour Secoué par exemple). Attention, les meeples existent en deux tailles (12 et 16 mm) on prendra garde de prendre la plus grande.
 
+On pourra personnaliser les Meeples des joueurs avec des [stickers pour Meeples](https://www.spielematerial.de/en/catalogsearch/result/?q=mee0).
+
+On trouve aussi des pions pour représenter des personnages sur le site [Tout pour le Jeu](https://toutpourlejeu.com/fr/106-pions-personnages), avec un grand choix de couleurs, de formes et de tailles.
+
 ## Feuilles de personnages
 
 Je range les feuilles de personnages (vierges, pour les prétirés ou les joueurs qui préfèrent me les confier) dans une [pochette à pression au format A5](https://www.amazon.fr/gp/product/B019LZWS5E/ref=ppx_yo_dt_b_asin_title_o06_s00). C'est la pochette qu'il ne faut **jamais** sortir du sac sous peine de jouer sans les feuilles de personnage à la prochaine séance.
@@ -94,6 +98,8 @@ Je range les feuilles de personnages (vierges, pour les prétirés ou les joueur
 Il peut être utile aux joueurs de disposer d'aides de jeu. Pour ma part, j'ai imprimé la liste des options de combat (que l'on trouve dans l'écran du MJ de Beasts & Barbarians) sur feuille bristol A4. Je leur fourni aussi la liste des Compétences avec leur Attribut associé, c'est utile lors de la création des personnages, de leur progression et en cours de partie.
 
 Depuis que j'ai vu [le mémo pour les joueurs de Fenris](http://savage.torgan.net/2013/11/m%C3%A9mo-pour-joueurs.html), j'envisage de leur imprimer aussi sur feuille A4 bristol.
+
+Pour le MJ, il peut être utile de disposer d'une liste de noms pour le setting. On peut trouver des listes pour un très grand nombre d'univers de jeu sur le site [Kate Monk's Onomastikon](https://tekeli.li/onomastikon/).
 
 ## Scénario
 
@@ -113,8 +119,19 @@ Tout ce matériel tient dans un sac (du type promotionnel, que l'on récupère s
 
 Si le matériel ne fera pas de vous le meilleur maître de jeu, le manque de préparation peut saboter une partie. Si vous souhaitez vous équiper, prévoyez bien à l'avance car la livraison de certains articles (en particulier s'ils viennent de Chine) peut prendre un bon mois.
 
-Si vous pensez à du matériel que je n'ai pas évoqué dans cet article merci de le partager avec les autres lecteurs dans les commentaires.
+## Pour aller plus loin
 
-**Note** : les liens de l'article vers des sites marchands ne sont fournis que pour vous faciliter la vie. Ils n'ont pas la prétention d'être les meilleurs ou les moins chers. D'autre part, je ne suis lié d'aucune manière avec ces sites et ne touche aucune commission.
+Des participants du forum CasusNo m'ont fait des suggestions que j'ai incluses dans cet article. Un grand merci à :
 
-**Bonnes parties !**
+- Nemesis pour les pions sur le site Tout pour le Jeu.
+- Loris pour l'Onomastikon de Kate Monk.
+- Virgile pour la liste des noms.
+- Arboricopom pour le lien vers les stickers pour Meeples.
+
+On pourra trouver leurs contributions ainsi que nombre d'autres toutes plus inventives les unes que les autres [sur le forum CasusNo](https://www.casusno.fr/viewtopic.php?f=26&t=35505).
+
+## Note
+
+Les liens de l'article vers des sites marchands ne sont fournis que pour vous faciliter la vie. Ils n'ont pas la prétention d'être les meilleurs ou les moins chers. D'autre part, je ne suis lié d'aucune manière avec ces sites et ne touche aucune commission.
+
+*Bonnes parties !*

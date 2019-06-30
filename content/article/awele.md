@@ -9,15 +9,9 @@ email:      casa@sweetohm.net
 lang:       fr
 toc:        
 announce:   |
-    Le 12e Tournoi International de Warri aura lieu du 7 au 10 juin 2018
-    à Fribourg (Suisse) dans les locaux du Centre d’animation socioculturelle
-    du Schönberg.
-    
-    Le 6e tournoi international de Toguzkumalak (Mancala d'Asie Centrale) aura
-    lieu le dimanche 10 juin.
-
-    L'association Internationale des joueurs de Warri (IAWP) tiendra son assemblée
-    générale le jeudi 7 juin à 19h.
+    Le 13e Tournoi international d’awélé aura lieu du 14 au 17 novembre 2019 à Fribourg (Suisse) dans les locaux du Centre d’animation socioculturelle du Schönberg. 
+    L’association Internationale des Joueurs d’Awélé (AIJA) créée en 2008 tiendra son assemblée générale le jeudi 14 novembre  à 19h.
+    Le 7e tournoi international de «toguzkumalak» aura lieu le dimanche 17 novembre .
 ---
 
 L'awélé est le jeu du continent africain. Ses règles sont presque aussi

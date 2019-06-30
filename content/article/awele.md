@@ -10,10 +10,10 @@ lang:       fr
 toc:        
 announce:   |
     Le 13e Tournoi international d’awélé aura lieu du 14 au 17 novembre 2019 à Fribourg (Suisse) dans les locaux du Centre d’animation socioculturelle du Schönberg. 
-    
+
     L’association Internationale des Joueurs d’Awélé (AIJA) créée en 2008 tiendra son assemblée générale le jeudi 14 novembre  à 19h.
-    
-Le 7e tournoi international de «toguzkumalak» aura lieu le dimanche 17 novembre .
+
+    Le 7e tournoi international de «toguzkumalak» aura lieu le dimanche 17 novembre .
 ---
 
 L'awélé est le jeu du continent africain. Ses règles sont presque aussi

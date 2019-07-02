@@ -1,7 +1,7 @@
 ---
 title:      "Resume in English"
 #author:     Michel Casabianca
-date:       2018-07-27
+date:       2019-07-01
 tags:       [cv, resume, michel casabianca]
 id:         resume.en
 email:      casa@sweetohm.net
@@ -57,6 +57,7 @@ I am Lead Backend Developer at [mieuxplacer.com](http://mieuxplacer.com) since m
 
 - Migration of the REST API from [Django Rest Framework](http://www.django-rest-framework.org/) to a [custom framework](https://github.com/c4s4/django-rest).
 - Synchronization tool between backend and Zoho CRM (with REST calls).
+- Synchronization tool for economic key data in Go (SQL queries and REST calls).
 - Implementation of software development good practices:
   - Measurement of test code coverage (with [codecov.io](http://codecov.io)).
   - Implementation of automated integration tests.

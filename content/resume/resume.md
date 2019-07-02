@@ -1,7 +1,7 @@
 ---
 title:      "Curriculum Vitae"
 #author:     Michel Casabianca
-date:       2018-07-27
+date:       2019-07-01
 categories: []
 tags:       [cv, curriculum vitae, michel casabianca]
 id:         resume
@@ -57,6 +57,7 @@ Je suis Lead Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) de
 
 - Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
 - Outil de synchronisation du backend avec le CRM Zoho (par appels REST).
+- Outil de synchronisation de données économiques en Go (requêtes SQL et appels REST).
 - Mise en œuvre des bonnes pratiques de développement logiciel :
   - Mesure de la couverture de test (avec [codecov.io](http://codecov.io)).
   - Mise en place de tests d'intégration automatisés.

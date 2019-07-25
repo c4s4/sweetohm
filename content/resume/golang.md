@@ -30,7 +30,9 @@ Au cours de l'année 2017, j'ai développé la chaîne de publication des ouvrag
 
 # Outils pour MieuxPlacer.com *(2018-03 à maintenant)*
 
-Chez <http://mieuxplacer.com>, j'ai mis en œuvre Go pour écrire des scripts d'appel à des webservices et des batchs de récupération de données économiques (requêtes SQL et appels REST). Par ailleurs j'ai assuré un atelier Go et TDD.
+Chez <http://mieuxplacer.com>, j'ai mis en œuvre Go pour écrire des scripts d'appel à des webservices et des batchs de récupération de données économiques (requêtes SQL et appels REST). Le gain de performances obtenu a été spectaculaire.
+
+Par ailleurs j'ai assuré un atelier Go et TDD.
 
 # Activités personnelles *(depuis 2014)*
 

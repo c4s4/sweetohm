@@ -30,7 +30,9 @@ During the year 2017, I developed the publishing chain of Dalloz books and encyc
 
 # Tools for MieuxPlacer.com *(2018-03 to now)*
 
-At <http://mieuxplacer.com>, I have used Go to write scripts to call webservices and batches to updates economic data. I also have organized a Go and TDD workshop.
+At <http://mieuxplacer.com>, I have used Go to write scripts to call webservices and batches to updates economic data. The performance improvement was spectacular.
+
+I also have organized a Go and TDD workshop.
 
 # Personal activities *(since 2014)*
 

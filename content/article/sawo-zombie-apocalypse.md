@@ -25,5 +25,10 @@ Lorsque les joueurs ont terminé leur personnage, la partie la plus délicate du
 
 Le reste de la partie consiste a faire jouer aux joueurs leur propre rôle dans une apocalypse zombie qui se déroule dans leur environnement. La partie fait donc une large part à l'improvisation, mais il est préférable de préparer quelques PNJs typiques, comme un policier, un soldat, un médecin, etc. On devra aussi préparer les zombies.
 
-L'ouvrage propose 5 types de zombies différents, avec une cause différente pour l'infection à chaque fois. Un virus pour les infectés, qui sont rapides et agiles, des parasites, etc... Pour chaque type, on a un scénario pour le début de l'apocalypse et un autre post apocalypse. Les scénarios sont constitués de lieux et pistes d'histoires.
+L'ouvrage propose 5 types de zombies différents, avec une cause différente pour l'infection à chaque fois. Un virus pour les infectés, qui sont rapides et agiles, des parasites, des sorciers Vaudou, etc... Pour chaque type, on a un scénario pour le début de l'apocalypse et un autre post apocalypse ainsi qu'une chronologie des événements. Les scénarios sont constitués de lieux et pistes d'histoires. L'ouvrage fait 150 pages environ et seules 24 pages sont consacrées aux règles. L'essentiel est donc utile pour un usage avec Savage Worlds.
 
+Au final mes joueurs ont apprécié leur séance de jeu et je compte les faire rejouer pour des parties one-shot, lorsque des joueurs sont absents lors d'une campagne par exemple. C'est pratique comme bouche trou car la préparation est minimaliste, le setting est très vite expliqué et des joueurs peuvent être ajoutés en cours de partie sans problème.
+
+Voici [un lien vers des cartes de personnages](sawo-zombie-apocalypse-persos.png) (PNJs et zombies en mode infecté) que j'ai préparées pour ma partie.
+
+*Enjoy!*

@@ -29,7 +29,7 @@ L'ouvrage propose 5 types de zombies différents, avec une cause différente pou
 
 Au final mes joueurs ont apprécié leur séance de jeu et je compte les faire rejouer pour des parties one-shot, lorsque des joueurs sont absents lors d'une campagne par exemple. C'est pratique comme bouche trou car la préparation est minimaliste, le setting est très vite expliqué et des joueurs peuvent être ajoutés en cours de partie sans problème.
 
-Voici [un lien vers des cartes de personnages](sawo-zombie-apocalypse-persos.png) (PNJs et zombies en mode infecté) que j'ai préparées pour ma partie.
+Voici [une planche de cartes de personnages](sawo-zombie-apocalypse-persos.png) que j'ai préparés pour ma partie. Ce sont des PNJs classiques (citoyen, médecin, policier et militaire) ainsi que des zombies en mode infecté, qui sont des personnes infectées par un virus qui les rend fou furieux et les pousse à mordre (comme le fait le virus de la rage pour les animaux). Ils doivent avoir réussi une attaque par griffure avec relance (et ainsi saisi leur victime) pour pouvoir mordre au tour suivant.
 
 ![](sawo-zombie-apocalypse-biohazard.png)
 

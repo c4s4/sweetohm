@@ -177,6 +177,8 @@ I have been speakers at following lectures:
 - *NeON build tool* at RMLL Strasbourg in July 2018.
 - *Quantum Computer: Myth or Reality?* at RMLL Strasbourg in July 2018.
 - *Quantum Computer: Myth or Reality?* at Universite Bordeaux Montaigne in January 2019.
+- *Python 3 Migration* at PyCon France in November 2019.
+
 
 Few activities related to computer science:
 

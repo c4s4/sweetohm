@@ -181,6 +181,7 @@ D'autre part, j'interviens régulièrement dans des conférences sur des sujets 
 - Conférence *L'outil de build NeON* aux RMLL Strasbourg en juillet 2018.
 - Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* aux RMLL Strasbourg en juillet 2018.
 - Conférence *L'Ordinateur Quantique, Mythe ou Réalité ?* à l'Université Bordeaux Montaigne en janvier 2019.
+- Conférence *Passer à Python 3* à la PyCon France en novembre 2019.
 
 Pour finir, quelques activités personnelles dans le domaine de l'informatique :
 

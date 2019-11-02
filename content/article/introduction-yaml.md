@@ -265,7 +265,7 @@ Ce sont des listes ordonnées, et qui peuvent contenir plusieurs éléments iden
 - oeufs
 ```
 
-Les éléments de la liste sont distingués grâce à l'indentation : le premier élément est identé de manière à ce que sa deuxième ligne soit reconnue comme faisant partie du premier élément de la liste. Cette syntaxe peut être comparée à celle de Python, si ce n'est qu'en YAML, **les caractères de tabulation sont strictement interdits pour l'indentation**. Cette dernière règle est importante et source de nombreuses erreurs de parsing. Il est important de paramétrer son éditeur de manière à interdire les tabulations pour l'indentation des fichiers YAML.
+Les éléments de la liste sont distingués grâce à l'indentation : le premier élément est indenté de manière à ce que sa deuxième ligne soit reconnue comme faisant partie du premier élément de la liste. Cette syntaxe peut être comparée à celle de Python, si ce n'est qu'en YAML, **les caractères de tabulation sont strictement interdits pour l'indentation**. Cette dernière règle est importante et source de nombreuses erreurs de parsing. Il est important de paramétrer son éditeur de manière à interdire les tabulations pour l'indentation des fichiers YAML.
 
 Il existe une notation alternative pour les listes, semblable à celle des langages Python ou Ruby :
 

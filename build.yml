@@ -134,3 +134,15 @@ targets:
     doc: Set release information
     steps:
     - 'VERSION = replace(replace(now(), " ", "="), ":", "-")'
+
+  ovh:
+    doc: Send generated site on OVH test site
+    depends: site
+    steps:
+    - move: =BUILD_DIR
+      tofile: www
+    - try:
+      - $: 'echo "put -r www/" | sftp neortor@ssh.cluster029.hosting.ovh.net'
+      finally:
+      - move: www
+        tofile: =BUILD_DIR

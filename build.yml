@@ -1,7 +1,7 @@
 # NeON Build File (http://github.com/c4s4/neon)
 
 default: site
-extends: [python, git-master]
+extends: [_python, _git_master]
 
 properties:
   ARTICLE_DIR: 'content/article'
@@ -135,10 +135,11 @@ targets:
     steps:
     - 'VERSION = replace(replace(now(), " ", "="), ":", "-")'
 
-  ovh:
-    doc: Send generated site on OVH test site
+  ovh-sftp:
+    doc: Send generated site on OVH test site using SFTP
     depends: site
     steps:
+    - print: 'Sending files with sftp'
     - move: =BUILD_DIR
       tofile: www
     - try:
@@ -146,3 +147,11 @@ targets:
       finally:
       - move: www
         tofile: =BUILD_DIR
+
+  ovh-scp:
+    doc: Send generated site on OVH test site using SCP
+    depends: site
+    steps:
+    - print: 'Sending files with scp'
+    - chdir: =BUILD_DIR
+    - $: 'scp -r * neortor@ssh.cluster029.hosting.ovh.net:~/www/'

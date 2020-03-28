@@ -9,8 +9,7 @@ email:      casa@sweetohm.net
 lang:       fr
 toc:
 announce:   |
-    La pandémie de coronavirus se développe petit à petit dans toutes les régions du globe. Les voyages sont interdits ou drastiquement limités. En conséquence il semble impensable de maintenir nos projets de tournoi en 2020.
-    Nous ne pouvons qu’espérer que la situation aura évolué de manière positive permettant de reprendre ce type d’activité en 2021.
+    Le 14e tournoi international d'Awélé édition 2020 est annulé pour cause de coronavirus.
 ---
 
 L'awélé est le jeu du continent africain. Ses règles sont presque aussi
@@ -23,8 +22,7 @@ simples et logiques.
 
 ![](awele.awele.png)
 
-Applet Java
------------
+## Applet Java
 
 Il est fortement conseillé de prendre connaissance des règles du jeu et
 de lire la notice ci-dessous avant d'utiliser cette applet...
@@ -59,8 +57,7 @@ interface est très simple :
   monter le niveau en cours de partie : plus le nombre de graines sur
   le plateau est faible et plus la machine réfléchit vite.
 
-Règles du jeu
--------------
+## Règles du jeu
 
 ### Le plateau
 
@@ -224,8 +221,7 @@ appelés maisons) :
 Vous en savez maintenant assez pour jouer à l'Awélé avec l'applet de
 cette page (cliquer sur le lien *Applet* ci-dessous).
 
-Bibliographie
--------------
+## Bibliographie
 
 Le jeu d'Awélé étant peu connu en France, le nombre de livres qui s'y
 rapporte est donc (très) restreint. Malgré tout, on peut se procurer des
@@ -298,8 +294,7 @@ distinguent les Wari (comme l'awélé) ou les pièces décrivent un boucle
 simple (un cercle) et les Solo où les pièces décrivent une boucle double
 (un 8).
 
-Compléter cette bibliographie
------------------------------
+## Compléter cette bibliographie
 
 Si vous connaissez un livre traitant de l'awélé qui ne figure pas dans
 cette brève bibliographie, ce serait sympathique de m'envoyer un court

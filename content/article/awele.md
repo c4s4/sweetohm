@@ -7,13 +7,10 @@ tags:       [applet, jeu, awele]
 id:         awele
 email:      casa@sweetohm.net
 lang:       fr
-toc:        
+toc:
 announce:   |
-    Le 13e Tournoi international d’awélé aura lieu du 14 au 17 novembre 2019 à Fribourg (Suisse) dans les locaux du Centre d’animation socioculturelle du Schönberg. 
-
-    L’association Internationale des Joueurs d’Awélé (AIJA) créée en 2008 tiendra son assemblée générale le jeudi 14 novembre  à 19h.
-
-    Le 7e tournoi international de «toguzkumalak» aura lieu le dimanche 17 novembre .
+    La pandémie de coronavirus se développe petit à petit dans toutes les régions du globe. Les voyages sont interdits ou drastiquement limités. En conséquence il semble impensable de maintenir nos projets de tournoi en 2020.
+    Nous ne pouvons qu’espérer que la situation aura évolué de manière positive permettant de reprendre ce type d’activité en 2021.
 ---
 
 L'awélé est le jeu du continent africain. Ses règles sont presque aussi
@@ -33,7 +30,7 @@ Il est fortement conseillé de prendre connaissance des règles du jeu et
 de lire la notice ci-dessous avant d'utiliser cette applet...
 
 <applet code="Awele.class" codebase="../java/awele" width="400" height="300">
-<p class="applet-error">Si vous voyez ce texte, c'est que votre navigateur n'est 
+<p class="applet-error">Si vous voyez ce texte, c'est que votre navigateur n'est
 pas compatible Java ou n'a pas été correctement configuré.</p>
 </applet>
 

@@ -57,6 +57,10 @@ J'ai été recruté pour faire évoluer le backend historique en Perl vers de no
 
 J'ai assuré la maintenance du backend en Perl et développé un webservice haute performance de traçage des codes dépréciés, en Go.
 
+## 2019 : Développeur chez Wine Services
+
+Pendant cette courte mission, j'ai développé des outils d'import et d'export de fichiers CSV vers le serveur Django. J'ai grandement amélioré les performances de la solution existante en écrivant des requêtes SQL complexes et en implémentant une stratégie de cache dans le serveur.
+
 ## 2018-2019 : Lead Developer Backend chez mieuxplacer.com
 
 J'ai été Lead Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) pendant un an et demi. J'y ai eu en charge le développement et la maintenance du backend Python/Django :

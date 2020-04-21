@@ -57,6 +57,10 @@ I was in charge to moving legacy backend, mostly in Perl, to modern technologies
 
 I maintained Perl backend and developed a high performance webservice in Go to log deprecated code.
 
+## 2019 : Developer at Wine Services
+
+During this short mission I developed tools to import and export Excel CSV files to the Django server. I highly improved performance and error handling writing complex SQL queries and implementing cache in server.
+
 ## 2018-2019 : Lead Backend Developer at mieuxplacer.com
 
 I am Lead Backend Developer at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend:

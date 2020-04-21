@@ -34,7 +34,7 @@ http://linkedin.com/in/casabianca
 
 # Mastered Technologies
 
-- Programming Languages: Python, Go, Java, Ruby, Shell, PHP, C and C++, Lua, Lisp and some dead languages (Pascal, Assembler X86, Basic, LSE, HP41).
+- Programming Languages: Python, Go, Java, Ruby, Shell, PHP, C and C++, Lua, Lisp and some dead languages (Perl, Pascal, Assembler X86, Basic, LSE, HP41).
 - Web Technologies: Django, Flask, Web Services (Rest, XML-RPC and Soap), Ruby on Rails, Sinatra, JavaScript (JQuery), Servlets, JSP (JSTL).
 - Databases: SQL on MySQL, Oracle, PostgresQL and SQLite.
 - Methodologies: Object Oriented Programming, Patterns, Extreme Programming, Agile Development and Open Source.
@@ -51,7 +51,13 @@ http://linkedin.com/in/casabianca
 
 # Professional Experience
 
-## Since march 2018 : Lead Backend Developer at mieuxplacer.com
+## Since November 2019: Developer at OVH in WebHosting Team
+
+I was in charge to moving legacy backend, mostly in Perl, to modern technologies such as Python or Golang and implement good computer science practices, such as unit and integration testing, documentation and so on.
+
+I maintained Perl backend and developed a high performance webservice in Go to log deprecated code.
+
+## 2018-2019 : Lead Backend Developer at mieuxplacer.com
 
 I am Lead Backend Developer at [mieuxplacer.com](http://mieuxplacer.com) since march 2018. I've been developing and maintaining the Python/Django backend:
 

@@ -34,7 +34,7 @@ http://linkedin.com/in/casabianca
 
 # Technologie Maîtrisées
 
-- Langages de Programmation : Python, Go, Java, Ruby, Shell, PHP, C et C++, Lua, Lisp ainsi que quelques langues mortes (Pascal, Assembleur X86, Basic, LSE, HP41).
+- Langages de Programmation : Python, Go, Java, Ruby, Shell, PHP, C et C++, Lua, Lisp ainsi que quelques langues mortes (Perl, Pascal, Assembleur X86, Basic, LSE, HP41).
 - Technologies Web : Django, Flask, Web Services (REST, XML-RPC et Soap), Ruby on Rails, Sinatra, JavaScript (JQuery), Servlets, JSP (JSTL).
 - Bases de données : SQL sur MySQL, Oracle, PostgresQL et SQLite.
 - Méthodologies : Programmation Orientée Objet, Patterns, Extreme Programming, Développement Agile et Open Source.
@@ -51,9 +51,15 @@ http://linkedin.com/in/casabianca
 
 # Expérience Professionnelle
 
-## Depuis mars 2018 : Lead Developer Backend chez mieuxplacer.com
+## 2019-présent: Développeur dans l'équipe WebHosting chez OVH
 
-Je suis Lead Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) depuis mars 2018. J'ai en charge le développement et la maintenance du backend Python/Django :
+J'ai été recruté pour faire évoluer le backend historique en Perl vers de nouvelles technologies telles que Python ou Golang et mettre en place de bonnes pratiques de développement logiciel telles que tests unitaires et d'intégration, documentation, etc.
+
+J'ai assuré la maintenance du backend en Perl et développé un webservice haute performance de traçage des codes dépréciés, en Go.
+
+## 2018-2019 : Lead Developer Backend chez mieuxplacer.com
+
+J'ai été Lead Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) pendant un an et demi. J'y ai eu en charge le développement et la maintenance du backend Python/Django :
 
 - Migration de l'API REST implémentée avec le framework [Django Rest](http://www.django-rest-framework.org/) vers un [framework maison](https://github.com/c4s4/django-rest).
 - Outil de synchronisation du backend avec le CRM Zoho (par appels REST).
@@ -64,7 +70,7 @@ Je suis Lead Developer Backend chez [mieuxplacer.com](http://mieuxplacer.com) de
   - Validation Pylint du code automatisée lors des commits Git.
   - Refactoring à grande échelle du code et des modèles de données.
 
-Montage de machines Debian sur AWS.
+Rationalisation de l'infrastructure sur AWS, avec mise en place de machines Debian et d'un serveur de développement dans nos locaux.
 
 ## 2015-2018 : Développeur Freelance
 

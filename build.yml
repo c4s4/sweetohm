@@ -134,24 +134,3 @@ targets:
     doc: Set release information
     steps:
     - 'VERSION = replace(replace(now(), " ", "="), ":", "-")'
-
-  ovh-sftp:
-    doc: Send generated site on OVH test site using SFTP
-    depends: site
-    steps:
-    - print: 'Sending files with sftp'
-    - move: =BUILD_DIR
-      tofile: www
-    - try:
-      - $: 'echo "put -r www/" | sftp neortor@ssh.cluster029.hosting.ovh.net'
-      finally:
-      - move: www
-        tofile: =BUILD_DIR
-
-  ovh-scp:
-    doc: Send generated site on OVH test site using SCP
-    depends: site
-    steps:
-    - print: 'Sending files with scp'
-    - chdir: =BUILD_DIR
-    - $: 'scp -r * neortor@ssh.cluster029.hosting.ovh.net:~/www/'

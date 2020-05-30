@@ -14,6 +14,8 @@ As you don't want to repeat yourself, it's a good practice to put all tasks that
 
 *Make* might not be the best build tool, but it is almost everywhere, at least installed or a command away in all Linux distributions. But it is far from perfect: for instance there is no integrated help or option to list available targets in order to perform Bash completion.
 
+<!--more-->
+
 ## Help on Targets
 
 Let's consider following typical Makefile:

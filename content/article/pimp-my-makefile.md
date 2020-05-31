@@ -4,7 +4,7 @@ author:     Michel Casabianca
 date:       2020-05-24
 categories: [articles]
 tags:       [make]
-id:         pimp-my-makefile.en
+id:         pimp-my-makefile
 email:      casa@sweetohm.net
 lang:       fr
 toc:        false

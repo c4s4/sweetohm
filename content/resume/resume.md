@@ -59,6 +59,8 @@ Refonte de l'architecture de la plateforme avec Docker Compose, mise en place d'
 
 Mise en place de guidelines de sécurité.
 
+Formation Git (sur les branches plus particulièrement).
+
 ## 2019: Développeur dans l'équipe WebHosting chez OVH
 
 J'ai été recruté pour faire évoluer le backend historique en Perl vers de nouvelles technologies telles que Python ou Golang et mettre en place de bonnes pratiques de développement logiciel telles que tests unitaires et d'intégration, documentation, etc.

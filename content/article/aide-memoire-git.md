@@ -9,11 +9,11 @@ lang:       fr
 toc:
 ---
 
-# Aide Mémoire Git
-
 Voici un petit aide mémoire pour Git.
 
-## Initialisation
+<!--more-->
+
+# Initialisation
 
 Pour initialiser un repository Git :
 
@@ -25,7 +25,7 @@ $ git commit -m "Initial import"
 
 Il peut être utile d'ajouter un fichier *.gitignore* afin d'ignorer certains fichiers dans Git.
 
-## Commiter
+# Commiter
 
 Lorsqu'on veut commiter son travail sur un fichier :
 
@@ -46,7 +46,7 @@ Pour récupérer les modifications du repository :
 $ git pull --rebase
 ```
 
-## Branches
+# Branches
 
 Pour lister les branches en local :
 
@@ -118,7 +118,7 @@ $ git push origin :old-branch
 $ git push --set-upstream origin new-branch
 ```
 
-## Tags
+# Tags
 
 Pour créer un tag :
 
@@ -145,7 +145,7 @@ Pour se placer sur le tag :
 $ git checkout tag-name
 ```
 
-## Créer un repo
+# Créer un repo
 
 Pour ajouter un projet GIT existant à un répository :
 

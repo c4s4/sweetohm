@@ -96,7 +96,7 @@ Pour pousser une branche vers le repository :
 $ git push -u my-branch origin
 ```
 
-Pour effacer une branche en local et dans le repository :
+Pour effacer une branche en local et sur le repository :
 
 ```
 $ git branch -d branch-to-delete
@@ -110,7 +110,7 @@ Pour renommer une branche :
 $ git branch -m old-branch new-branch
 ```
 
-Pour renommer une branche en local et dans le repository :
+Pour renommer une branche en local et sur le repository :
 
 ```
 $ git branch -m old-branch new-branch

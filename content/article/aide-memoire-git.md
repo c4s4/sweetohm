@@ -46,7 +46,7 @@ Pour récupérer les modifications du repository :
 $ git pull --rebase
 ```
 
-# Retour arrière
+# Revert et reset
 
 Préférer le revert au reset (qui est définitif).
 

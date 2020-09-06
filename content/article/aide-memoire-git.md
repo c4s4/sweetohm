@@ -13,6 +13,8 @@ Voici un petit aide mémoire pour Git. Ceci n'est pas une formation et pour util
 
 <!--more-->
 
+Une [archive avec les alias et les scripts est disponible ici](/arc/aide-memoire-git.zip).
+
 # Initialisation
 
 Pour initialiser un repository Git :

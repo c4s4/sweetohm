@@ -9,7 +9,7 @@ lang:       fr
 toc:
 ---
 
-Voici un petit aide mémoire pour Git.
+Voici un petit aide mémoire pour Git. Ceci n'est pas une formation et pour utiliser les commandes listées ici, vous devez savoir ce que vous faites !
 
 <!--more-->
 
@@ -45,6 +45,54 @@ Pour récupérer les modifications du repository :
 ```
 $ git pull --rebase
 ```
+
+# Retour arrière
+
+Préférer le revert au reset (qui est définitif).
+
+Pour faire un revert du dernier commit :
+
+```
+$ git revert HEAD~1
+```
+
+Pour faire un revert d'un commit en particulier :
+
+```
+$ git revert 444b1cff
+```
+
+Pour faire un reset du dernier commit en gardant les modifs non commitées :
+
+```
+$ git reset --soft HEAD~1
+```
+
+Pour faire un reset du dernier commit sans garder les modifs :
+
+```
+$ git reset --hard HEAD~1
+```
+
+Il faudra après faire un `push -f` pour forcer la modification de l'historique.
+
+# Fusion
+
+Pour fusionner plusieurs commits, la meilleure façon est de le faire lors du merge d'une branche.
+
+Par exemple, pour merger le branche *foo* sur *master* en squashant les commits en un seul :
+
+```
+$ git checkout master
+$ git pull
+$ git merge --squash foo
+$ git commit
+$ git push origin master
+```
+
+Ceci présente l'avantage de ne pas modifier l'historique.
+
+
 
 # Branches
 
@@ -163,4 +211,134 @@ Pour ajouter un projet GIT existant à un répository :
     $ git clone --bare my-project
     ```
 
-Cela va créer un répertoire *my-project.git* à placer dans le répertoire du repository.
+Cela va créer un répertoire *my-project.git* à placer dans le répertoire du repository. On pourra accéder à ce repository par l'URL *ssh://user@address:/path/to/repo/project.git*, pourvu que cette machine soit accessible par SSH.
+
+# Alias
+
+J'utilise un certain nombre d'alias pour faciliter l'utilisation de Git sur la ligne de commande.
+
+```
+# statut du projet
+alias gs='git fetch && git status'
+# pull avec rebase (évite beaucoup de problèmes)
+alias gl='git pull --rebase'
+# simple push
+alias gh='git push'
+# commiter toutes les modifications avec un commentaire
+alias gc='git commit -a -m'
+# commiter un fichier avec un commentaire
+alias gm='git commit -m $2 $1'
+# lister les branches
+alias gb='git branch'
+# lister toutes les branches
+alias gba='git branch -a'
+```
+
+# Scripts
+
+D'autre part, pour des tâches plus complexes, j'utilise un certain nombre de scripts qui voici.
+
+## git-branch-delete
+
+Efface une branche localement et sur le repository. Il faut lui passer le nom de la branche.
+
+```
+#!/bin/sh
+
+set -a
+
+if [ "$#" -ne 1 ]; then
+  echo "Pass branche to delete"
+  exit 1
+fi
+
+BRANCH=$1
+
+git branch -d ${BRANCH}
+git push origin --delete ${BRANCH}
+git fetch --all --prune
+```
+
+## git-branch-rename
+
+Renomme une branche localement et sur le repository. Il faut lui passer l'ancien et le nouveau nom de la branche.
+
+```
+#!/bin/sh
+
+set -e
+
+if [ "$#" -ne 2 ]; then
+  echo "Pass OLD and NEW branches on command line"
+  exit 1
+fi
+
+OLD=$1
+NEW=$2
+
+git branch -m ${OLD} ${NEW}
+git push origin :${OLD}
+git push --set-upstream origin ${NEW}
+```
+
+## git-branch-squash
+
+Merge la branche courante dans *master* en squashant les commits.
+
+```
+#!/bin/sh
+
+set -e
+
+CURRENT=$(git rev-parse --abbrev-ref HEAD)
+git diff-index --quiet HEAD -- || (echo "ERROR There are uncommitted changes" && exit 1)
+test "$CURRENT" != "master" || (echo "ERROR You already are on branch master" && exit 1)
+git checkout master
+git pull
+git merge --squash $CURRENT
+git commit
+git push origin master
+```
+
+## git-tag-delete
+
+Efface un tag localement et sur le repository. Il faut lui passer le nom du tag à effacer.
+
+```
+#!/bin/sh
+
+set -e
+
+if [ "$#" -ne 1 ]; then
+  echo "Pass tag to delete on command line"
+  exit 1
+fi
+
+TAG=$1
+
+git tag -d ${TAG}
+git push origin :refs/tags/${TAG}
+```
+
+## git-tag-rename
+
+Renomme un tag localement et sur le repository. Il faut lui passer l'ancien et le nouveau nom du tag.
+
+```
+#!/bin/sh
+
+set -e
+
+if [ "$#" -ne 2 ]; then
+  echo "Pass OLD and NEW tags on command line"
+  exit 1
+fi
+
+OLD=$1
+NEW=$2
+
+git tag ${NEW} ${OLD}
+git tag -d ${OLD}
+git push origin :refs/tags/${OLD}
+git push origin ${NEW}
+```

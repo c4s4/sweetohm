@@ -342,3 +342,5 @@ git tag -d ${OLD}
 git push origin :refs/tags/${OLD}
 git push origin ${NEW}
 ```
+
+*Enjoy!*

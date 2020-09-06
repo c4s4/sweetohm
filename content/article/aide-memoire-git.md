@@ -56,10 +56,10 @@ Pour faire un revert du dernier commit :
 $ git revert HEAD~1
 ```
 
-Pour faire un revert d'un commit en particulier :
+Pour faire un revert d'un commit en particulier *cafebabe* :
 
 ```
-$ git revert 444b1cff
+$ git revert cafebabe
 ```
 
 Pour faire un reset du dernier commit en gardant les modifs non commitées :
@@ -92,7 +92,13 @@ $ git push origin master
 
 Ceci présente l'avantage de ne pas modifier l'historique.
 
+Pour squasher les commits jusque celui précédent *cafebabe* :
 
+```
+$ git rebase -i cafebabe
+```
+
+Il faudra ensuite faire un `git push -f`. Ceci modifie l'historique, il faut donc éviter de le faire sur une branche partagée. Si c'est le cas, un pull doit être fait avec `git pull --rebase`.
 
 # Branches
 

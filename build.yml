@@ -11,9 +11,8 @@ properties:
   PANDOC_FILTERS:
     '8': '1.2.4'
     '9': '1.4.2'
-  CV_DESTS:
-  - 'casa@sweetohm.net:/home/web/public'
-  #- 'casa@sweetohm.org:/home/web/public'
+  CV_DEST: 'casa@sweetohm.net:/home/web/public'
+  SSH_ADDRESS: 'casa@sweetohm.net'
 
 environment:
   PATH: '={VENV_DIR}/bin:${PATH}'
@@ -121,10 +120,7 @@ targets:
       - 'base = file[0:len(file)-3]'
       - $: ['md2pdf', '-o', '={CV_DIR}/={base}.pdf', 'content/resume/={file}']
       - $: ['pandoc', '-t', 'docx', '-o', '={CV_DIR}/={base}.docx', 'content/resume/={file}']
-    - for: dest
-      in:  CV_DESTS
-      do:
-      - $: 'scp ={CV_DIR}/* ={dest}/../public/'
+    - $: 'scp ={CV_DIR}/* ={CV_DEST}/'
     - zip:     '*'
       dir:     =CV_DIR
       prefix:  'michel-casabianca'
@@ -134,3 +130,8 @@ targets:
     doc: Set release information
     steps:
     - 'VERSION = replace(replace(now(), " ", "="), ":", "-")'
+
+  publish:
+    doc: Force publication now
+    steps:
+    - $: ['ssh', =SSH_ADDRESS, 'cd /home/sweetohm/ && neon update']

@@ -51,7 +51,17 @@ http://linkedin.com/in/casabianca
 
 # Professional Experience
 
-## Since November 2019: Developer at OVH in WebHosting Team
+## 2020-present: CTO at DESKi
+
+Development and maintenance of a medical image annotation tool with Python, Flask, SQLAlchemy and an interface using JavaScript and Cornerstone.
+
+Rationalization of DESKi platform (put behind a reverse proxy to get rid of an iFrame) with Docker Compose, moved C++ code into the Python webservice. Deployment automatization, with automated database backups and rollback implementation. Setup of a staging platform.
+
+Alerting on security issues, implementation of a security chart and good practices.
+
+Git training on branches for the team and cheat sheet publication.
+
+## 2019-2020: Developer at OVH in WebHosting Team
 
 I was in charge to moving legacy backend, mostly in Perl, to modern technologies such as Python or Golang and implement good computer science practices, such as unit and integration testing, documentation and so on.
 

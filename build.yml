@@ -120,6 +120,16 @@ targets:
       - 'base = file[0:len(file)-3]'
       - $: ['md2pdf', '-o', '={CV_DIR}/={base}.pdf', 'content/resume/={file}']
       - $: ['pandoc', '-t', 'docx', '-o', '={CV_DIR}/={base}.docx', 'content/resume/={file}']
+    - for: file
+      in:  'find(CV_DIR, "*.pdf")'
+      do:
+      - move: '={CV_DIR+"/"+file}'
+        tofile: '={CV_DIR + "/michel-casabianca-" + file}'
+    - for: file
+      in:  'find(CV_DIR, "*.docx")'
+      do:
+      - move: '={CV_DIR+"/"+file}'
+        tofile: '={CV_DIR + "/michel-casabianca-" + file}'
     - $: 'scp ={CV_DIR}/* ={CV_DEST}/'
     - zip:     '*'
       dir:     =CV_DIR

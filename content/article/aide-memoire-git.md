@@ -174,6 +174,12 @@ $ git push origin :old-branch
 $ git push --set-upstream origin new-branch
 ```
 
+Pour mettre à jour la liste des branches de l'origine :
+
+```
+$ git remote update origin --prune
+```
+
 # Tags
 
 Pour créer un tag :

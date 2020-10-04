@@ -9,8 +9,9 @@ properties:
   DESTINATION: '/home/web/sweetohm'
   VERSION:     '={replace(replace(now(), " ", "="), ":", "-")}'
   PANDOC_FILTERS:
-    '8': '1.2.4'
-    '9': '1.4.2'
+    '8':  '1.2.4'
+    '9':  '1.4.2'
+    '10': '1.4.2'
   CV_DEST: 'casa@sweetohm.net:/home/web/public'
   SSH_ADDRESS: 'casa@sweetohm.net'
 

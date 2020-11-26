@@ -218,7 +218,3 @@ Pour finir, quelques activités personnelles dans le domaine de l'informatique :
 - Licence es Sciences Physiques, Capes de Sciences Physiques et Chimie à l’Université Louis Pasteur à Strasbourg.
 - Formation *Développement d’applications avec serveur BEA Weblogic* par BEA.
 - Formation d’anglais durant 5 ans avec le CEL Bordeaux (niveau 5A sur 6).
-
-# État Civil
-
-Né en 1966, père de deux filles.

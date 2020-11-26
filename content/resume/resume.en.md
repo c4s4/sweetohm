@@ -215,7 +215,3 @@ Few activities related to computer science:
 - Licence es Sciences Physiques, Capes de Sciences Physiques et Chimie at Université Louis Pasteur at Strasbourg.
 - Training *Développement d’applications avec serveur BEA Weblogic* by BEA.
 - English training for 5 years with CEL Bordeaux (level 5A on 6).
-
-# Personal Details
-
-Born in 1966, father of two daughters.

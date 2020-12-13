@@ -2,6 +2,8 @@
 
 default: site
 extends: [_python, _git_master]
+configuration:
+- sweetohm.yml
 
 properties:
   ARTICLE_DIR: 'content/article'
@@ -19,20 +21,6 @@ environment:
   PATH: '={VENV_DIR}/bin:${PATH}'
 
 targets:
-
-  install:
-    doc: Create virtual environment and install pandocfilter
-    depends: init
-    steps:
-    - 'debian = split(read("/etc/debian_version"), ".")[0]'
-    - if: 'debian == "8" && version != "2"'
-      then:
-      - throw: 'Must install with Python 2 on Debian 8'
-    - if: PANDOC_FILTERS[debian] == nil
-      then:
-      - throw: 'No pandocfilters version defined for Debian ={debian}'
-    - 'filter = PANDOC_FILTERS[debian]'
-    - $: ['={VENV_DIR}/bin/pip', 'install', 'pandocfilters==={filter}']
 
   pdf:
     doc: Generate PDF files
@@ -130,7 +118,7 @@ targets:
     - zip:     '*'
       dir:     =CV_DIR
       prefix:  'michel-casabianca'
-      tofile:  '~/dsk/michel-casabianca.zip'
+      tofile:  '={DESKTOP}/michel-casabianca.zip'
 
   version:
     doc: Set release information

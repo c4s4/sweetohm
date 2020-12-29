@@ -2,13 +2,13 @@
 <div id="wordcloud" class="wordcloud">
 {{ range $name, $tag := .Site.Taxonomies.tags }}
 {{ $weight := len $tag.Pages }}
-{{ if eq $name "apple" }}
+<!-- {{ if eq $name "apple" }}
 <span data-weight="10"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
 {{ else if eq $name "golang" }}
 <span data-weight="20"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
-{{ else }}
+{{ else }} -->
 <span data-weight="{{ $weight }}"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
-{{ end }}
+<!-- {{ end }} -->
 {{ end }}
 </div>
 <br>
@@ -33,7 +33,7 @@ $(document).ready(function(){
         "shape" : "square"
     });
 });
-</script> 
+</script>
 <!--[if lt IE 7 ]>
 <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>

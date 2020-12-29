@@ -2,13 +2,7 @@
 <div id="wordcloud" class="wordcloud">
 {{ range $name, $tag := .Site.Taxonomies.tags }}
 {{ $weight := len $tag.Pages }}
-<!-- {{ if eq $name "apple" }}
-<span data-weight="10"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
-{{ else if eq $name "golang" }}
-<span data-weight="20"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
-{{ else }} -->
 <span data-weight="{{ $weight }}"><a href="/tags/{{ $name }}.html">{{ $name }}</a></span>
-<!-- {{ end }} -->
 {{ end }}
 </div>
 <br>

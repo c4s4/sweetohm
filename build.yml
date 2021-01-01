@@ -128,4 +128,4 @@ targets:
   publish:
     doc: Force publication now
     steps:
-    - $: ['ssh', =SSH_ADDRESS, 'cd /home/sweetohm/ && neon update']
+    - $: ['ssh', =SSH_ADDRESS, 'export PATH=$PATH:/opt/bin && cd /home/sweetohm/ && git pull && neon site sync']

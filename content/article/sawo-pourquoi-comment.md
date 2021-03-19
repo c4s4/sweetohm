@@ -6,11 +6,11 @@ id:         sawo-pourquoi-comment
 date:       2021-03-19
 categories: [jeux, sawo]
 lang:       fr
-toc:        
+toc:
 new:        true
 ---
 
-Savage Worlds est un système générique de jeu de rôle qui motorise pas moins de 147 settings officiels ([d'après cette liste](https://savagepedia.wiki/wiki/List_of_Savage_Worlds_Settings)) et une multitude d'autres amateurs. C'est probablement le système générique qui a connu le plus grand succès et cet article se propose de tenter d'expliquer les raisons de cet engouement.
+Savage Worlds est un système générique de jeu de rôle qui motorise pas moins de 147 univers ([d'après cette liste](https://savagepedia.wiki/wiki/List_of_Savage_Worlds_univers)). C'est probablement le système générique qui a connu le plus grand succès et cet article se propose de tenter d'expliquer les raisons de cet engouement.
 
 <!--more-->
 
@@ -20,7 +20,7 @@ Savage Worlds est un système générique de jeu de rôle qui motorise pas moins
 
 Savage Worlds a été créé en 2003 par [Shane Lacy Hensley](https://en.wikipedia.org/wiki/Shane_Lacy_Hensley) et publié par [Pinnacle Entertainment Group](https://en.wikipedia.org/wiki/Pinnacle_Entertainment_Group). Il est issu de l'adaptation d'un système de jeu de figurines [The Great Rail Wars](https://boardgamegeek.com/boardgame/12957/deadlands-great-rail-wars) qui permettait de gérer simplement et rapidement des combats de masse.
 
-Le premier setting a avoir été publié pour ce système est [Evernight](http://www.legrog.org/jeux/savage-worlds/evernight/evernight-en) mais le plus icônique est probablement [Deadlands Reloaded](http://www.legrog.org/jeux/deadlands-reloaded). S'en sont suivis de très nombreux settings, publiés par Pinnacle Entertainment Group mais aussi par d'autres éditeurs tiers.
+Le premier univers a avoir été publié pour ce système est [Evernight](http://www.legrog.org/jeux/savage-worlds/evernight/evernight-en) mais le plus icônique est probablement [Deadlands Reloaded](http://www.legrog.org/jeux/deadlands-reloaded). S'en sont suivis de très nombreux univers, publiés par Pinnacle Entertainment Group mais aussi par d'autres éditeurs tiers.
 
 ## Fast Fun and Furious
 
@@ -90,7 +90,7 @@ La question qui fait débat lorsqu'on évoque Savage Worlds est celle de la pert
 
 ### Le système c'est important
 
-Disposer d'un système éprouvé qui tourne comme une horloge est fondamental. Un système spécifique est souvent moins testé qu'un système éprouvé sur des milliers de parties dans des dizaines de settings depuis des années. On a tous en tête des jeux dont les univers sont unanimement salués mais plombés par un système boiteux. Je citerai en vrac :
+Disposer d'un système éprouvé qui tourne comme une horloge est fondamental. Un système spécifique est souvent moins testé qu'un système éprouvé sur des milliers de parties dans des dizaines de univers depuis des années. On a tous en tête des jeux dont les univers sont unanimement salués mais plombés par un système boiteux. Je citerai en vrac :
 
 - Rêve de Dragon
 - Méga
@@ -150,13 +150,13 @@ Cet effet n'existe pas à Savage Worlds : un gobelin unijambiste et borgne aura 
 
 Cette simple mécanique permet d'éviter des situations absurdes en jeu.
 
-## Parlons settings
+## Parlons univers
 
-Les règles c'est bien beau, mais qu'en est-il des settings ?
+Les règles c'est bien beau, mais qu'en est-il des univers ?
 
 ### Un grande diversité
 
-En français, les settings suivants sont disponibles :
+En français, les univers suivants sont disponibles :
 
 - Beasts & Barbarians : du Sword & Sorcery à la Conan
 - Lankhmar : adapté de la Saga des Épées de Fritz Leiber
@@ -166,11 +166,11 @@ En français, les settings suivants sont disponibles :
 
 Il y a donc de quoi faire ! Sans compter que le site des fans francophones de Savage Worlds, <http://savage.torgan.net/> publie de nombreux articles, dont des scénarios à foison.
 
-En anglais le choix est pléthorique : j'ai compté près de 150 settings officiels sur la page de Savagepedia qui les recense. Si on inclut les settings non officiels, on doit arriver à plusieurs centaines, et dans le lot il y en a d'une qualité professionnelle (comme [Saga of the Goblin Horde](https://www.drivethrurpg.com/product/225745/Saga-of-the-Goblin-Horde-Savage-Worlds) par exemple).
+En anglais le choix est pléthorique : j'ai compté près de 150 univers sur la page de Savagepedia qui les recense. Cela inclut les univers officiels, mais aussi des amateurs, dont certains d'une grande qualité (comme [Saga of the Goblin Horde](https://www.drivethrurpg.com/product/225745/Saga-of-the-Goblin-Horde-Savage-Worlds) par exemple).
 
 ### Une licence ouverte
 
-Le nombre important de settings est dû en grande partie à la politique de licence ouverte de Pinnacle Entertainment. Ils gardent les droits sur le système de jeu mais accordent une licence pour les settings avec une simple validation du contenu et sans avoir à reverser des droits à Pinnacle : voir la licence ici <https://www.peginc.com/licensing/>.
+Le nombre important de univers est dû en grande partie à la politique de licence ouverte de Pinnacle Entertainment. Ils gardent les droits sur le système de jeu mais accordent une licence pour les univers avec une simple validation du contenu et sans avoir à reverser des droits à Pinnacle : voir la licence ici <https://www.peginc.com/licensing/>.
 
 Il existe aussi la possibilité de produire du contenu non commercial pour Savage Worlds avec la licence Fans Product. Il faut simplement apposer le logo officiel et respecter les termes de la licence.
 

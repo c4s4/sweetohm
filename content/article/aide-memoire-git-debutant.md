@@ -11,6 +11,8 @@ toc:
 
 Ce document présente les commandes Git indispensables pour un débutant ainsi que celles à éviter.
 
+<!--more-->
+
 ## Commandes indispensables
 
 ### Initialisation

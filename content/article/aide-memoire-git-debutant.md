@@ -59,13 +59,13 @@ $ git pull --rebase
 Pour faire un revert du dernier commit :
 
 ```
-$ git revert HEAD~1
+$ git revert HEAD
 ```
 
-Pour faire un revert d’un commit en particulier *cafebabe* :
+Pour faire un revert d’un commit en particulier *a1b2c3f4* :
 
 ```
-$ git revert cafebabe
+$ git revert a1b2c3f4
 ```
 
 Ne **PAS FAIRE DE RESET** lorsqu'on débute avec Git.

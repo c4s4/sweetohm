@@ -57,6 +57,8 @@ Development and maintenance of a medical image annotation tool with Python, Flas
 
 Development of an Android Kotlin application to guide echocardiography with a machine learning algorithm.
 
+Development of a Django application for the server part of the Androïd application. Development of a Go webservice to synchronize server with Androïd app.
+
 Rationalization of DESKi platform (put behind a reverse proxy to get rid of an iFrame) with Docker Compose, moved C++ code into the Python webservice. Deployment automatization, with automated database backups and rollback implementation. Setup of a staging platform.
 
 Alerting on security issues, implementation of a security chart and good practices.

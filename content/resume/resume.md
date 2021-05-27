@@ -57,7 +57,7 @@ Développement et maintenance d'une application web d'annotation d'images médic
 
 Développement d'une application Androïd Kotlin d'échographie cardiaque guidée par un algorithme maison de machine learning.
 
-Développement d'une application Django pour l'administration des patients, examens et opérateurs de l'application Androïd et consultation des échographies par les cardiologues. La synchronisation avec l'app est réalisée avec un webservice REST en Go.
+Développement d'une application Django pour l'administration des patients, examens et opérateurs de l'application Androïd et consultation des échographies par les cardiologues. La synchronisation avec l'app est réalisée avec un webservice REST en Go. Développement d'un viewer web d'échographies cardiaques avec la bibliothèque Cornerstone.
 
 Rationalisation de la plateforme (mise derrière un reverse proxy pour se débarrasser d'une iFrame) avec Docker Compose, rapatriement de code C++ dans le webservice Python. Automatisation des déploiements, avec backup automatisés de la BDD et possibilité de rollback. Mise en place d'une machine de staging.
 

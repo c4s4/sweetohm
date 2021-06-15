@@ -16,6 +16,8 @@ Si on s'en tient à la lecture du [livre de base](https://www.black-book-edition
 
 Heureusement, il existe un moyen de tester le jeu plus rapidement, en moins de deux heures, et gratuitement en plus.
 
+<!--more-->
+
 # Les règles
 
 Heureusement, il existe un moyen de jouer et tester le jeu plus rapidement et gratuitement en plus.

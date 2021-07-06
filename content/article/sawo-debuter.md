@@ -12,11 +12,11 @@ new:        true
 
 La gamme *Savage Worlds* commence à prendre de l'ampleur en français et [il peut être intimidant de se lancer](https://www.black-book-editions.fr/forums.php?topic_id=20419) pour un meneur de jeu comme pour les joueurs. Entre le livre de base, les compagnons et les univers, on est vite perdu.
 
+<!--more-->
+
 Si on s'en tient à la lecture du [livre de base](https://www.black-book-editions.fr/produit.php?id=9013) et d'un livre d'univers comme [Beasts & Barbarians](https://www.black-book-editions.fr/produit.php?id=4206), cela représente tout de même près de 450 pages. Lire le tout prendra beaucoup de temps avant même de jouer sa première partie. Et si l'on n'est pas certain que le système nous convienne, c'est un investissement très lourd.
 
 Heureusement, il existe un moyen de tester le jeu plus rapidement, en moins de deux heures, et gratuitement en plus.
-
-<!--more-->
 
 # Les règles
 
